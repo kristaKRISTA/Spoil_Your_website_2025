@@ -1,0 +1,75 @@
+
+<div class="container">
+	{% if section.settings.show_title %}
+		<div class="text-center">
+			<h3 class="page_heading">{{ page_title }}</h3>
+			<p>{{ section.settings.text_title }}</p>
+		</div>
+	{% endif %}
+
+	<div class="page_content row">
+		{% if page.content.size > 0 %}
+			<div class="col-12 rte">
+				{{ page.content }}
+			</div>
+		{% endif %}
+
+		<div class="mt-3 mt-xl-5 container container-770">
+			{%- include 'widget-accordion-pages' -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Terms",
+	"class": "section section_template section_template__terms",
+	"settings": [
+		{
+			"type": "header",
+			"content": "«Terms of service» page"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_title",
+			"label": "Show Page title",
+			"default": true
+		},
+		{
+			"type": "text",
+			"id": "text_title",
+			"label": "Subtitle"
+		}
+	],
+
+	"blocks": [
+		{
+			"type": "tab-block",
+			"name": "Tab block",
+			"settings": [
+				{
+					"type": "checkbox",
+					"id": "widget_open_toggle_1",
+					"label": "Set Open title"
+				},
+				{
+					"type": "richtext",
+					"id": "element_1_header",
+					"label": "Element 1 title",
+					"default": "<p>Title</p>"
+				},
+				{
+					"type": "richtext",
+					"id": "element_1_text",
+					"label": "Element 1 text",
+					"default": "<p>Text</p>"
+				}
+			]
+		}
+
+	]
+
+}
+{% endschema %}
+
+

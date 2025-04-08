@@ -1,0 +1,296 @@
+<div class="section-style-{{ section.id }}">
+  {%- include 'section-style' -%}
+  <div class="{{ section.settings.container_width }}">
+	<div class="{{ section.settings.ticker_direct }} {% if section.settings.custom_class.size > 0 %}{{ section.settings.custom_class }}{% endif %}">
+	  
+	  <div class="row">
+		<div class="col-12">
+		  <div class="ticker_wrap">
+			{% style %}
+		 
+			{% assign duration = section.settings.animation_duration | append:'s' %}
+			  .section-style-{{ section.id }} .ticker {
+			  -webkit-animation-duration: {{ duration }};
+			  animation-duration: {{ duration }};
+			  }
+			{% endstyle %}
+			<div class="ticker">
+			  {% case section.settings.caption_size %}
+			  {% when 'large' %}
+			  {%- assign title_class = 'h2' -%}
+			  {% when 'medium' %}
+			  {%- assign title_class = 'h3' -%}
+				{% else %}
+			  {%- assign title_class = 'h4' -%}
+			  {% endcase %}
+			  
+			  {% for block in section.blocks %}
+				
+				<div class="item-block--{{ block.id }} block-title-wrap">
+				  {% if block.settings.item_title != blank %}
+					<div class="{{ title_class }} block-title">
+					  {{ block.settings.item_title }}
+					</div>
+				  {% endif %}
+				  
+				  <style>
+                      .section-style-{{ section.id }} .item-block--{{ block.id }} .block-title {
+                          color: {{ block.settings.color_title }};
+                      }
+				  </style>
+				</div>
+			  {% endfor %}
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Ticker section",
+  "class": "section section_homepage section_ticker",
+  "settings": [
+	{
+	  "type": "text",
+	  "id": "custom_class",
+	  "label": "Custom class"
+	},
+	{
+	  "type": "select",
+	  "id": "container_width",
+	  "label": "Container width",
+	  "options": [
+		{
+		  "value": "container",
+		  "label": "Box"
+		},
+		{
+		  "value": "container-fluid",
+		  "label": "Container Fluid"
+		},
+		{
+		  "value": "full-width",
+		  "label": "Full"
+		}
+	  ],
+	  "default": "container"
+	},
+	{
+	  "type": "text",
+	  "id": "inset_section",
+	  "label": "Inset Section",
+	  "default": "0px 0px 0px 0px",
+	  "info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+	},
+	{
+	  "type": "text",
+	  "id": "offset_section",
+	  "label": "Offset Section",
+	  "default": "0px 0px 0px 0px",
+	  "info": "offset: Top Right Bottom Left"
+	},
+ 
+
+	{
+	  "type": "text",
+	  "id": "animation_duration",
+	  "label": "Animation duration in seconds",
+	  "default": "20"
+	},
+ 
+	{
+	  "type": "radio",
+	  "id": "ticker_direct",
+	  "label": "Direction",
+	  "options": [
+		{
+		  "value": "rtl",
+		  "label": "Right to Left"
+		},
+		{
+		  "value": "ltr",
+		  "label": "Left to Right"
+		}
+	  ]
+	},
+	
+	{
+	  "type": "color",
+	  "id": "bg_section",
+	  "label": "Background Section",
+	  "default": "#ffffff"
+	},
+	{
+	  "type": "select",
+	  "id": "caption_size",
+	  "label": "caption size",
+	  "default": "medium",
+	  "options": [
+		{
+		  "label": "Small",
+		  "value": "small"
+		},
+		{
+		  "label": "Medium",
+		  "value": "medium"
+		},
+		{
+		  "label": "Large",
+		  "value": "large"
+		}
+	  ]
+	}
+  ],
+  "blocks": [
+	{
+	  "type": "text",
+	  "name": "Text",
+	  "settings": [
+		{
+		  "type": "richtext",
+		  "id": "item_title",
+		  "label": "Caption title",
+		  "default": "<p>Caption title</p>"
+		},
+		{
+		  "type": "color",
+		  "id": "color_title",
+		  "label": "Color",
+		  "default": "#121212"
+		}
+	  ]
+	}
+  ],
+  "presets": [
+	{
+	  "name": "Ticker",
+	  "category": "Text"
+	}
+  ]
+}
+{% endschema %}
+
+
+{% stylesheet %}
+  
+  @-webkit-keyframes ticker {
+  0% {
+	-webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	  visibility: visible;
+	}
+  
+  100% {
+	-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+  }
+  
+  @keyframes ticker {
+	0% {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	  visibility: visible;
+	}
+  
+  100% {
+	-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+  }
+  
+  @-webkit-keyframes ticker-reverse {
+  0% {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  visibility: visible;
+  }
+  
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  
+  @keyframes ticker-reverse {
+  0% {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  visibility: visible;
+  }
+  
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(-0, 0, 0);
+  }
+  }
+  
+  
+  .ticker .block-title {
+  	padding: 0 2rem;
+  	position: relative;
+  	font-weight: 300;
+  	line-height: 1;
+  }
+  
+  .ticker .block-title-wrap {
+  	display: inline-block;
+  }
+  
+  .block-title-wrap .block-title:before {
+	content: '-';
+	position: absolute;
+	left: 0;
+	margin-left: -0.9rem;
+	top: 50%;
+	display: inline-block;
+	transform: translateY(-50%);
+  	color: inherit;
+  }
+  
+  .block-title-wrap:first-child .block-title:before {
+  	display: none;
+  }
+  
+  .rtl .ticker_wrap{
+  	padding-left: 100%;
+  }
+  
+  .ltr .ticker_wrap{
+  	padding-right: 100%;
+  }
+  
+  .ticker_wrap {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: content-box;
+  }
+  
+  .ticker {
+	display: inline-block;
+	white-space: nowrap;
+	box-sizing: content-box;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+  }
+  
+  .rtl .ticker{
+  	padding-right: 100%;
+	-webkit-animation-name: ticker;
+	animation-name: ticker;
+  }
+  
+  .ltr .ticker{
+  	padding-left: 100%;
+	-webkit-animation-name: ticker-reverse;
+	animation-name: ticker-reverse;
+  }
+ 
+{% endstylesheet %}
+
+

@@ -1,0 +1,1182 @@
+{{ 'section-image-text-column.css' | asset_url | stylesheet_tag }}
+
+
+<style>
+	/* Style inset */
+	.section-style-{{ section.id }} .image-section-wrap {
+		padding: {{ section.settings.inset_image }};
+	}
+	.section-style-{{ section.id }} .caption {
+		padding: {{ section.settings.inset_caption }};
+	}
+	
+	
+	/* Style background */
+	{% if section.settings.use_bgimg %}
+		.section-style-{{ section.id }}  .image-section-wrap {
+			background-color: {{ section.settings.image_bg_color | color_modify: 'alpha', section.settings.image_bg_color_opacity }};
+		}
+	{% endif %}
+	{% if section.settings.use_caption_bg %}
+		.section-style-{{ section.id }} .caption {
+			background-color: {{ section.settings.caption_bg_color | color_modify: 'alpha', section.settings.caption_bg_color_opacity }};
+		}
+	{% endif %}
+	
+	{% if section.blocks.size > 0 %}
+		{% for block in section.blocks %}
+	
+			.section-style-{{ section.id }} .item-{{ block.id }} {
+				margin: {{ block.settings.offset_block }};
+			}
+			.section-style-{{ section.id }} .item-{{ block.id }} .caption-item,
+			.section-style-{{ section.id }} .item-{{ block.id }}.block-timer {
+				color: {{ block.settings.color }};
+				padding: {{ block.settings.inset_block }};
+				{% if block.settings.use_bgi %}
+					background-color: {{ block.settings.caption_bg_color | color_modify: 'alpha', block.settings.caption_bg_color_opacity }};
+				{% endif %}
+			}
+	
+			@media (min-width: 768px)  {
+				.section-style-{{ section.id }} .item-{{ block.id }}{
+					text-indent: {{ block.settings.indent_block }};
+				}
+			}
+		{% endfor %}
+	{% endif %}
+</style>
+
+
+
+<div class="section-style-{{ section.id }}">
+	{%- include 'section-style' -%}
+	
+	<div class="{{ section.settings.container_width }}">
+		<div class="row flex-{{ section.settings.column_dir }} flex-md-nowrap justify-content-between {% if section.settings.reset_indent %}gx-0{% endif %}">
+			<div class="col-md-{{ section.settings.image_column }}">
+				<div class="image-section-wrap">
+					{% if section.settings.image != blank %}
+						<div class="image-item-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;">
+							{% assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+							<img loading="lazy" class="image-content__image lazyload"
+								 src="{{ section.settings.image | img_url: '300x300' }}"
+								 data-src="{{ img_url }}"
+								 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
+								 data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+								 data-sizes="auto"
+								 data-parent-fit="cover"
+								 alt="{{ section.settings.image.alt | escape }}"/>
+						</div>
+					{% else %}
+						<div class="image-item-container">
+							<div class="img_placeholder__wrap" style="padding-top: 52.6%;">
+								{{ 'image' | placeholder_svg_tag: 'img_placeholder' }}
+							</div>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+			<div class="col-md-{{ section.settings.caption_column }}">
+				<div class="caption d-flex flex-column h-100 justify-content-{{ section.settings.caption_align_v }}">
+					<div class="caption_text text-{{ section.settings.text_align }} {% if section.settings.inverted %} inverted{% endif %}">
+						{% for block in section.blocks %}
+							{% case block.type %}
+							{% when 'custom_heading' %}
+								{% if block.settings.custom_heading != blank %}
+									<div class="custom_large_title item-{{ block.id }}"><div class="caption-item">{{ block.settings.custom_heading }}</div></div>
+								{% endif %}
+							{% when 'heading_h1' %}
+								{% if block.settings.heading_h1 != blank %}
+									<div class="h1 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h1 }}</div></div>
+								{% endif %}
+							{% when 'heading_h2' %}
+								{% if block.settings.heading_h2 != blank %}
+									<div class="h2 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h2 }}</div></div>
+								{% endif %}
+							{% when 'heading_h3' %}
+								{% if block.settings.heading_h3 != blank %}
+									<div class="h3 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h3 }}</div></div>
+								{% endif %}
+							{% when 'heading_h4' %}
+								{% if block.settings.heading_h4 != blank %}
+									<div class="h4 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h4 }}</div></div>
+								{% endif %}
+							{% when 'heading_h5' %}
+								{% if block.settings.heading_h5 != blank %}
+									<div class="h5 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h5 }}</div></div>
+								{% endif %}
+							{% when 'heading_h6' %}
+								{% if block.settings.heading_h6 != blank %}
+									<div class="h6 item-{{ block.id }}"><div class="caption-item">{{ block.settings.heading_h6 }}</div></div>
+								{% endif %}
+							{% when 'subtitle' %}
+								{% if block.settings.subtitle != blank %}
+									<div class="subtitle_lg item-{{ block.id }}"><div class="caption-item">{{ block.settings.subtitle }}</div></div>
+								{% endif %}
+							{% when 'text' %}
+								{% if block.settings.text != blank %}
+									<div class="text-{{ block.settings.text_size }} item-{{ block.id }}"><div class="caption-item">{{ block.settings.text }}</div></div>
+								{% endif %}
+							{% when 'timer' %}
+								{%- if block.settings.time != blank -%}
+									<div class="js-countdown block-timer item-{{ block.id }}" data-time="{{ block.settings.time }}"></div>
+								{%- endif -%}
+							{% when 'button' %}
+								{% if block.settings.button_label.size > 0 and block.settings.button_link.size > 0 %}
+									<a href="{{ block.settings.button_link }}" class="{% if block.settings.use_button %}btn {{ block.settings.btn_style }} {{ block.settings.btn_size }}{% else %}link link-primary {% endif %}" style="margin: {{ block.settings.offset_block }};">{{ block.settings.button_label }}</a>
+								{% endif %}
+							{% when 'html' %}
+								{% if block.settings.code.size > 0 %}
+									{{ block.settings.code }}
+								{% endif %}
+							{% endcase %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Image with text column",
+	"tag": "section",
+	"class": "section section_homepage section_image-with-text-column",
+	"max_blocks": 8,
+	"settings": [
+		{
+			"type": "header",
+			"content": "Section sittings"
+		},
+		{
+			"type":      "select",
+			"id":        "container_width",
+			"label":     "Container width",
+			"options": [
+				{
+					"value": "container",
+					"label": "Box"
+				},
+				{
+					"value": "container-fluid",
+					"label": "Container Fluid"
+				},
+				{
+					"value": "full-width",
+					"label": "Full"
+				}
+			],
+				"default":   "container"
+		},
+	
+		{
+			"type": "checkbox",
+			"id": "reset_indent",
+			"label": "Remove indent",
+			"default":   false
+		},
+
+		{
+			"type": "select",
+			"id": "column_dir",
+			"label": "Column direction",
+			"default": "row",
+			"info": "Image left or right side",
+			"options": [
+				{
+					"value": "row",
+					"label": "Image left"
+				},
+				{
+					"value": "row-reverse",
+					"label": "Image right"
+				}
+			]
+		},
+		
+		{
+			"type": "text",
+			"id": "inset_section",
+			"label": "Inset Section",
+			"default": "0px 0px 0px 0px",
+			"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+		},
+
+		{
+			"type": "text",
+			"id": "offset_section",
+			"label": "Offset Section",
+			"default": "0px 0px 0px 0px",
+			"info": "offset: Top Right Bottom Left"
+		},
+
+		{
+			"type": "color",
+			"id": "bg_section",
+			"label": "Background Section",
+			"default": "#ffffff"
+		},
+
+		{
+			"type": "header",
+			"content": "Image settings"
+		},
+	
+		{
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image",
+			"info": "The image should be more than 2048px wide to resize and crop properly"
+		},
+
+		{
+			"type":      "select",
+			"id":        "image_column",
+			"label":     "Image Column width",
+			"default": "6",
+			"options": [
+				{
+					"value": "2",
+					"label": "16.67%"
+				},
+				{
+					"value": "3",
+					"label": "25%"
+				},
+				{
+					"value": "4",
+					"label": "33.33%"
+				},
+				{
+					"value": "5",
+					"label": "41.67%"
+				},
+				{
+					"value": "6",
+					"label": "50%"
+				},
+				{
+					"value": "7",
+					"label": "58.33%"
+				},
+				{
+					"value": "8",
+					"label": "66.67%"
+				},
+				{
+					"value": "9",
+					"label": "75%"
+				}
+				
+			]
+		},
+
+		{
+			"type": "checkbox",
+			"id": "use_bgimg",
+			"label": "Use background image",
+			"default": false
+		},
+		{
+			"type": "color",
+			"id": "image_bg_color",
+			"label": "Caption background"
+		},
+		{
+			"type":      "range",
+			"id":        "image_bg_color_opacity",
+			"min":       0,
+			"max":        1,
+			"step":       0.1,
+			"unit":       "px",
+			"label":     "Background caption opacity",
+			"default":   0.5
+		},
+
+		{
+			"type": "text",
+			"id": "inset_image",
+			"label": "Inset Image",
+			"default": "0px 0px 0px 0px",
+			"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+		},
+
+		{
+			"type": "header",
+			"content": "Caption Settings"
+		},
+
+		{
+			"type":      "select",
+			"id":        "caption_column",
+			"label":     "Caption column width",
+			"default": "6",
+			"options": [
+				{
+					"value": "2",
+					"label": "16.67%"
+				},
+				{
+					"value": "3",
+					"label": "25%"
+				},
+				{
+					"value": "4",
+					"label": "33.33%"
+				},
+				{
+					"value": "5",
+					"label": "41.67%"
+				},
+				{
+					"value": "6",
+					"label": "50%"
+				},
+				{
+					"value": "7",
+					"label": "58.33%"
+				},
+				{
+					"value": "8",
+					"label": "66.67%"
+				},
+				{
+					"value": "9",
+					"label": "75%"
+				}
+			]
+		},
+
+		{
+			"type": "select",
+			"id": "caption_align_v",
+			"label": "Caption vertical align",
+			"default": "center",
+			"options": [
+				{
+					"label": "Center",
+					"value": "center"
+				},
+				{
+					"label": "Bottom",
+					"value": "end"
+				},
+				{
+					"label": "Top",
+					"value": "start"
+				}
+			]
+		},
+
+		{
+			"type": "select",
+			"id": "text_align",
+			"label": "Text align",
+			"default": "center",
+				"options": [
+					{
+						"label": "Center",
+						"value": "center"
+					},
+					{
+						"label": "Right",
+						"value": "right"
+					},
+					{
+						"label": "Left",
+						"value": "left"
+					}
+				]
+		},
+		{
+			"type": "checkbox",
+			"id": "inverted",
+			"label": "Inverted",
+			"default": false
+		},
+	
+		{
+			"type": "checkbox",
+			"id": "use_caption_bg",
+			"label": "Use background caption",
+			"default": false
+		},
+		{
+			"type": "color",
+			"id": "caption_bg_color",
+			"label": "Caption background"
+		},
+		{
+	        "type":      "range",
+	        "id":        "caption_bg_color_opacity",
+	        "min":       0,
+	        "max":        1,
+	        "step":       0.1,
+	        "unit":       "px",
+	        "label":     "Background caption opacity",
+	        "default":   0.5
+		},
+		{
+			"type": "text",
+			"id": "inset_caption",
+			"label": "Inset Caption",
+			"default": "6% 7% 6% 7%",
+			"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+		}
+	],
+	"blocks": [
+	
+		// CUSTOM HEADING //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "custom_heading",
+			"name": "Custom Heading",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "custom_heading",
+					"label": "Custom size heading",
+					"default": "<p>Custom Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+	
+				{
+					"type": "text",
+					"id": "indent_block",
+					"label": "Indent Block",
+					"default": "0",
+					"info": "Text indent: negative or positive value (px or %)"
+				},
+		
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// HEADER H1 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "heading_h1",
+			"name": "Heading H1",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "heading_h1",
+					"label": "H1",
+					"default": "<p>Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+				
+				{
+					"type": "text",
+					"id": "indent_block",
+					"label": "Indent Block",
+					"default": "0",
+					"info": "Text indent: negative or positive value (px or %)"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+		
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+					},
+					{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// HEADER H2 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "heading_h2",
+			"name": "Heading H2",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "heading_h2",
+					"label": "H2",
+					"default": "<p>Heading</p>"
+				},
+	
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+	
+				{
+					"type": "text",
+					"id": "indent_block",
+					"label": "Indent Block",
+					"default": "0",
+					"info": "Text indent: negative or positive value (px or %)"
+				},
+	
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// HEADER H3 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+		"type": "heading_h3",
+		"name": "Heading H3",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "heading_h3",
+					"label": "H3",
+					"default": "<p>Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+	
+				{
+					"type": "text",
+					"id": "indent_block",
+					"label": "Indent Block",
+					"default": "0",
+					"info": "Text indent: negative or positive value (px or %)"
+				},
+	
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+		// HEADER H4 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "heading_h4",
+			"name": "Heading H4",
+			"settings": [
+					{
+					"type": "richtext",
+					"id": "heading_h4",
+					"label": "H4",
+					"default": "<p>Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// HEADER H5 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "heading_h5",
+			"name": "Heading H5",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "heading_h5",
+					"label": "H5",
+					"default": "<p>Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// HEADER H6 //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "heading_h6",
+			"name": "Heading H6",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "heading_h6",
+					"label": "H6",
+					"default": "<p>Heading</p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+"info": 			"inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// SUBTITLE  //////////////////////////////////////////////////////////////////////////////////////////////
+		{
+		"type": "subtitle",
+		"name": "Subtitle",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "subtitle",
+					"label": "Subtitle",
+					"default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<p>"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#797B7E"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+					"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+					{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgc",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "bgc_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "bgc_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+
+		// TEXT  //////////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "text",
+			"name": "Text",
+			"settings": [
+				{
+					"type": "richtext",
+					"id": "text",
+					"label": "Text",
+					"default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<p>"
+				},
+	
+				{
+					"type": "select",
+					"id": "text_size",
+					"label": "Text size",
+					"default": "medium",
+					"options": [
+						{
+							"label": "Small",
+							"value": "default"
+						},
+						{
+							"label": "Medium",
+							"value": "medium"
+						},
+						{
+							"label": "Large",
+							"value": "large"
+						}
+					]
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#797B7E"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+					"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+	
+		// TIMER //////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "timer",
+			"name": "Countdown (timer)",
+			"settings": [
+				{
+					"type": "text",
+					"id": "time",
+					"label": "Time Deal",
+					"default": "2023-05-30T00:00:00"
+				},
+				
+				{
+					"type": "color",
+					"id": "color",
+					"label": "Color",
+					"default": "#121212"
+				},
+				
+				{
+					"type": "text",
+					"id": "inset_block",
+					"label": "Inset Block",
+					"default": "0 0 0 0",
+					"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+				},
+				
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				},
+				{
+					"type": "checkbox",
+					"id": "use_bgi",
+					"label": "Use background caption item",
+					"default": false
+				},
+				
+				{
+					"type": "color",
+					"id": "caption_bg_color",
+					"label": "Color background caption item"
+				},
+				{
+					"type":      "range",
+					"id":        "caption_bg_color_opacity",
+					"min":       0,
+					"max":        1,
+					"step":       0.1,
+					"label":     "Background opacity caption item",
+					"default":   0.5
+				}
+			]
+		},
+
+		// BUTTON  //////////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "button",
+			"name": "Button",
+			"settings": [
+				{
+					"type": "text",
+					"id": "button_label",
+					"label": "Button label"
+				},
+				{
+					"type": "url",
+					"id": "button_link",
+					"label": "Button link"
+				},
+
+				{
+					"type": "checkbox",
+					"id": "use_button",
+					"label": "Use type button",
+					"default": true
+				},
+
+				{
+					"type": "radio",
+					"id": "btn_style",
+					"label": "Button style",
+					"default": "btn-primary",
+					"options": [
+						{
+							"value": "btn-default",
+							"label": "Default"
+						},
+						{
+							"value": "btn-primary",
+							"label": "Primary"
+						},
+						{
+							"value": "btn-secondary",
+							"label": "Secondary"
+						},
+						{
+							"value": "btn-alternate",
+							"label": "Alternate"
+						},
+  						{
+  							"value": "btn-gradient",
+  							"label": "Gradient 1"
+  						}
+					]
+				},
+				{
+					"type": "radio",
+					"id": "btn_size",
+					"label": "Button size",
+					"default": "btn-lg",
+					"options": [
+						{
+							"value": "btn-sm",
+							"label": "Small"
+						},
+						{
+							"value": "btn-md",
+							"label": "Medium"
+						},
+						{
+							"value": "btn-lg",
+							"label": "Large"
+						}
+					]
+				},
+				{
+					"type": "text",
+					"id": "offset_block",
+					"label": "Offset Block",
+					"default": "5% 0 0 0",
+					"info": "offset: Top Right Bottom Left"
+				}
+			]
+		},
+		// CUSTOM HTML ////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "html",
+			"name": "Custom HTML",
+			"settings": [
+				{
+					"type": "text",
+					"id": "custom_class",
+					"label": "Custom class"
+				},
+				{
+					"type": "textarea",
+					"id": "code",
+					"label": "HTML"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Image with text column",
+			"category": "Banner",
+			"blocks": [
+				{
+					"type": "heading_h6"
+				},
+				{
+					"type": "heading_h3"
+				},
+				{
+					"type": "text"
+				},
+				{
+					"type": "button"
+				}
+			]
+		}
+	]
+}
+{% endschema %}

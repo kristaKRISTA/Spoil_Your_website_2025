@@ -1,0 +1,622 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "82b2baf7-5631-4f06-9809-0f0056fd144f": {
+      "type": "index-image-with-text-overlay",
+      "blocks": {
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-0": {
+          "type": "heading_h6",
+          "settings": {
+            "heading_h6": "<p>50% off everything</p>",
+            "color": "#121212",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "458f94da-c236-4bd3-a608-d4c898ad3194": {
+          "type": "heading_h1",
+          "settings": {
+            "heading_h1": "<p>Women's Clothing</p>",
+            "color": "#121212",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "0.5rem 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer free shipping on all orders over <strong>$350</strong>.</p>",
+            "text_size": "large",
+            "color": "#121212",
+            "inset_block": "0 0 0 0",
+            "offset_block": "3% 0 0 0",
+            "use_bgc": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5
+          }
+        },
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "discover now",
+            "button_link": "shopify://collections/accessories",
+            "use_button": true,
+            "btn_style": "btn-gradient",
+            "btn_size": "btn-lg",
+            "offset_block": "3rem 0 0 0"
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-0",
+        "458f94da-c236-4bd3-a608-d4c898ad3194",
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-2",
+        "template--14582219472960__82b2baf7-5631-4f06-9809-0f0056fd144f-167644682948cfec9b-3"
+      ],
+      "settings": {
+        "container_width": "full-width",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "padding_desktop": 350,
+        "padding_mobile": 175,
+        "image": "shopify://shop_images/img_16.png",
+        "bg_pos_mobile": 50,
+        "use_bgo": false,
+        "bg_color": "",
+        "bg_color_opacity": 0.5,
+        "parallax": false,
+        "padding_parallax_desktop": 500,
+        "bg_animation": "none",
+        "caption_align": "left",
+        "text_align": "left",
+        "vertical_alignment": "center",
+        "inverted": false,
+        "use_bgc": false,
+        "caption_bg_color": "",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "6% 13% 6%",
+        "offset_caption": "0 0 0 0",
+        "caption_animation": "none"
+      }
+    },
+    "0718ffa0-a50e-4cb5-8e3b-e186a3309ab7": {
+      "type": "index-banners",
+      "blocks": {
+        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-0": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/img_01_20032087-e0ac-44df-afe0-73fc0fff061e.png",
+            "width": "6",
+            "banner_style": "overlay",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "<p>Up to 30% off </p><p>on all items.</p>",
+            "color_title": "#121212",
+            "item_subtitle": "<p>new Bags</p>",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797B7E",
+            "custom_heading": "",
+            "color_ch": "#797B7E",
+            "caption_size": "small",
+            "inset_caption": "6% 7% 6% 7%",
+            "item_link": "shopify://collections/fashion",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-gradient",
+            "btn_size": "btn-md",
+            "margin_title": 19,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
+          }
+        },
+        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-1": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/img_02.png",
+            "width": "6",
+            "banner_style": "overlay",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "<p>New in this week</p>",
+            "color_title": "#121212",
+            "item_subtitle": "<p>select Tops</p>",
+            "color_subtitle": "#121212",
+            "item_text": "<p>Sale up to 50% off!</p>",
+            "color_text": "#797B7E",
+            "custom_heading": "",
+            "color_ch": "#797B7E",
+            "caption_size": "small",
+            "inset_caption": "6% 7% 6% 7%",
+            "item_link": "shopify://collections/coats",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-gradient",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-0",
+        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-1"
+      ],
+      "settings": {
+        "section_title": "",
+        "desc": "",
+        "container_width": "full-width",
+        "reset_indent": true,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
+    },
+    "1627899736175f45d2": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "padding_top_vw": 0,
+        "padding_bottom_vw": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 26,
+        "tablet_padding_bottom": 24,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "f85ca1c4-278c-4c95-a34c-eb36420814f2": {
+      "type": "index-featured-products",
+      "blocks": {
+        "template--14582219472960__f85ca1c4-278c-4c95-a34c-eb36420814f2-16764473707ecd5088-0": {
+          "type": "collection_tab",
+          "settings": {
+            "show_view_all": false,
+            "view_all_link_text": "Explore Collections",
+            "section_title": "",
+            "section_text": "",
+            "block_collection_title": "",
+            "block_collection": "lingerie",
+            "product_card_reviews": false,
+            "product_card_vendor": false,
+            "badge_card_toggle": false,
+            "product_card_variants": false,
+            "variants_type_url": "only_color",
+            "product_card_variants_limit": "5",
+            "product_card_options": false,
+            "current_text_product_option": "Color",
+            "opt_type": "btn",
+            "image_ratio": "portrait-thumb",
+            "show_secondary_image": false,
+            "image_padding": 0,
+            "bg_wrap_img_color": "",
+            "bg_img_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__f85ca1c4-278c-4c95-a34c-eb36420814f2-16764473707ecd5088-0"
+      ],
+      "settings": {
+        "section_title": "Best seller",
+        "section_subtitle": "Top sale in this week",
+        "textalign_pos": "center",
+        "container_width": "container",
+        "bg_section": "rgba(0,0,0,0)",
+        "inverted": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "pc_grid_style": "grid_style_1",
+        "use_border_card": false,
+        "use_border_grid": false,
+        "all_view": false,
+        "products_count": "6",
+        "column_item": "33%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": false,
+        "off_carousel_pag": true,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
+      }
+    },
+    "162789991534a793f2": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "padding_top_vw": 0,
+        "padding_bottom_vw": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 29,
+        "tablet_padding_bottom": 29,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "80d6f4f3-2603-45ae-8d81-32143e336bab": {
+      "type": "index-image-with-text-overlay",
+      "blocks": {
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-0": {
+          "type": "heading_h6",
+          "settings": {
+            "heading_h6": "<p>ACCESSORIES</p>",
+            "color": "#121212",
+            "inset_block": "10px",
+            "offset_block": "15px 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "961c43c0-4c06-4e2a-90fa-bcf0ffe1e08d": {
+          "type": "heading_h2",
+          "settings": {
+            "heading_h2": "<p>Best price,</p><p>best selection</p>",
+            "color": "#121212",
+            "font_weight": "700",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See what’s in store. Get excited!</p>",
+            "text_size": "large",
+            "color": "#797B7E",
+            "inset_block": "0 0 0 0",
+            "offset_block": "20px  0 0 0",
+            "use_bgc": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5
+          }
+        },
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/beauty-and-health",
+            "use_button": true,
+            "btn_style": "btn-gradient",
+            "btn_size": "btn-md",
+            "offset_block": "3rem 0 0 0"
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-0",
+        "961c43c0-4c06-4e2a-90fa-bcf0ffe1e08d",
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-2",
+        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-3"
+      ],
+      "settings": {
+        "container_width": "container",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "padding_desktop": 300,
+        "padding_mobile": 175,
+        "image": "shopify://shop_images/img_03_25ec602c-3c21-4323-bdfd-5ef122b79c95.png",
+        "bg_pos_mobile": 50,
+        "use_bgo": false,
+        "bg_color": "",
+        "bg_color_opacity": 0.5,
+        "parallax": false,
+        "padding_parallax_desktop": 500,
+        "bg_animation": "none",
+        "caption_align": "left",
+        "text_align": "center",
+        "vertical_alignment": "center",
+        "inverted": false,
+        "use_bgc": false,
+        "caption_bg_color": "",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "4% 3% 4% 10%",
+        "offset_caption": "0 0 0 0",
+        "caption_animation": "none"
+      }
+    },
+    "1630054140e5357498": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "padding_top_vw": 0,
+        "padding_bottom_vw": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "ec07dc0f-81a1-4a72-b8aa-d4b89a183c31": {
+      "type": "index-testimonials",
+      "blocks": {
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-0": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 15px 0px 15px",
+            "offset_block": "2rem 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "5",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
+            "author_img": "shopify://shop_images/img_06_edafed68-7ff0-4852-bb22-60f48acd9c4b.png",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        },
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-1": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 15px 0px 15px",
+            "offset_block": "2rem 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "4",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
+            "author_img": "shopify://shop_images/img_05_f01c0256-893f-43b1-ae55-d7af128f2bbc.png",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        },
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 15px 0px 15px",
+            "offset_block": "2rem 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "5",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
+            "author_img": "shopify://shop_images/img_04_8cb43ce1-78df-4aa8-a48f-d96be478ecec.png",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-0",
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-1",
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2"
+      ],
+      "settings": {
+        "container_width": "container",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "rgba(0,0,0,0)",
+        "use_bg_grad2": false,
+        "title": "Trusted by 15k users",
+        "style": "type_2",
+        "quote_size": "medium",
+        "quote_color": "#121212",
+        "caption_text": "Lorem ipsum dolor sit amet",
+        "text_align": "left",
+        "offset_quote_img": "0px 0px 0px 0px",
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "pag_align": "center"
+      }
+    },
+    "16278999588811e107": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "padding_top_vw": 0,
+        "padding_bottom_vw": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 40,
+        "tablet_padding_bottom": 40,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "3999251e-7bed-429e-8800-7e7418e3987e": {
+      "type": "index-logo-list",
+      "blocks": {
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_10_f01c83db-6a6d-43f4-a6ac-4568bf093cdf.png",
+            "link": "shopify://collections/accessories"
+          }
+        },
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_11_8ad19d2f-8730-441a-b815-ed5ecb2ba9af.png",
+            "link": "shopify://collections/beauty-and-health"
+          }
+        },
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_12.png",
+            "link": "shopify://collections/coats"
+          }
+        },
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_13_2e91cb0c-30b3-4396-84a7-04031fb00018.png",
+            "link": "shopify://collections/fashion"
+          }
+        },
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_14_88e5cd53-9e6d-4c17-8c39-d9e8d7686869.png",
+            "link": "shopify://collections/lingerie"
+          }
+        },
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/img_15_adc7af74-2475-40be-814e-d205c5eb966d.png",
+            "link": "shopify://collections/new-mens-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-0",
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-1",
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-2",
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-3",
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-4",
+        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-5"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "section_title": "Explore our brands",
+        "image_size": "xsmall",
+        "img_alignment": "center",
+        "mh_item": 135,
+        "show_carousel": false,
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "carousel_control_type": "pagination"
+      }
+    },
+    "1627900045d25f9b47": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "padding_top_vw": 0,
+        "padding_bottom_vw": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 50,
+        "tablet_padding_bottom": 0,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "5b1355bf-8f4c-442c-9a1a-b6bc1b78a4e2": {
+      "type": "index-custom-content",
+      "blocks": {
+        "4a285d1d-d1be-4efc-9ca7-f6e3bf8b9e25": {
+          "type": "html",
+          "settings": {
+            "custom_class": "",
+            "code": "<div class=\"py-3 d-flex align-items-center justify-content-center\">\n  <h5 class=\"px-3 mb-0\">\n\tInterested in Vendy Shopping? Don’t wait and buy now!\n  </h5>\n  <a href=\"https://theme563-wholesale.myshopify.com/collections/fashion\" target=\"_blank\" class=\"mx-3 btn btn-sm btn-gradient\">\n\tPurchase now\t\n  </a>\n</div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "4a285d1d-d1be-4efc-9ca7-f6e3bf8b9e25"
+      ],
+      "settings": {
+        "custom_class": "",
+        "container_width": "full-width",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "use_bg_grad2": true,
+        "title": "",
+        "inverted": false
+      }
+    }
+  },
+  "order": [
+    "82b2baf7-5631-4f06-9809-0f0056fd144f",
+    "0718ffa0-a50e-4cb5-8e3b-e186a3309ab7",
+    "1627899736175f45d2",
+    "f85ca1c4-278c-4c95-a34c-eb36420814f2",
+    "162789991534a793f2",
+    "80d6f4f3-2603-45ae-8d81-32143e336bab",
+    "1630054140e5357498",
+    "ec07dc0f-81a1-4a72-b8aa-d4b89a183c31",
+    "16278999588811e107",
+    "3999251e-7bed-429e-8800-7e7418e3987e",
+    "1627900045d25f9b47",
+    "5b1355bf-8f4c-442c-9a1a-b6bc1b78a4e2"
+  ]
+}

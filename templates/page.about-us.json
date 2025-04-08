@@ -1,0 +1,335 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1629909455ee545d60": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 39,
+        "padding_bottom": 40,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 25,
+        "tablet_padding_bottom": 25,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "16299093947381adb3": {
+      "type": "index-image-with-text-column",
+      "blocks": {
+        "16299093947381adb3-1": {
+          "type": "heading_h3",
+          "settings": {
+            "heading_h3": "<p>About Us</p>",
+            "color": "#121212",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        },
+        "710e6b3f-76e6-4dce-9fcf-a41492a51ef0": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "<p>We guarantee the highest quality of</p><p>the products we sell.</p>",
+            "color": "#121212",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgc": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5
+          }
+        },
+        "16299093947381adb3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our company is dedicated to creating unique and comfortable clothing for men and women. Since our establishment in 2010, Fashion's activity has extended from developing designer clothes to training new designers and stylists at our school, participation of our trainees at the world's leading fashion shows and writing articles about fashion.<br/></p>",
+            "text_size": "medium",
+            "color": "#797b7e",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        },
+        "16299093947381adb3-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "use_button": true,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-lg",
+            "offset_block": "5% 0 0 0"
+          }
+        }
+      },
+      "block_order": [
+        "16299093947381adb3-1",
+        "710e6b3f-76e6-4dce-9fcf-a41492a51ef0",
+        "16299093947381adb3-2",
+        "16299093947381adb3-3"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "column_dir": "row",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "image": "shopify://shop_images/img_14_91b092a9-e896-4704-b31d-bbe30d2dae18.png",
+        "image_column": "6",
+        "use_bgimg": false,
+        "image_bg_color": "",
+        "image_bg_color_opacity": 0.5,
+        "inset_image": "0px 0px 0px 0px",
+        "caption_column": "6",
+        "caption_align_v": "center",
+        "text_align": "left",
+        "inverted": false,
+        "use_caption_bg": false,
+        "caption_bg_color": "",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "6% 7% 6% 5.5rem"
+      }
+    },
+    "16299094475df6c839": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 40,
+        "padding_bottom": 41,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "1629909440d6d08fef": {
+      "type": "index-image-with-text-column",
+      "blocks": {
+        "1629909440d6d08fef-1": {
+          "type": "heading_h3",
+          "settings": {
+            "heading_h3": "<p>Our Story</p>",
+            "color": "#121212",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        },
+        "3eaec08c-188a-4f40-aabb-1c9c8a1caf6e": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "<p>Catering to your requirements, handling your needs with care.</p>",
+            "color": "#121212",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgc": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5
+          }
+        },
+        "1629909440d6d08fef-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience. </p>",
+            "text_size": "medium",
+            "color": "#797b7e",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        },
+        "127e9e84-30c6-47f2-aa63-fc0114c2c8a3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc.</p>",
+            "text_size": "medium",
+            "color": "#797b7e",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        }
+      },
+      "block_order": [
+        "1629909440d6d08fef-1",
+        "3eaec08c-188a-4f40-aabb-1c9c8a1caf6e",
+        "1629909440d6d08fef-2",
+        "127e9e84-30c6-47f2-aa63-fc0114c2c8a3"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "column_dir": "row-reverse",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "image": "shopify://shop_images/img_06.png",
+        "image_column": "6",
+        "use_bgimg": false,
+        "image_bg_color": "",
+        "image_bg_color_opacity": 0.5,
+        "inset_image": "0px 0px 0px 0px",
+        "caption_column": "6",
+        "caption_align_v": "center",
+        "text_align": "left",
+        "inverted": false,
+        "use_caption_bg": false,
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "6% 10% 6% 0"
+      }
+    },
+    "1629909520300f44ab": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 24,
+        "tablet_padding_bottom": 26,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "1629909538b676f138": {
+      "type": "index-testimonials",
+      "blocks": {
+        "1629909538b676f138-1": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 0px 0px 0px",
+            "offset_block": "0px 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "none",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit <br>  leo. Diam, luctus vitae integer tortor.\"",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        },
+        "1629909538b676f138-0": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 0px 0px 0px",
+            "offset_block": "0px 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "none",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit <br>  leo. Diam, luctus vitae integer tortor.\"",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        },
+        "1629909538b676f138-2": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 0px 0px 0px",
+            "offset_block": "0px 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "none",
+            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit <br>  leo. Diam, luctus vitae integer tortor.\"",
+            "author": "Author's name",
+            "author_info": "Author's info",
+            "inverted": false
+          }
+        }
+      },
+      "block_order": [
+        "1629909538b676f138-1",
+        "1629909538b676f138-0",
+        "1629909538b676f138-2"
+      ],
+      "settings": {
+        "container_width": "container",
+        "inset_section": "80px 0px 80px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#e3fdff",
+        "use_bg_grad2": true,
+        "title": "Testimonials",
+        "style": "type_1",
+        "quote_size": "small",
+        "quote_color": "#121212",
+        "caption_text": "",
+        "text_align": "center",
+        "offset_quote_img": "0px 0px 25px 0px",
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "pag_align": "center"
+      }
+    },
+    "1635027502bf5922a4": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "type_value": "px",
+        "padding_top": 40,
+        "padding_bottom": 41,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1629909455ee545d60",
+    "16299093947381adb3",
+    "16299094475df6c839",
+    "1629909440d6d08fef",
+    "1629909520300f44ab",
+    "1629909538b676f138",
+    "1635027502bf5922a4"
+  ]
+}

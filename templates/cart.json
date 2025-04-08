@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-cart": {
+      "type": "main-cart",
+      "settings": {
+        "show_policy": false,
+        "security_page": "shopify://policies/terms-of-service",
+        "security_text": "Security policy",
+        "delivery_page": "shopify://policies/privacy-policy",
+        "delivery_text": "Delivery policy",
+        "return_page": "shopify://policies/refund-policy",
+        "return_text": "Return policy"
+      }
+    }
+  },
+  "order": [
+    "template-cart"
+  ]
+}

@@ -1,0 +1,7 @@
+
+# IDE Files
+#-------------------------
+.idea/*
+
+# Shopify files
+.shopify/*

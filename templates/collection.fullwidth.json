@@ -1,0 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-collection": {
+      "type": "main-collection",
+      "settings": {
+        "sidebar_collection_toggle": false,
+        "sidebar_collection_position": "sidebar_left",
+        "enable_filter_column": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "collapse_on_larger_devices": true,
+        "side_collapse_filter": "left",
+        "type_price_range": "default",
+        "use_button_filter": false,
+        "round_color_pick": false,
+        "items_per_page": "12",
+        "use_info": true,
+        "container_width": "full_width",
+        "bg_section": "rgba(0,0,0,0)",
+        "inset_section": "0",
+        "offset_section": "0px 0px 3.3% 0px",
+        "info_style": "style_1",
+        "img_column": "10",
+        "descr_column": "10",
+        "descr_align_column": "align-center",
+        "collection_desc_toggle": false,
+        "collection_tags_toggle": true,
+        "collection_image_toggle": true,
+        "tags_option": "tag_test",
+        "products_collection": "women",
+        "bg_image": "shopify://shop_images/list-col-img.jpg",
+        "type_image_col": "type_bg_image",
+        "caption_inverted": false,
+        "custom_collection_class": "",
+        "collection_img_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "template-collection"
+  ]
+}

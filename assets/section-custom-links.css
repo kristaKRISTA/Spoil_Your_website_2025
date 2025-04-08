@@ -1,0 +1,37 @@
+/* Section links of collections */
+
+.custom_listing_links {
+   max-width: 870px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.custom_listing_links ul {
+    list-style: none;
+}
+.custom_listing_links ul li  {
+    padding: 0 2rem;
+    position: relative;
+}
+.custom_listing_links ul li:before  {
+    content: "•";
+    position: absolute;
+    color: var(--color-black);
+    display: inline-block;
+    left: -8px;
+    top: 8px;
+}
+
+.custom_listing_links ul li:first-child:before {
+    display: none;
+}
+
+.custom_listing_links ul li a:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+
+
+
+
+

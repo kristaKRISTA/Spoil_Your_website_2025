@@ -1,0 +1,62 @@
+/**
+ * Section GDPR
+ */
+
+
+#accept-cookies {
+    display: none;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#accept-cookies .block-cookies {
+    font-weight: normal;
+}
+
+#accept-cookies .group-links {
+    margin-top: 10px;
+}
+
+#accept-cookies .group-links .accept_cookies_link {
+    margin-left: 10px;
+}
+
+#accept-cookies .group-links .icon {
+    margin-left: 5px;
+}
+
+#accept-cookies .des {
+    line-height: 1.4;
+}
+
+#accept-cookies .des a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+#accept-cookies .des a:hover{
+   opacity: .75;
+}
+
+#accept-cookies .notification-cookies {
+   line-height: 1.4;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 480px) {
+    #accept-cookies {
+        text-align: left;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    #accept-cookies {
+        position: fixed;
+        z-index: 99;
+        bottom: 15px;
+    }
+}

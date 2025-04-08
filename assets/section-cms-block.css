@@ -1,0 +1,20 @@
+/**
+ * Section CMS block
+ */
+
+.item_block  {
+  position: relative;
+}
+.item_block a.link-block {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.item_block * + .link {
+  margin-top: 15px;
+}
