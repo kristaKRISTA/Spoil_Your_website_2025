@@ -1,7 +1,12 @@
 <div class="header-main {{ layout_file }} d-none d-xl-block">
 	<div class="container">
 		<div class="row align-items-xl-center justify-content-between" style="min-height: {{ ss_item.htheight }}px">
-			<div class="col position-static d-flex justify-content-{{ ss_item.megamenu_position }} align-items-center">
+            <div class="col-xl-3 d-xl-inline-flex justify-content-left">
+                <div data-responsive-id="logo-shop" data-responsive-layout="desktop">
+                    {% include 'header-logo' %}
+                </div>
+            </div>
+            <div class="col position-static d-flex justify-content-{{ ss_item.megamenu_position }} align-items-center">
 				{% if ss_item.megamenu_toggle %}
 					<div data-responsive-id="megamenu" data-responsive-layout="desktop">
 						{% if ss_item.menu_burger %}
@@ -32,11 +37,6 @@
 						</div>
 					{%- endif -%}
 				{% endif %}
-			</div>
-			<div class="col-xl-3 d-xl-inline-flex justify-content-center">
-				<div data-responsive-id="logo-shop" data-responsive-layout="desktop">
-					{% include 'header-logo' %}
-				</div>
 			</div>
 			<div class="col-xl d-flex justify-content-end align-items-center position-static header_items_wrapper">
 				{% if shop.customer_accounts_enabled and ss_item.header_user %}

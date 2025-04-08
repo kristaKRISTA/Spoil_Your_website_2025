@@ -3,11 +3,6 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col col-sm d-flex align-items-center pr-0">
-				<div id="megamenu_mobile_toggle" class="menu-toggle mr-1 mr-md-3" title="Menu">
-					<span class="svg-icon svg-icon--xl">
-						{% render 'icon-menu' %}
-					</span>
-				</div>
 				<div class="menu-content custom-style_content">
 					<div class="megamenu_mobile_close" style="display: none;">
 						<div class="close_icon d-inline-flex align-items-center svg-icon svg-icon--md">
@@ -54,12 +49,17 @@
 				<div class="ml-2 ml-md-3" data-responsive-id="logo-shop" data-responsive-layout="tablet mobile"></div>
 			</div>
 			<div class="col-auto col-sm-auto d-flex align-items-center justify-content-end header_items_wrapper">
-				<div class="ml-2 ml-md-3">
-					{% assign  toggle_search = true %}
-					{% include "header-search", toggle_search %}
-				</div>
+				{% comment %}<div class="ml-2 ml-md-3">{% endcomment %}
+					{% comment %}{% assign  toggle_search = true %}{% endcomment %}
+					{% comment %}{% include "header-search", toggle_search %}{% endcomment %}
+				{% comment %}</div>{% endcomment %}
 				<div class="ml-2 ml-md-3" data-responsive-id="shopping-cart" data-responsive-layout="tablet mobile"></div>
-			</div>
+                <div id="megamenu_mobile_toggle" class="menu-toggle mr-1 mr-md-3" title="Menu">
+					<span class="svg-icon svg-icon--xl">
+						{% render 'icon-menu' %}
+					</span>
+                </div>
+            </div>
 		</div>
 	</div>
 </div>
