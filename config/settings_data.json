@@ -468,17 +468,6 @@
               "banner_align_2": "center",
               "banner_inverted_2": false
             }
-          },
-          "48794438-a662-406b-96e8-cceee16307ca": {
-            "type": "link-simple",
-            "settings": {
-              "title": "About Vendy Pro",
-              "link": "shopify://pages/about-vendy-pro",
-              "badge_text": "",
-              "badge_color": "#ffffff",
-              "bg_color": "#f73131",
-              "custom_item_class": ""
-            }
           }
         },
         "block_order": [
@@ -486,8 +475,7 @@
           "15352f9b-3a4a-431b-b989-e76bf12c6807",
           "7077354e-792d-477f-851c-9c26a4cbc464",
           "160071c7-9ac6-40ed-b060-b4d09235834b",
-          "a9ed6090-970a-4f21-b2f1-5c8b92bb6aa6",
-          "48794438-a662-406b-96e8-cceee16307ca"
+          "a9ed6090-970a-4f21-b2f1-5c8b92bb6aa6"
         ],
         "settings": {
           "headermaxwidth": 1880,

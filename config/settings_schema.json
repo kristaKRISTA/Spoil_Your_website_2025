@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Vendy Shopping Free CUSTOMIZED",
+    "theme_name": "Vendy Free CUSTOMIZED",
     "theme_author": "Zemez+Sviat Boichuk",
     "theme_version": "2.1.0+",
     "theme_documentation_url": "https://github.com/kristaKRISTA/Spoil_Your_website_2025Shopping",
-    "theme_support_email": ""
+    "theme_support_email": "krista.pesecka@gmail.com"
   },
   {
     "name": "Typography",
@@ -843,23 +843,7 @@
         "options": [
           {
             "value": "1",
-            "label": "Type #1 (Upgrade your store with Vendy Pro OS 2.0 theme)"
-          },
-          {
-            "value": "2",
-            "label": "Type #2"
-          },
-          {
-            "value": "3",
-            "label": "Type #3 (Upgrade your store with Vendy Pro OS 2.0 theme)"
-          },
-          {
-            "value": "4",
-            "label": "Type #4 (Upgrade your store with Vendy Pro OS 2.0 theme)"
-          },
-          {
-            "value": "5",
-            "label": "Type #5 (Upgrade your store with Vendy Pro OS 2.0 theme)"
+            "label": "Type #1"
           }
         ]
       },
@@ -870,7 +854,7 @@
       {
         "type": "checkbox",
         "id": "rtl",
-        "label": "Use right to left direction  (Upgrade your store with Vendy Pro OS 2.0 theme)",
+        "label": "Use right to left direction",
         "default": false
       },
       {
@@ -914,7 +898,7 @@
       {
         "type": "checkbox",
         "id": "protect",
-        "label": "Protect content from copying  (Upgrade your store with Vendy Pro OS 2.0 theme)",
+        "label": "Protect content from copying NOT AVAILABLE",
         "default": false
       }
     ]

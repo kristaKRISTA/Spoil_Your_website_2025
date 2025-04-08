@@ -576,33 +576,6 @@
         "tablet_margin_top": 0,
         "tablet_margin_bottom": 0
       }
-    },
-    "5b1355bf-8f4c-442c-9a1a-b6bc1b78a4e2": {
-      "type": "index-custom-content",
-      "blocks": {
-        "4a285d1d-d1be-4efc-9ca7-f6e3bf8b9e25": {
-          "type": "html",
-          "settings": {
-            "custom_class": "",
-            "code": "<div class=\"py-3 d-flex align-items-center justify-content-center\">\n  <h5 class=\"px-3 mb-0\">\n\tInterested in Vendy Shopping? Don’t wait and buy now!\n  </h5>\n  <a href=\"https://theme563-wholesale.myshopify.com/collections/fashion\" target=\"_blank\" class=\"mx-3 btn btn-sm btn-gradient\">\n\tPurchase now\t\n  </a>\n</div>",
-            "width": "100%"
-          }
-        }
-      },
-      "block_order": [
-        "4a285d1d-d1be-4efc-9ca7-f6e3bf8b9e25"
-      ],
-      "settings": {
-        "custom_class": "",
-        "container_width": "full-width",
-        "reset_indent": false,
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "bg_section": "#ffffff",
-        "use_bg_grad2": true,
-        "title": "",
-        "inverted": false
-      }
     }
   },
   "order": [
@@ -616,7 +589,6 @@
     "ec07dc0f-81a1-4a72-b8aa-d4b89a183c31",
     "16278999588811e107",
     "3999251e-7bed-429e-8800-7e7418e3987e",
-    "1627900045d25f9b47",
-    "5b1355bf-8f4c-442c-9a1a-b6bc1b78a4e2"
+    "1627900045d25f9b47"
   ]
 }
