@@ -1,17 +1,13 @@
 {% assign foorter_logo_size = '117x36' %}
 {%- assign item = section.settings -%}
 
-<div class="footer_banner_free">
- </div>
-
 <div class="footer_type_2">
-	<div class="bg-footer {% if section.settings.inverted %} inverted{% endif %}" style="background-color: {{ section.settings.bg_footermain }}">
-		<div class="container pt-md-7 pb-2">
-			<div class="footer_main row text-md-center justify-content-between">
+		<div class="container bg-footer {% if section.settings.inverted %} inverted{% endif %}" style="background-color: {{ section.settings.bg_footermain }}">
+			<div class="footer_main row justify-content-between pt-md-4 pb-2">
 
 				{% if section.settings.footer_logo %}
-					<div class="col-12 without_toggle">
-						<div class="footer_block border-n">
+					<div class="col-12 col-md-4 without_toggle">
+						<div class="footer_block border-n px-2">
 							{% if section.settings.footer_logo_slogan.size > 0 %}
 								{% assign logo_slogan = section.settings.footer_logo_slogan | prepend: '<div class="footer-logo-slogan text">' | append:'</div>' %}
 							{% endif %}
@@ -23,7 +19,46 @@
 						</div>
 					</div>
 				{% endif %}
-
+                <div class="col-12 col-md-8 row">
+                    <div class="col-12 d-flex flex-column flex-sm-row  {% if section.settings.footer_submenu == blank %} justify-content-center {% else %} justify-content-between  {% endif %}">
+                        {% if section.settings.footer_submenu_1.size > 0 %}
+                            <div class="text-md-left col">
+                                <h6 class="pb-2">SITEMAP</h6>
+                                <ul class="footer-link-block mt-0 mx-0 mb-md-0 mb-3">
+                                    {% for link in linklists[section.settings.footer_submenu_1].links %}
+                                        <li class="link-block-item  pb-1">
+                                            <a class="link-block-link" href="{{ link.url }}">{{ link.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                        {% if section.settings.footer_submenu_2.size > 0 %}
+                            <div class="text-md-left col">
+                                <h6 class="pb-2">COMPANY</h6>
+                                <ul class="footer-link-block mt-0 mx-0 mb-md-0 mb-3">
+                                    {% for link in linklists[section.settings.footer_submenu_2].links %}
+                                        <li class="link-block-item  pb-1">
+                                            <a class="link-block-link" href="{{ link.url }}">{{ link.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                        {% if section.settings.footer_submenu_3.size > 0 %}
+                            <div class="text-md-left col">
+                                <h6 class="pb-2">CONTACT</h6>
+                                <ul class="footer-link-block mt-0 mx-0 mb-md-0 mb-3">
+                                    {% for link in linklists[section.settings.footer_submenu_3].links %}
+                                        <li class="link-block-item  pb-1">
+                                            <a class="link-block-link" href="{{ link.url }}">{{ link.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
 				{% for block in section.blocks %}
 					{% case block.settings.column_item %}
 						{% when 'column_2' %}
@@ -42,7 +77,7 @@
 					{% case block.type %}
 						{% when 'linklist' %}
 							{%- assign linklist = block.settings.links -%}
-							<div class="col-12 {{ column_width_class }} footer_block">
+							<div class="col-12 {{ column_width_class }} footer_block"  style="display: none">
 								<div class="footer_item footer_item__links{% if block.settings.custom_class.size > 0 %} {{ block.settings.custom_class }}{% endif %}">
 									<h6 class="linklist_footer_title toggle-mobile mb-2">
 										{{ linklists[linklist].title }}
@@ -100,9 +135,9 @@
 				</div>
 			  {% endif %}
 			</div>
-			<div class="footer_bottom_pannel pt-2 pb-3 text-center">
+			<div class="footer_bottom_pannel pt-0 pb-3">
 					<div class="row">
-						<div class="col-12 d-flex flex-md-row flex-column  {% if section.settings.footer_submenu == blank %} justify-content-center {% else %} justify-content-between  {% endif %} align-items-center">
+						<div class="col-md-6 col-12 d-flex flex-md-row flex-column  {% if section.settings.footer_submenu_1 == blank %} justify-content-center {% else %} justify-content-between  {% endif %}">
 							{% if section.settings.powered_toggle %}
 							  <div class="footer_copyright">
 								{%- capture shop_copyright_link -%}
@@ -114,21 +149,14 @@
 								{%- endcapture -%}
 								
 								{% assign copyright_year = "now" | date: "%Y" %}
-								<div class="mt-1">© {{ copyright_year }} - {{ shop_copyright_link }}. {{ 'layout.footer.copyright' | t }}</div>
+								<div class="mt-3 px-2 text-md-left">© {{ copyright_year }} {{ shop_copyright_link }}</div>
 							  </div>
 							{% endif %}
-							{% if section.settings.footer_submenu.size > 0 %}
-								<div class="text-md-right col text-center">
-									<ul class="footer-link-block mt-1 mx-2 mb-md-0 mb-3">
-										{% for link in linklists[section.settings.footer_submenu].links limit: 4 %}
-											<li class="link-block-item">
-												<a class="link-block-link" href="{{ link.url }}">{{ link.title }}</a>
-											</li>
-										{% endfor %}
-									</ul>
-								</div>
-							{% endif %}
 						</div>
+                        <div class="col-md-6 col-12">
+                            {% comment %}<div class="mt-3 px-2">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</div>{% endcomment %}
+                            <div class="mt-3 px-2">{{ section.settings.policy_record | escape }}</div>
+                        </div>
 						{% if section.settings.payment_icons_toggle %}
 							<div class="col-12 text-center mt-2 mt-md-3">
 								{% include 'payment-icons' %}
@@ -137,7 +165,6 @@
 					</div>
 				</div>
 	  	</div>
-	</div>
 </div>
 
 	
@@ -235,6 +262,11 @@
 		  "id": "copyright_text",
 		  "label": "Copyright link text"
 		},
+        {
+           "type": "text",
+           "id": "policy_record",
+           "label": "Policy record"
+        },
 		// SOCIAL ICONS
 		{
 			"type": "header",
@@ -254,17 +286,39 @@
 			"default": true,
 			"info": "Mark the required in theme settings"
 		},
-		// FOOTER SUBMENU
+		// FOOTER SUBMENU#1
 		{
 			"type": "header",
-			"content": "Footer submenu"
+			"content": "Footer submenu #1"
 		},
 		{
 			"type": "link_list",
-			"id": "footer_submenu",
-			"label": "Footer submenu",
-			"info": "Max 4 items"
-		}
+			"id": "footer_submenu_1",
+			"label": "Footer submenu #1",
+			"info": "SITEMAP"
+		},
+        // FOOTER SUBMENU#2
+        {
+            "type": "header",
+            "content": "Footer submenu #2"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_submenu_2",
+            "label": "Footer submenu #2",
+            "info": "COMPANY"
+        },
+        // FOOTER SUBMENU#3
+        {
+        "type": "header",
+        "content": "Footer submenu #3"
+        },
+        {
+        "type": "link_list",
+        "id": "footer_submenu_3",
+        "label": "Footer submenu #3",
+        "info": "CONTACT"
+        }
 	],
 	"blocks": [
 		// LINKLIST

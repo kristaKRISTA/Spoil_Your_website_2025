@@ -5,3 +5,31 @@
 .huraaaps-fbmessenger.fb-button {
     z-index: 9999;
 }
+
+.section--footer {
+	border: none;
+}
+
+.bg-footer {
+	margin-bottom: 40px;
+}
+
+body footer>div.footer_type_2 .footer_bottom_pannel {
+	margin: 0;
+}
+
+@media (max-width: 767.98px) {
+	body footer > div .without_toggle {
+		text-align: left;
+		order: 0;
+		margin-bottom: 30px;
+	}
+
+	body footer > div {
+		text-align: left;
+	}
+}
+
+body footer>div .footer_bottom_pannel .row {
+	text-align: left;
+}

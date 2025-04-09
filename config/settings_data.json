@@ -579,13 +579,16 @@
           "footer_logo_type": "img",
           "footer_logo_main": "shopify://shop_images/SpoilYour.svg",
           "logo_main_svg": "",
-          "footer_logo_slogan": "<p>SpoilYour</p>",
+          "footer_logo_slogan": "",
           "powered_toggle": true,
           "copyright_link": "",
           "copyright_text": "",
+          "policy_text": "The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.",
           "social_menu": false,
           "payment_icons_toggle": false,
-          "footer_submenu": "footer-sidemenu-1"
+          "footer_submenu_1": "footer-sidemenu-1",
+          "footer_submenu_2": "footer-sidemenu-2",
+          "footer_submenu_3": "footer-sidemenu-3"
         }
       },
       "helper": {
