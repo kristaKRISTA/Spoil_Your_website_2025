@@ -144,7 +144,37 @@
 			  {% endcase %}
               <div class="col-12 {{ item_width }} {{ block.settings.custom_class }}" {{ block.shopify_attributes }}>
                   <div class="banner-item item-{{ block.id }} style-{{ block.settings.banner_style }} d-flex flex-column {% if block.settings.reverse_cpos == 'flex-column-reverse' %} flex-md-column-reverse {% endif %}" style="padding: {{ block.settings.inset_block }}; {% if block.settings.use_bgb %}background-color: {{ block.settings.bgb_color | color_modify: 'alpha', block.settings.bgb_color_opacity }};{% endif %}">
-					
+  					  {% if block.settings.item_subtitle != blank or block.settings.item_title != blank or block.settings.item_text != blank or block.settings.link_text != blank %}
+                          <div class="banner-caption {% if block.settings.width == '12' %} container {% endif %} caption caption-{{ block.settings.caption_size }} d-flex flex-column text-md-{{ block.settings.textalign_pos }} justify-content-md-{{ block.settings.v_cpos }} align-items-md-{{ block.settings.h_cpos }} {% if block.settings.inverted %} inverted{% endif %}"  style="padding: {{ block.settings.inset_caption }};{% if block.settings.link_type_banner and block.settings.item_link != blank and block.settings.banner_style == 'overlay' %} pointer-events: none;{% endif %}">
+                               <div class="caption_text">
+
+                                   {% if block.settings.item_title != blank %}
+                                       <div class="{{ title_class }} block-title"><div class="caption-item">{{ block.settings.item_title }}</div></div>
+                                   {% endif %}
+                                 
+								   {% if block.settings.custom_heading != blank %}
+								     <div class="custom_large_title block-title"><div class="caption-item">{{ block.settings.custom_heading }}</div></div>
+							       {% endif %}
+
+                                   {% if block.settings.item_subtitle != blank %}
+                                       <div class="{{ subtitle_class }} block-subtitle"><div class="caption-item">{{ block.settings.item_subtitle }}</div></div>
+                                   {% endif %}
+								 
+                                 
+                                   {% if block.settings.item_text != blank %}
+                                       <div class="{{ text_class }} block-text"><div class="caption-item">{{ block.settings.item_text }}</div></div>
+                                   {% endif %}
+                                   
+                                   {% if block.settings.link_text != blank and block.settings.item_link != blank %}
+									 {% if block.settings.btn_style == 'link-default' or block.settings.btn_style == 'link-primary' %}
+									   <a href="{{ block.settings.item_link }}" class="link{% if block.settings.btn_style == 'link-primary' %} link-primary{% else %} link-default{% endif %}">{{ block.settings.link_text }}</a>
+									 {% else %}
+									   <a href="{{ block.settings.item_link }}" class="btn {{ block.settings.btn_style }} {{ block.settings.btn_size }}">{{ block.settings.link_text }}</a>
+									 {% endif %}
+								   {% endif %}
+                               </div>
+                          </div>
+                      {% endif %}
 					  {% if block.settings.image != blank %}
                   		  {%- if block.settings.item_link != blank -%}
 							  <a class="image-item-container link_hover" href="{{ block.settings.item_link }}">
@@ -168,35 +198,6 @@
                      	        {{ 'image' | placeholder_svg_tag: 'img_placeholder' }}
                      	    </div>
                      	</div>
-                      {% endif %}
-                      {% if block.settings.item_subtitle != blank or block.settings.item_title != blank or block.settings.item_text != blank or block.settings.link_text != blank %}
-                          <div class="banner-caption {% if block.settings.width == '12' %} container {% endif %} caption caption-{{ block.settings.caption_size }} d-flex flex-column text-md-{{ block.settings.textalign_pos }} justify-content-md-{{ block.settings.v_cpos }} align-items-md-{{ block.settings.h_cpos }} {% if block.settings.inverted %} inverted{% endif %}"  style="padding: {{ block.settings.inset_caption }};{% if block.settings.link_type_banner and block.settings.item_link != blank and block.settings.banner_style == 'overlay' %} pointer-events: none;{% endif %}">
-                               <div class="caption_text">
-                                   {% if block.settings.item_subtitle != blank %}
-                                       <div class="{{ subtitle_class }} block-subtitle"><div class="caption-item">{{ block.settings.item_subtitle }}</div></div>
-                                   {% endif %}
-								 
-								   {% if block.settings.custom_heading != blank %}
-								     <div class="custom_large_title block-title"><div class="caption-item">{{ block.settings.custom_heading }}</div></div>
-							       {% endif %}
-								
-                                   {% if block.settings.item_title != blank %}
-                                       <div class="{{ title_class }} block-title"><div class="caption-item">{{ block.settings.item_title }}</div></div>
-                                   {% endif %}
-                                 
-                                   {% if block.settings.item_text != blank %}
-                                       <div class="{{ text_class }} block-text"><div class="caption-item">{{ block.settings.item_text }}</div></div>
-                                   {% endif %}
-                                   
-                                   {% if block.settings.link_text != blank and block.settings.item_link != blank %}
-									 {% if block.settings.btn_style == 'link-default' or block.settings.btn_style == 'link-primary' %}
-									   <a href="{{ block.settings.item_link }}" class="link{% if block.settings.btn_style == 'link-primary' %} link-primary{% else %} link-default{% endif %}">{{ block.settings.link_text }}</a>
-									 {% else %}
-									   <a href="{{ block.settings.item_link }}" class="btn {{ block.settings.btn_style }} {{ block.settings.btn_size }}">{{ block.settings.link_text }}</a>
-									 {% endif %}
-								   {% endif %}
-                               </div>
-                          </div>
                       {% endif %}
                   </div>
               </div>
