@@ -22,7 +22,7 @@
             "use_bgb": false,
             "bgb_color": "",
             "bgb_color_opacity": 0.5,
-            "inset_block": "300 0 0 0",
+            "inset_block": "0 0 0 0",
             "use_bottom_offset_mobile": true,
             "margin_bottom": 30,
             "use_bgo": false,
@@ -48,183 +48,15 @@
             "link_type_banner": false,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "margin_title": 22,
+            "margin_title": 15,
             "margin_text": 15,
-            "margin_btn": 35,
-            "custom_class": ""
-          }
-        },
-        "banner_YkgGnx": {
-          "type": "banner",
-          "settings": {
-            "width": "6",
-            "banner_style": "overlay",
-            "off_overlay_mobile": false,
-            "use_bgb": false,
-            "bgb_color": "",
-            "bgb_color_opacity": 0.5,
-            "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
-            "margin_bottom": 30,
-            "use_bgo": false,
-            "bg_color": "",
-            "bg_color_opacity": 0.5,
-            "inverted": false,
-            "h_cpos": "start",
-            "v_cpos": "start",
-            "reverse_cpos": "flex-column",
-            "textalign_pos": "left",
-            "item_title": "<p>Up to 30% off </p><p>on all items.</p>",
-            "color_title": "#121212",
-            "item_subtitle": "<p>new Bags</p>",
-            "color_subtitle": "#121212",
-            "item_text": "",
-            "color_text": "#797b7e",
-            "custom_heading": "",
-            "color_ch": "#797b7e",
-            "caption_size": "small",
-            "inset_caption": "6% 7% 6% 7%",
-            "item_link": "shopify://collections/fashion",
-            "link_text": "Shop now",
-            "link_type_banner": false,
-            "btn_style": "btn-gradient",
-            "btn_size": "btn-md",
-            "margin_title": 19,
-            "margin_text": 15,
-            "margin_btn": 35,
-            "custom_class": ""
-          }
-        },
-        "banner_QBdDan": {
-          "type": "banner",
-          "settings": {
-            "width": "6",
-            "banner_style": "overlay",
-            "off_overlay_mobile": false,
-            "use_bgb": false,
-            "bgb_color": "",
-            "bgb_color_opacity": 0.5,
-            "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
-            "margin_bottom": 30,
-            "use_bgo": false,
-            "bg_color": "",
-            "bg_color_opacity": 0.5,
-            "inverted": false,
-            "h_cpos": "start",
-            "v_cpos": "start",
-            "reverse_cpos": "flex-column",
-            "textalign_pos": "left",
-            "item_title": "<p>Up to 30% off </p><p>on all items.</p>",
-            "color_title": "#121212",
-            "item_subtitle": "<p>new Bags</p>",
-            "color_subtitle": "#121212",
-            "item_text": "",
-            "color_text": "#797b7e",
-            "custom_heading": "",
-            "color_ch": "#797b7e",
-            "caption_size": "small",
-            "inset_caption": "6% 7% 6% 7%",
-            "item_link": "shopify://collections/fashion",
-            "link_text": "Shop now",
-            "link_type_banner": false,
-            "btn_style": "btn-gradient",
-            "btn_size": "btn-md",
-            "margin_title": 19,
-            "margin_text": 15,
-            "margin_btn": 35,
-            "custom_class": ""
-          }
-        },
-        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-1": {
-          "type": "banner",
-          "settings": {
-            "width": "6",
-            "banner_style": "overlay",
-            "off_overlay_mobile": false,
-            "use_bgb": false,
-            "bgb_color": "",
-            "bgb_color_opacity": 0.5,
-            "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
-            "margin_bottom": 30,
-            "use_bgo": false,
-            "bg_color": "",
-            "bg_color_opacity": 0.5,
-            "inverted": false,
-            "h_cpos": "start",
-            "v_cpos": "start",
-            "reverse_cpos": "flex-column",
-            "textalign_pos": "left",
-            "item_title": "<p>New in this week</p>",
-            "color_title": "#121212",
-            "item_subtitle": "<p>select Tops</p>",
-            "color_subtitle": "#121212",
-            "item_text": "<p>Sale up to 50% off!</p>",
-            "color_text": "#797b7e",
-            "custom_heading": "",
-            "color_ch": "#797b7e",
-            "caption_size": "small",
-            "inset_caption": "6% 7% 6% 7%",
-            "item_link": "shopify://collections/coats",
-            "link_text": "Shop now",
-            "link_type_banner": false,
-            "btn_style": "btn-gradient",
-            "btn_size": "btn-md",
-            "margin_title": 22,
-            "margin_text": 15,
-            "margin_btn": 35,
-            "custom_class": ""
-          }
-        },
-        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-0": {
-          "type": "banner",
-          "settings": {
-            "width": "6",
-            "banner_style": "overlay",
-            "off_overlay_mobile": false,
-            "use_bgb": false,
-            "bgb_color": "",
-            "bgb_color_opacity": 0.5,
-            "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
-            "margin_bottom": 30,
-            "use_bgo": false,
-            "bg_color": "",
-            "bg_color_opacity": 0.5,
-            "inverted": false,
-            "h_cpos": "start",
-            "v_cpos": "start",
-            "reverse_cpos": "flex-column",
-            "textalign_pos": "left",
-            "item_title": "<p>Up to 30% off </p><p>on all items.</p>",
-            "color_title": "#121212",
-            "item_subtitle": "<p>new Bags</p>",
-            "color_subtitle": "#121212",
-            "item_text": "",
-            "color_text": "#797b7e",
-            "custom_heading": "",
-            "color_ch": "#797b7e",
-            "caption_size": "small",
-            "inset_caption": "6% 7% 6% 7%",
-            "item_link": "shopify://collections/fashion",
-            "link_text": "Shop now",
-            "link_type_banner": false,
-            "btn_style": "btn-gradient",
-            "btn_size": "btn-md",
-            "margin_title": 19,
-            "margin_text": 15,
-            "margin_btn": 35,
+            "margin_btn": 17,
             "custom_class": ""
           }
         }
       },
       "block_order": [
-        "banner_ptzkN9",
-        "banner_YkgGnx",
-        "banner_QBdDan",
-        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-1",
-        "template--14582219472960__0718ffa0-a50e-4cb5-8e3b-e186a3309ab7-16764470549541e978-0"
+        "banner_ptzkN9"
       ],
       "settings": {
         "section_title": "",
@@ -241,7 +73,7 @@
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
-        "padding_top": 100,
+        "padding_top": 25,
         "padding_bottom": 70,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
@@ -260,6 +92,7 @@
         "banner_bfHeeE": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Frame_1000003310.png",
             "width": "6",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -277,7 +110,7 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "left",
-            "item_title": "<p>Multiple benefits withSpoilYour</p>",
+            "item_title": "<h3>Multiple benefits with SpoilYour</h3>",
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
@@ -286,27 +119,28 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "31px 7% 6% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
             "btn_style": "btn-primary",
             "btn_size": "btn-md",
-            "margin_title": 22,
+            "margin_title": 15,
             "margin_text": 15,
-            "margin_btn": 35,
+            "margin_btn": 15,
             "custom_class": ""
           }
         },
         "banner_waCQCE": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Frame_1000003310_1.png",
             "width": "6",
             "banner_style": "standard",
             "off_overlay_mobile": false,
             "use_bgb": false,
             "bgb_color": "",
-            "bgb_color_opacity": 0.5,
+            "bgb_color_opacity": 0,
             "inset_block": "0 0 0 0",
             "use_bottom_offset_mobile": true,
             "margin_bottom": 30,
@@ -342,6 +176,7 @@
         "banner_gbwbcT": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Frame_1171277040.png",
             "width": "6",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -383,6 +218,7 @@
         "banner_nxabxG": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Frame_1000003310_2_8b4c0134-9e93-4a3d-909a-35b09774f794.png",
             "width": "6",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -429,7 +265,7 @@
         "banner_nxabxG"
       ],
       "settings": {
-        "section_title": "<p>Block banners</p>",
+        "section_title": "",
         "desc": "",
         "container_width": "container",
         "reset_indent": false,
@@ -443,7 +279,7 @@
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
-        "padding_top": 100,
+        "padding_top": 25,
         "padding_bottom": 70,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
@@ -499,10 +335,10 @@
         "offset_section": "0px 0px 0px 0px",
         "reset_indent": false,
         "use_tabs": false,
-        "pc_grid_style": "grid_style_1",
+        "pc_grid_style": "grid_style_2",
         "use_border_card": false,
-        "use_border_grid": false,
-        "all_view": false,
+        "use_border_grid": true,
+        "all_view": true,
         "products_count": "4",
         "column_item": "25%",
         "carousel_view": true,
@@ -513,118 +349,12 @@
         "design_type": "type_1"
       }
     },
-    "162789991534a793f2": {
-      "type": "index-divider",
-      "settings": {
-        "section_view": "boxed",
-        "type_value": "px",
-        "padding_top": 100,
-        "padding_bottom": 70,
-        "padding_top_vw": 0,
-        "padding_bottom_vw": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 29,
-        "tablet_padding_bottom": 29,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
-      }
-    },
-    "80d6f4f3-2603-45ae-8d81-32143e336bab": {
-      "type": "index-image-with-text-overlay",
-      "blocks": {
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-0": {
-          "type": "heading_h6",
-          "settings": {
-            "heading_h6": "<p>ACCESSORIES</p>",
-            "color": "#121212",
-            "inset_block": "10px",
-            "offset_block": "15px 0 0 0",
-            "use_bgi": false,
-            "bgc_color": "",
-            "bgc_color_opacity": 0.5,
-            "title_animation": "none"
-          }
-        },
-        "961c43c0-4c06-4e2a-90fa-bcf0ffe1e08d": {
-          "type": "heading_h2",
-          "settings": {
-            "heading_h2": "<p>Best price,</p><p>best selection</p>",
-            "color": "#121212",
-            "font_weight": "700",
-            "indent_block": "0",
-            "inset_block": "0 0 0 0",
-            "offset_block": "5% 0 0 0",
-            "use_bgi": false,
-            "bgc_color": "",
-            "bgc_color_opacity": 0.5,
-            "title_animation": "none"
-          }
-        },
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>See what’s in store. Get excited!</p>",
-            "text_size": "large",
-            "color": "#797b7e",
-            "inset_block": "0 0 0 0",
-            "offset_block": "20px  0 0 0",
-            "use_bgc": false,
-            "bgc_color": "",
-            "bgc_color_opacity": 0.5
-          }
-        },
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/beauty-and-health",
-            "use_button": true,
-            "btn_style": "btn-gradient",
-            "btn_size": "btn-md",
-            "offset_block": "3rem 0 0 0"
-          }
-        }
-      },
-      "block_order": [
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-0",
-        "961c43c0-4c06-4e2a-90fa-bcf0ffe1e08d",
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-2",
-        "template--14582219472960__80d6f4f3-2603-45ae-8d81-32143e336bab-167644682948cfec9b-3"
-      ],
-      "settings": {
-        "container_width": "container",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "bg_section": "#ffffff",
-        "padding_desktop": 300,
-        "padding_mobile": 175,
-        "bg_pos_mobile": 50,
-        "use_bgo": false,
-        "bg_color": "",
-        "bg_color_opacity": 0.5,
-        "parallax": false,
-        "padding_parallax_desktop": 500,
-        "bg_animation": "none",
-        "caption_align": "left",
-        "text_align": "center",
-        "vertical_alignment": "center",
-        "inverted": false,
-        "use_bgc": false,
-        "caption_bg_color": "",
-        "caption_bg_color_opacity": 0.5,
-        "inset_caption": "4% 3% 4% 10%",
-        "offset_caption": "0 0 0 0",
-        "caption_animation": "none"
-      }
-    },
     "1630054140e5357498": {
       "type": "index-divider",
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
-        "padding_top": 100,
+        "padding_top": 25,
         "padding_bottom": 70,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
@@ -711,7 +441,7 @@
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 70,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
@@ -724,76 +454,320 @@
         "tablet_margin_bottom": 0
       }
     },
-    "3999251e-7bed-429e-8800-7e7418e3987e": {
-      "type": "index-logo-list",
+    "index_banners_KR9Dr6": {
+      "type": "index-banners",
       "blocks": {
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-0": {
-          "type": "logo_image",
+        "banner_7iiPC3": {
+          "type": "banner",
           "settings": {
-            "link": "shopify://collections/accessories"
+            "image": "shopify://shop_images/Frame_1171276958.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "<h3>About Us - SpoilYour</h3>",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "78px 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
           }
         },
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-1": {
-          "type": "logo_image",
+        "banner_M4UEgj": {
+          "type": "banner",
           "settings": {
-            "link": "shopify://collections/beauty-and-health"
+            "image": "shopify://shop_images/Frame_1171276963.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/> We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.</p>",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
           }
         },
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-2": {
-          "type": "logo_image",
+        "banner_VnqBj6": {
+          "type": "banner",
           "settings": {
-            "link": "shopify://collections/coats"
+            "image": "shopify://shop_images/Frame_1171276958_1.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
           }
         },
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-3": {
-          "type": "logo_image",
+        "banner_YNJpp8": {
+          "type": "banner",
           "settings": {
-            "link": "shopify://collections/fashion"
-          }
-        },
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-4": {
-          "type": "logo_image",
-          "settings": {
-            "link": "shopify://collections/lingerie"
-          }
-        },
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-5": {
-          "type": "logo_image",
-          "settings": {
-            "link": "shopify://collections/new-mens-collection"
+            "image": "shopify://shop_images/Frame_1171276963_1.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": ""
           }
         }
       },
       "block_order": [
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-0",
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-1",
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-2",
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-3",
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-4",
-        "template--14582219472960__3999251e-7bed-429e-8800-7e7418e3987e-167644825313532620-5"
+        "banner_7iiPC3",
+        "banner_M4UEgj",
+        "banner_VnqBj6",
+        "banner_YNJpp8"
       ],
+      "settings": {
+        "section_title": "<p>Block banners</p>",
+        "desc": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
+    },
+    "3999251e-7bed-429e-8800-7e7418e3987e": {
+      "type": "index-logo-list",
+      "custom_css": [],
       "settings": {
         "container_width": "container",
         "reset_indent": false,
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
+        "offset_section": "50px 100px 50px 100px",
         "bg_section": "#ffffff",
-        "section_title": "Explore our brands",
+        "section_title": "✨ At SpoilYour, we’re all about health, beauty, and self-care. Because when you feel good, you glow from within.Join us on your journey to a healthier, happier you! ✨",
         "image_size": "xsmall",
         "img_alignment": "center",
-        "mh_item": 135,
+        "mh_item": 30,
         "show_carousel": false,
         "off_carousel_nav": false,
         "off_carousel_pag": false,
         "carousel_control_type": "pagination"
       }
     },
-    "1627900045d25f9b47": {
+    "section_accordion_qGjLgH": {
+      "type": "section-accordion",
+      "blocks": {
+        "tab_block_yLtNTT": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Do you ship overseas?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>We ship internationally. We currently ship to 20+ countries. Shipping costs will apply, and will be added at <strong>checkout</strong>. <br/>We run discounts and promotions all year, so stay tuned for exclusive deals on shipping.</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_JN3Rd4": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Do you ship to my country?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>We excluded countries we can not ship to, from checking out. This means if you are able to check-out, we can ship to your country.</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_TjMWLA": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>How long will it take to get my orders?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>We are currently experiencing a very high order volume, all orders will be dispatched within <strong>24-48 hours</strong>, and shipping will take around <strong>5-14 business days</strong> depending on your location.</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_4HJDML": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>What are the differences between mushroom coffee and regular coffee?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>With less than half the amount of caffeine in normal coffee, mushroom coffee offers a plethora of health benefits like calmer, sharper focus, no jitters, sustained energy without the crash, immune support, gut health and a calm digestive tract. In addition, functional mushrooms offer benefits to optimize body and brain function due to them being antioxidants, anti-virals, and anti-microbials.</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_izje9g": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p><strong>Other questions?</strong></p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>You can contact us at <a href=\"mailto:contact@spoilyour.com\" target=\"_blank\" title=\"contact@spoilyour.com\">contact@spoilyour.com</a> , we will be happy to assist you.</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "tab_block_yLtNTT",
+        "tab_block_JN3Rd4",
+        "tab_block_TjMWLA",
+        "tab_block_4HJDML",
+        "tab_block_izje9g"
+      ],
+      "settings": {
+        "section_title": "<h3>Frequently Asked Questions</h3>",
+        "desc": "Welcome to SpoilYour, where we offer a wide range of high-quality, scientifically-backed supplements to help you live your healthiest life. \nWhether you're looking to improve your energy levels",
+        "container_width": "container",
+        "reset_indent": false,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
+    },
+    "index_divider_bEgTLk": {
       "type": "index-divider",
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
-        "padding_top": 100,
+        "padding_top": 25,
         "padding_bottom": 70,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
@@ -813,12 +787,12 @@
     "index_banners_bFHanJ",
     "index_divider_U7dyNF",
     "f85ca1c4-278c-4c95-a34c-eb36420814f2",
-    "162789991534a793f2",
-    "80d6f4f3-2603-45ae-8d81-32143e336bab",
     "1630054140e5357498",
     "ec07dc0f-81a1-4a72-b8aa-d4b89a183c31",
     "16278999588811e107",
+    "index_banners_KR9Dr6",
     "3999251e-7bed-429e-8800-7e7418e3987e",
-    "1627900045d25f9b47"
+    "section_accordion_qGjLgH",
+    "index_divider_bEgTLk"
   ]
 }

@@ -33,3 +33,54 @@ body footer>div.footer_type_2 .footer_bottom_pannel {
 body footer>div .footer_bottom_pannel .row {
 	text-align: left;
 }
+
+
+/* Policy pages setup */
+
+section_template__faq {
+	padding-bottom: 0;
+}
+
+.section_template__faq .container {
+	margin-top: 40px;
+}
+
+.section_template__faq .h2, .section_template__faq h2 {
+	text-align: left;
+	font-size: 48px;
+}
+
+.section_template__faq .h3, .section_template__faq h3 {
+	font-size: 36px;
+}
+
+.section_template__faq .h4, .section_template__faq h4 {
+	font-size: 24px;
+}
+
+.section_template__faq p, .section_template__faq ul {
+	font-size: 20px;
+	color: black;
+}
+
+.section_template__faq ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	padding-left: 0;
+}
+
+.section_template__faq li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+/* Nested UL inside LI */
+.section_template__faq li > ul {
+	list-style-type: circle; /* Changes to circle by default in most browsers */
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 40px; /* Indentation continues */
+}
