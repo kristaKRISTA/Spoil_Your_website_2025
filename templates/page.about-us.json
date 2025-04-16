@@ -65,44 +65,44 @@
           "type": "button",
           "settings": {
             "button_label": "Digestive Support",
-            "button_link": "shopify://products/collagen-gummies-adult",
+            "button_link": "",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "offset_block": "20px 0 0 0"
+            "offset_block": ""
           }
         },
         "button_3Ue6cz": {
           "type": "button",
           "settings": {
             "button_label": "Immune Defence",
-            "button_link": "shopify://collections/frontpage",
+            "button_link": "",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "offset_block": "20px 0 0 20px"
+            "offset_block": ""
           }
         },
         "button_BGQKah": {
           "type": "button",
           "settings": {
             "button_label": "Energy & Focus",
-            "button_link": "shopify://collections/frontpage",
+            "button_link": "",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "offset_block": "20px 0"
+            "offset_block": ""
           }
         },
         "button_cUnpUf": {
           "type": "button",
           "settings": {
             "button_label": "Stress & Mood Balance",
-            "button_link": "shopify://collections/frontpage",
+            "button_link": "",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "offset_block": "20px"
+            "offset_block": ""
           }
         }
       },
@@ -119,14 +119,15 @@
         "reset_indent": false,
         "column_dir": "row-reverse",
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "-20px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
+        "image": "shopify://shop_images/smiling-strong-woman-together.jpg",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
-        "image_bg_color_opacity": 0.5,
+        "image_bg_color_opacity": 1,
         "inset_image": "0px 0px 0px 0px",
-        "caption_column": "6",
+        "caption_column": "7",
         "caption_align_v": "start",
         "text_align": "left",
         "inverted": false,
@@ -150,7 +151,7 @@
             "bgb_color": "",
             "bgb_color_opacity": 0.5,
             "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
+            "use_bottom_offset_mobile": false,
             "margin_bottom": 30,
             "use_bgo": false,
             "bg_color": "",
@@ -160,7 +161,7 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "left",
-            "item_title": "<h3>About Us - SpoilYour</h3>",
+            "item_title": "",
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
@@ -169,7 +170,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "78px 7% 6% 7%",
+            "inset_caption": "3% 7% 3% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -192,7 +193,7 @@
             "bgb_color": "",
             "bgb_color_opacity": 0.5,
             "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
+            "use_bottom_offset_mobile": false,
             "margin_bottom": 30,
             "use_bgo": false,
             "bg_color": "",
@@ -206,12 +207,12 @@
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
-            "item_text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/> We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.</p>",
+            "item_text": "",
             "color_text": "#797b7e",
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "3% 7% 3% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -234,7 +235,7 @@
             "bgb_color": "",
             "bgb_color_opacity": 0.5,
             "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
+            "use_bottom_offset_mobile": false,
             "margin_bottom": 30,
             "use_bgo": false,
             "bg_color": "",
@@ -253,7 +254,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "3% 7% 3% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -295,7 +296,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "3% 7% 3% 0%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -315,8 +316,8 @@
         "banner_YNJpp8"
       ],
       "settings": {
-        "section_title": "<p>Block banners</p>",
-        "desc": "",
+        "section_title": "<h3>A broad offer of products for your body and mind</h3>",
+        "desc": "<p class=\"text-center\" style=\"color: '#616161'\"><span>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br>We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.<br>Whether you need better sleep, enhanced focus, or a natural beauty boost, we’ve got you covered.</span></p>",
         "container_width": "container",
         "reset_indent": false,
         "bg_section": "#ffffff",
