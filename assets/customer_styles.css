@@ -34,6 +34,18 @@ body footer>div .footer_bottom_pannel .row {
 	text-align: left;
 }
 
+body .btn-default {
+	border-radius: 22px;
+}
+
+.section_image-with-text-column img {
+	border-radius: 24px;
+}
+
+/*body .image-item-wrapper img {*/
+/*	border-radius: 12px;*/
+/*}*/
+
 
 /* Policy pages setup */
 
@@ -84,3 +96,32 @@ section_template__faq {
 	margin-bottom: 0.5em;
 	margin-left: 40px; /* Indentation continues */
 }
+
+.page-about-us .caption_text a {
+	margin: 5px;
+}
+
+@media (min-width: 1200px) {
+	.page-about-us .section_image-with-text-column {
+		padding-bottom: 45px;
+	}
+}
+
+@media (min-width: 767.98px) {
+	.page-about-us .caption {
+		padding-top: 0 !important;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.page-about-us .caption {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media (max-width: 767.98px) {
+	.page-about-us .section_banners .banner-caption {
+		height: 0;
+	}
+}
+

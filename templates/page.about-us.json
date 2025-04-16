@@ -65,7 +65,7 @@
           "type": "button",
           "settings": {
             "button_label": "Digestive Support",
-            "button_link": "",
+            "button_link": "shopify://products/collagen-gummies-adult",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
@@ -76,7 +76,7 @@
           "type": "button",
           "settings": {
             "button_label": "Immune Defence",
-            "button_link": "",
+            "button_link": "shopify://collections/frontpage",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
@@ -87,7 +87,7 @@
           "type": "button",
           "settings": {
             "button_label": "Energy & Focus",
-            "button_link": "",
+            "button_link": "shopify://collections/frontpage",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
@@ -98,7 +98,7 @@
           "type": "button",
           "settings": {
             "button_label": "Stress & Mood Balance",
-            "button_link": "",
+            "button_link": "shopify://collections/frontpage",
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
