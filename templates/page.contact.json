@@ -80,8 +80,94 @@
         "offset_section": "0px 48px 0px 48px"
       }
     },
+    "index_divider_XCGwCW": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "section_accordion_n9WbQD": {
+      "type": "section-accordion",
+      "blocks": {
+        "tab_block_9A8KHC": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Title</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>Text</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_tyGCMQ": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Title</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>Text</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_NUacLz": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Title</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "<p>Text</p>",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "tab_block_9A8KHC",
+        "tab_block_tyGCMQ",
+        "tab_block_NUacLz"
+      ],
+      "settings": {
+        "section_title": "<p>Block Accordion</p>",
+        "desc": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
+    },
     "1628085862e711714b": {
       "type": "index-divider",
+      "disabled": true,
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
@@ -103,6 +189,8 @@
     "main",
     "16280864582c16a35d",
     "162807025980cf87c6",
+    "index_divider_XCGwCW",
+    "section_accordion_n9WbQD",
     "1628085862e711714b"
   ]
 }
