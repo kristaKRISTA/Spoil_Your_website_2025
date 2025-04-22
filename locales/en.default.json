@@ -335,11 +335,11 @@
   },
   "pages": {
     "contact_page_form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "message": "Message",
-      "submit": "Submit",
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone",
+      "message": "Your Message",
+      "submit": "Send Message",
       "submit_success": "Thanks for contacting us. We'll get back to you as soon as possible."
     },
     "menu": {

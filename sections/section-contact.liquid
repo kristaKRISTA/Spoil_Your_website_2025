@@ -38,7 +38,7 @@
 
 
 
-<div class="section-style-{{ section.id }}">
+<div class="section-style-{{ section.id }} rounded">
    {%- include 'section-style' -%}
  	 <div class="{{ section.settings.container_width }}">
     	 <div class="row {% if section.settings.reset_indent %}gx-0{% endif %}">
@@ -47,8 +47,8 @@
 			  	{% when 'info'  %}
                   <div class="contact_item item_address col-md-{{ block.settings.width }} item-{{ block.id }}" style="background-color: {{ block.settings.bg_block }};">
                       <div class="content_item_wrap">
-                         <div class="mb-4">
-                            <h4>{{ block.settings.item_info_title }}</h4>
+                         <div class="">
+                            <h3>{{ block.settings.item_info_title }} </h3>
                             <p>{{ block.settings.item_info_text }}</p>
                           </div>
 
@@ -68,15 +68,17 @@
                           {% endif %}
 
                           {% if block.settings.email_title.size > 0 and block.settings.email_text.size > 0 %}
-                              <li class="col-12 col-xsm-6 mb-4">
+                              <li class="col-12">
                                   <div class="contact_phone contact_element">
                                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M3.99935 4H27.9993C28.353 4 28.6921 4.14048 28.9422 4.39052C29.1922 4.64057 29.3327 4.97971 29.3327 5.33333V26.6667C29.3327 27.0203 29.1922 27.3594 28.9422 27.6095C28.6921 27.8595 28.353 28 27.9993 28H3.99935C3.64573 28 3.30659 27.8595 3.05654 27.6095C2.80649 27.3594 2.66602 27.0203 2.66602 26.6667V5.33333C2.66602 4.97971 2.80649 4.64057 3.05654 4.39052C3.30659 4.14048 3.64573 4 3.99935 4ZM26.666 9.65067L16.0953 19.1173L5.33268 9.62133V25.3333H26.666V9.65067ZM6.01402 6.66667L16.0807 15.5493L26.002 6.66667H6.01402Z" fill="#121212"/>
                                       </svg>
-                                      <h6 class="subtitle_lg ttc">{{ block.settings.email_title }}</h6>
-                                      <p class="number mb-0">
-                                          <a class="tel_ltr" href="mailto:{{ block.settings.email_text | replace: ' ', '' }}">{{ block.settings.email_text }}</a>
-                                      </p>
+                                      <div class="contact_phone_data">
+                                          <h6 class="subtitle_lg ttc">{{ block.settings.email_title }}</h6>
+                                          <p class="number mb-0">
+                                              <a class="tel_ltr" href="mailto:{{ block.settings.email_text | replace: ' ', '' }}">{{ block.settings.email_text }}</a>
+                                          </p>
+                                      </div>
                                   </div>
                               </li>
                           {% endif %}
@@ -109,8 +111,8 @@
                   </div>
 			  	{% when 'form'  %}
 			  		
-				<div class="contact_item item_form col-md-{{ block.settings.width }} item-{{ block.id }}" style="background-color: {{ block.settings.bg_block }};">
-  				 <div class="content_item_wrap">
+				<div class="contact_item item_form col-md-{{ block.settings.width }} item-{{ block.id }} rounded" style="background-color: {{ block.settings.bg_block }};">
+  				 <div class="">
                     <div>
                         <h4>{{ block.settings.item_form_title }}</h4>
                         <p>{{ block.settings.item_form_text }}</p>
@@ -128,7 +130,7 @@
                                         <label for="contact_form__name">{{ 'pages.contact_page_form.name' | t }}</label>
                                     </div>
                                     <div class="form-control-content col-12">
-                                        <input required type="text" id="contact_form__name" name="contact[name]" class="form-control" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'pages.contact_page_form.name' | t }}">
+                                        <input required type="text" id="contact_form__name" name="contact[name]" class="form-control" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}" >
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +140,7 @@
                                         <label for="contact_form__email">{{ 'pages.contact_page_form.email' | t }}</label>
                                     </div>
                                     <div class="form-control-content col-12">
-                                        <input required type="email" id="contact_form__email" name="contact[email]" class="form-control" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ csustomer.email }}{% endif %}" placeholder="{{ 'pages.contact_page_form.email' | t }}">
+                                        <input required type="email" id="contact_form__email" name="contact[email]" class="form-control" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ csustomer.email }}{% endif %}" >
                                     </div>
                                 </div>
                             </div>
@@ -148,13 +150,13 @@
                                         <label for="contact_form__message">{{ 'pages.contact_page_form.message' | t }}</label>
                                     </div>
                                     <div class="form-control-content col-12">
-                                        <textarea required id="contact_form__message" name="contact[body]" class="form-control" placeholder="{{ 'pages.contact_page_form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+                                        <textarea required id="contact_form__message" name="contact[body]" class="form-control" >{% if form.body %}{{ form.body }}{% endif %}</textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group-btn">
-                            <button class="btn btn-primary btn-gradient w-100" type="submit">{{ 'pages.contact_page_form.submit' | t }}</button>
+                            <button class="btn btn-primary w-100 rounded" type="submit">{{ 'pages.contact_page_form.submit' | t }}</button>
                         </div>
                     {% endform %}
                   </div>

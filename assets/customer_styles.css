@@ -2,10 +2,42 @@
   Styles of customer
 **/
 
+/*/////////////////////General///////////////////////////*/
+
 .huraaaps-fbmessenger.fb-button {
     z-index: 9999;
 }
 
+.rounded {
+	border-radius: 24px;
+}
+
+label {
+	color: #616161;
+}
+
+.custom-select, #quick_view__variants .selector-wrapper select, .section_product .single_product__options select, .form-control, .section_product #shopify-product-reviews .spr-container .spr-content input.spr-form-input, .section_product #shopify-product-reviews .spr-container .spr-content textarea.spr-form-input-textarea {
+	color: #111111 !important;
+	font-weight: 600 !important;
+	background-color: #f9f9f9;
+	border: none;
+	border-radius: 24px;
+}
+
+.template_contact .item_form *+.form-group-btn {
+	margin-top: 0;
+}
+
+.custom-select:focus, #quick_view__variants .selector-wrapper select:focus, .section_product .single_product__options select:focus, .form-control:focus, .section_product #shopify-product-reviews .spr-container .spr-content input.spr-form-input:focus, .section_product #shopify-product-reviews .spr-container .spr-content textarea.spr-form-input-textarea:focus {
+	background-color: #f9f9f9;
+}
+
+.btn-primary, .blog__main.linkstyle--btn .article_btn, .product_listing__list .add_to_cart_button {
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+/*/////////////////////Footer///////////////////////////*/
 .section--footer {
 	border: none;
 }
@@ -41,11 +73,6 @@ body .btn-default {
 .section_image-with-text-column img {
 	border-radius: 24px;
 }
-
-/*body .image-item-wrapper img {*/
-/*	border-radius: 12px;*/
-/*}*/
-
 
 /* Policy pages setup */
 
@@ -97,6 +124,8 @@ section_template__faq {
 	margin-left: 40px; /* Indentation continues */
 }
 
+/*////////////////////About Us Page/////////////////////////*/
+
 .page-about-us .caption_text a {
 	margin: 5px;
 }
@@ -124,4 +153,83 @@ section_template__faq {
 		height: 0;
 	}
 }
+
+/*///////////////////Contact US Page//////////////////////////*/
+
+.custom_page_heading {
+	display: none;
+}
+
+.template_contact .item_form, .template_contact .item_address, .template_contact .section_map {
+	margin-top: 0;
+	display: flex;
+}
+
+body .contact_item .content_item_wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10% 0 10% !important;
+}
+
+body .contact_phone {
+	display: inline;
+	margin-left: 20px;
+
+}
+
+body .contact_phone svg {
+	vertical-align: super;
+}
+
+body .contact_phone .contact_phone_data {
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 0;
+}
+
+body .contact_item .content_item_wrap {
+	align-items: normal;
+}
+
+.template_contact .item_address .contact_element .subtitle_lg {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.template_contact .item_address .contact_element p {
+	font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+	body .contact_item .content_item_wrap > div, body .contact_item .content_item_wrap > ul {
+		margin: 20px 0 20px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.template_contact .item_form.item_form {
+		padding: 20px;
+		margin: 40px 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.template_contact .item_form.item_form {
+		padding: 20px;
+		margin: 40px 0;
+	}
+}
+
+.template_contact .item_form *+.form-group-btn {
+	margin-top: 0;
+}
+
+
+
+
+
+
+
 

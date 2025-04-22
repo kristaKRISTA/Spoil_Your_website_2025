@@ -17,8 +17,11 @@
       "type": "index-divider",
       "settings": {
         "section_view": "boxed",
+        "type_value": "px",
         "padding_top": 35,
         "padding_bottom": 35,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
         "margin_top": 0,
         "margin_bottom": 0,
         "background_color": "",
@@ -34,34 +37,34 @@
         "162807025980cf87c6-0": {
           "type": "info",
           "settings": {
-            "width": "6",
-            "bg_block": "#ffffff",
+            "width": "7",
+            "bg_block": "#f9f9f9",
             "inset_block_desktop": "0px 15% 0px 0px",
             "inset_block_mobile": "0px 0px 0px 0px",
             "use_separatorline_desktop": false,
-            "item_info_title": "We’re here to help you!",
-            "item_info_text": "Have a question, comment, or brilliant idea you'd like to share? Send us a little note below - we love to hear from you and will always reply!",
-            "phone_title": "Phone Number",
-            "phone_text": "800-123-4567",
+            "item_info_title": "Get In Touch",
+            "item_info_text": "Feel free to reach out to us with any questions or inquiries—we’re here to help! Contact us via email or our contact form, and we’ll get back to you as soon as possible.",
+            "phone_title": "",
+            "phone_text": "",
             "phone_text_info": "<p>Call Us: </p>",
-            "email_title": "Email:",
-            "email_text": "demo@demo.com",
+            "email_title": "Email Us",
+            "email_text": "contacts@spoilyour.com",
             "location_title": "Location",
-            "location_text": "2972 Westheimer Rd. Santa Ana, Illinois 85486",
+            "location_text": "",
             "time_title": "Opening Hours",
-            "time_text": "Mon-Fri: 9:00 am - 6:00 pm <br>\nSat: 9:00 am - 4:00 pm <br>\nSun: 9:00 am - 2:00 pm"
+            "time_text": ""
           }
         },
         "162807025980cf87c6-1": {
           "type": "form",
           "settings": {
-            "width": "6",
-            "use_separatorline_desktop": true,
+            "width": "5",
+            "use_separatorline_desktop": false,
             "bg_block": "#ffffff",
             "inset_block_desktop": "0px 0px 0px 15%",
             "inset_block_mobile": "0px 0px 0px 0px",
-            "item_form_title": "Do you want to get in touch?",
-            "item_form_text": "Let us know how we can help you."
+            "item_form_title": "",
+            "item_form_text": ""
           }
         }
       },
@@ -71,18 +74,21 @@
       ],
       "settings": {
         "container_width": "container",
-        "reset_indent": false,
-        "bg_section": "#ffffff",
+        "reset_indent": true,
+        "bg_section": "#f9f9f9",
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 48px 0px 48px"
       }
     },
     "1628085862e711714b": {
       "type": "index-divider",
       "settings": {
         "section_view": "boxed",
+        "type_value": "px",
         "padding_top": 41,
         "padding_bottom": 40,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
         "margin_top": 0,
         "margin_bottom": 0,
         "background_color": "",
