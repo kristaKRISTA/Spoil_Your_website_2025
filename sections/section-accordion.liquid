@@ -26,7 +26,7 @@
 {% endif %}
 
 
-<div class="section-style-{{ section.id }}">
+<div class="accordion section-style-{{ section.id }}">
 	{%- include 'section-style' -%}
 		<div class="{{ section.settings.container_width }}">
 			<div class="col-12 text-center mb-4">
@@ -35,11 +35,11 @@
 				{% endif %}
 				
 				{% if section.settings.desc != blank %}
-					<p class="text text-default my-0">{{ section.settings.desc }}</p>
+					<p class="desc_text col-md-8 col-sm-12 text-center text text-default" style="display: inline-flex; align-content: center">{{ section.settings.desc }}</p>
 				{% endif %}
 			</div>
   	
-		<div class="row {% if section.settings.reset_indent %}gx-0{% endif %}">
+		<div class="row accordion_item_elements {% if section.settings.reset_indent %}gx-0{% endif %}">
 			{% for block in section.blocks %}
 				{% assign bl_it = block.settings %}
 				<div class="col-lg-{{ bl_it.width }} col-12 item-{{ block.id }}{% unless bl_it.widget_open_toggle == true %}{% if bl_it.overlay_content %} item-overlay_content{% endif %}{% endunless %}" {{ block.shopify_attributes }}>

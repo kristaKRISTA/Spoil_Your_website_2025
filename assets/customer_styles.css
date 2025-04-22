@@ -16,6 +16,25 @@ label {
 	color: #616161;
 }
 
+.h6, .megamenu_linklist .link-list a.custom_heading, .is-simplemenu>li a.custom_heading, .section_product #shopify-product-reviews .spr-container .spr-header-title, h6 {
+	text-transform: capitalize;
+}
+
+.section_accordion .widget_acc_element .element_title {
+	padding: 25px 20px;
+	border-left: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
+}
+
+.accordion_item_elements .widget_acc_element {
+	margin-bottom: 20px !important;
+}
+
+.accordion_item_elements .widget_acc_element h6 {
+	border-radius: 40px;
+}
+
 .custom-select, #quick_view__variants .selector-wrapper select, .section_product .single_product__options select, .form-control, .section_product #shopify-product-reviews .spr-container .spr-content input.spr-form-input, .section_product #shopify-product-reviews .spr-container .spr-content textarea.spr-form-input-textarea {
 	color: #111111 !important;
 	font-weight: 600 !important;
@@ -62,6 +81,18 @@ body footer>div.footer_type_2 .footer_bottom_pannel {
 	}
 }
 
+@media (max-width: 575px) {
+	.bg-footer {
+		border-radius: 0;
+	}
+}
+
+/*@media (min-width: 576px) {*/
+/*	.container, .template-page .breadcrumbs>div, #size-chart, .breadcrumbs, ul.megamenu>li.level_1__item .is-megamenu>li, .page_container .shopify-policy__container, .container-xsm, .container-sm {*/
+/*		 max-width: initial;*/
+/*	}*/
+/*}*/
+
 body footer>div .footer_bottom_pannel .row {
 	text-align: left;
 }
@@ -76,7 +107,7 @@ body .btn-default {
 
 /* Policy pages setup */
 
-section_template__faq {
+.section_template__faq {
 	padding-bottom: 0;
 }
 
@@ -160,6 +191,16 @@ section_template__faq {
 	display: none;
 }
 
+@media (max-width: 767.98px) {
+	.accordion .section_heading {
+		text-align: left;
+	}
+
+	.accordion .desc_text {
+		text-align: left !important;
+	}
+}
+
 .template_contact .item_form, .template_contact .item_address, .template_contact .section_map {
 	margin-top: 0;
 	display: flex;
@@ -209,14 +250,14 @@ body .contact_item .content_item_wrap {
 }
 
 @media (min-width: 992px) {
-	.template_contact .item_form.item_form {
+	.template_contact .item_form {
 		padding: 20px;
 		margin: 40px 0;
 	}
 }
 
 @media (max-width: 992px) {
-	.template_contact .item_form.item_form {
+	.template_contact .item_form {
 		padding: 20px;
 		margin: 40px 0;
 	}
