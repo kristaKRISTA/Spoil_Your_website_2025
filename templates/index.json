@@ -762,114 +762,13 @@
         "offset_section": "0px 0px 0px 0px"
       }
     },
-    "section_accordion_4YMXJK": {
-      "type": "section-accordion",
-      "blocks": {
-        "tab_block_aEmek7": {
-          "type": "tab-block",
-          "settings": {
-            "width": "12",
-            "offset_top_item": "0px",
-            "max_height_content": "auto",
-            "widget_open_toggle": false,
-            "overlay_content": false,
-            "element_header": "<p>Do you ship overseas?</p>",
-            "color_header": "",
-            "bg_header": "#ffffff",
-            "element_text": "<p>We ship internationally. We currently ship to 20+ countries. Shipping costs will apply, and will be added at <strong>checkout</strong>. <br/>We run discounts and promotions all year, so stay tuned for exclusive deals on shipping.</p>",
-            "color_text": "",
-            "bg_text": "#ffffff"
-          }
-        },
-        "tab_block_mb3gtB": {
-          "type": "tab-block",
-          "settings": {
-            "width": "12",
-            "offset_top_item": "0px",
-            "max_height_content": "auto",
-            "widget_open_toggle": false,
-            "overlay_content": false,
-            "element_header": "<p>Do you ship to my country?</p>",
-            "color_header": "",
-            "bg_header": "#ffffff",
-            "element_text": "<p>We excluded countries we can not ship to, from checking out. This means if you are able to check-out, we can ship to your country.</p>",
-            "color_text": "",
-            "bg_text": "#ffffff"
-          }
-        },
-        "tab_block_HyErxM": {
-          "type": "tab-block",
-          "settings": {
-            "width": "12",
-            "offset_top_item": "0px",
-            "max_height_content": "auto",
-            "widget_open_toggle": false,
-            "overlay_content": false,
-            "element_header": "<p>How long will it take to get my orders?</p>",
-            "color_header": "",
-            "bg_header": "#ffffff",
-            "element_text": "<p>We are currently experiencing a very high order volume, all orders will be dispatched within <strong>24-48 hours</strong>, and shipping will take around <strong>5-14 business days</strong> depending on your location.</p>",
-            "color_text": "",
-            "bg_text": "#ffffff"
-          }
-        },
-        "tab_block_xzkKXE": {
-          "type": "tab-block",
-          "settings": {
-            "width": "12",
-            "offset_top_item": "0px",
-            "max_height_content": "auto",
-            "widget_open_toggle": false,
-            "overlay_content": false,
-            "element_header": "<p>What are the differences between mushroom coffee and regular coffee?</p>",
-            "color_header": "",
-            "bg_header": "#ffffff",
-            "element_text": "<p>With less than half the amount of caffeine in normal coffee, mushroom coffee offers a plethora of health benefits like calmer, sharper focus, no jitters, sustained energy without the crash, immune support, gut health and a calm digestive tract. In addition, functional mushrooms offer benefits to optimize body and brain function due to them being antioxidants, anti-virals, and anti-microbials.</p>",
-            "color_text": "",
-            "bg_text": "#ffffff"
-          }
-        },
-        "tab_block_w7yCea": {
-          "type": "tab-block",
-          "settings": {
-            "width": "12",
-            "offset_top_item": "0px",
-            "max_height_content": "auto",
-            "widget_open_toggle": false,
-            "overlay_content": false,
-            "element_header": "<p><strong>Other questions?</strong></p>",
-            "color_header": "",
-            "bg_header": "#ffffff",
-            "element_text": "<p>You can contact us at <a href=\"mailto:contact@spoilyour.com\" target=\"_blank\" title=\"contact@spoilyour.com\">contact@spoilyour.com</a> , we will be happy to assist you.</p>",
-            "color_text": "",
-            "bg_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "tab_block_aEmek7",
-        "tab_block_mb3gtB",
-        "tab_block_HyErxM",
-        "tab_block_xzkKXE",
-        "tab_block_w7yCea"
-      ],
-      "settings": {
-        "section_title": "<h3>Frequently Asked Questions</h3>",
-        "desc": "Welcome to SpoilYour, where we offer a wide range of high-quality, scientifically-backed supplements to help you live your healthiest life. \nWhether you're looking to improve your energy levels",
-        "container_width": "container",
-        "reset_indent": false,
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px"
-      }
-    },
     "index_divider_bEgTLk": {
       "type": "index-divider",
       "settings": {
         "section_view": "boxed",
         "type_value": "px",
         "padding_top": 25,
-        "padding_bottom": 70,
+        "padding_bottom": 18,
         "padding_top_vw": 0,
         "padding_bottom_vw": 0,
         "margin_top": 0,
@@ -894,7 +793,6 @@
     "index_banners_KR9Dr6",
     "3999251e-7bed-429e-8800-7e7418e3987e",
     "section_accordion_qGjLgH",
-    "section_accordion_4YMXJK",
     "index_divider_bEgTLk"
   ]
 }
