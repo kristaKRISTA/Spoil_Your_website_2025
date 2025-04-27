@@ -644,14 +644,17 @@
     },
     "3999251e-7bed-429e-8800-7e7418e3987e": {
       "type": "index-logo-list",
-      "custom_css": [],
+      "custom_css": [
+        "h2 {font-size: 19px;}",
+        "p {text-align: center;}"
+      ],
       "settings": {
         "container_width": "container",
         "reset_indent": false,
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "50px 100px 50px 100px",
         "bg_section": "#ffffff",
-        "section_title": "✨ At SpoilYour, we’re all about health, beauty, and self-care. Because when you feel good, you glow from within.Join us on your journey to a healthier, happier you! ✨",
+        "section_title": "<p>✨ At SpoilYour, we’re all about health, beauty, and self-care. Because when you feel good, you glow from within.<br>Join us on your journey to a healthier, happier you! ✨</p>",
         "image_size": "xsmall",
         "img_alignment": "center",
         "mh_item": 30,
