@@ -126,6 +126,10 @@ body .btn-default, body .btn-primary {
 	border-radius: 24px;
 }
 
+.text-caption-banner .image-item-container {
+	display: none;
+}
+
 /* Policy pages setup */
 
 .section_template__faq {

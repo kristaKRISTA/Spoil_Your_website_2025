@@ -108,11 +108,13 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "left",
-            "item_text": "<h3>Multiple benefits with SpoilYour</h3>",
+            "item_title": "<h3>Multiple benefits with SpoilYour</h3>",
             "color_title": "#121212",
+            "item_text": "<p>Welcome to SpoilYour, where we offer a wide range of high-quality, scientifically-backed supplements to help you live your healthiest life. Whether you're looking to improve your energy levels, support your immune system, or enhance overall wellness, we have something for everyone.</p>",
+            "color_text": "#797B7E",
             "caption_size": "medium",
             "inset_caption": "6% 7% 6% 7%",
-            "custom_class": ""
+            "custom_class": "text-caption-banner"
           }
         },
         "banner_bfHeeE": {
@@ -136,7 +138,7 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "left",
-            "item_title": "<h3>Multiple benefits with SpoilYour</h3>",
+            "item_title": "",
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
@@ -182,7 +184,7 @@
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
-            "item_text": "<p>Welcome to SpoilYour, where we offer a wide range of high-quality, scientifically-backed supplements to help you live your healthiest life. Whether you're looking to improve your energy levels, support your immune system, or enhance overall wellness, we have something for everyone.</p>",
+            "item_text": "",
             "color_text": "#797b7e",
             "custom_heading": "",
             "color_ch": "#797b7e",
