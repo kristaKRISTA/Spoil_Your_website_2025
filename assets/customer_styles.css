@@ -118,7 +118,7 @@ body footer>div .footer_bottom_pannel .row {
 	text-align: left;
 }
 
-body .btn-default {
+body .btn-default, body .btn-primary {
 	border-radius: 22px;
 }
 
