@@ -83,7 +83,7 @@
 {% endif %}
 
 
-<div class="section-style-{{ section.id }}">
+<div class="section-style-{{ section.id }} {{ section.settings.banner_custom_class }}">
    {%- include 'section-style' -%}
 	
     <div class="{{ section.settings.container_width }}">
@@ -218,6 +218,11 @@
 			"type": "header",
 			"content": "Banners"
 		},
+          {
+            "type": "text",
+            "id": "banner_custom_class",
+            "label": "Custom class"
+          },
 		{
 			"type": "richtext",
 			"id": "section_title",

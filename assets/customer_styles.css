@@ -48,7 +48,7 @@ label {
 }
 
 .banner-item .h6.block-subtitle {
-	font-size: 24px;
+	/*font-size: 24px;*/
 	color: #616161 !important;
 	text-transform: initial;
 }
@@ -126,8 +126,12 @@ body .btn-default, body .btn-primary {
 	border-radius: 24px;
 }
 
-.text-caption-banner .image-item-container {
+.supplements .text-caption-banner .image-item-container {
 	display: none;
+}
+
+.supplements .banner-item img {
+	border-radius: 24px;
 }
 
 /* Policy pages setup */

@@ -329,7 +329,8 @@
         "reset_indent": false,
         "bg_section": "#f9f9f9",
         "inset_section": "0px 0px 45px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 0px 0px 0px",
+        "banner_custom_class": "supplements"
       }
     },
     "index_divider_U7dyNF": {
@@ -691,7 +692,7 @@
         "banner_YNJpp8"
       ],
       "settings": {
-        "section_title": "<p>Block banners</p>",
+        "section_title": "",
         "desc": "",
         "container_width": "container",
         "reset_indent": false,
