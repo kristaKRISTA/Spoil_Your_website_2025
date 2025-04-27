@@ -35,7 +35,7 @@
             "textalign_pos": "center",
             "item_title": "<p>SpoilYour <span>body</span> and mind</p>",
             "color_title": "#121212",
-            "item_subtitle": "<p>Your daily nutrient boost for physical health <br/> and mental performance.</p>",
+            "item_subtitle": "<p>Your daily nutrient boost for physical health <br> and mental performance.</p>",
             "color_subtitle": "#121212",
             "item_text": "",
             "color_text": "#797b7e",
@@ -269,8 +269,8 @@
         "desc": "",
         "container_width": "container",
         "reset_indent": false,
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
+        "bg_section": "#f9f9f9",
+        "inset_section": "0px 0px 45px 0px",
         "offset_section": "0px 0px 0px 0px"
       }
     },
