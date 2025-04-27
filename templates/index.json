@@ -59,6 +59,7 @@
         "banner_ptzkN9"
       ],
       "settings": {
+        "banner_custom_class": "",
         "section_title": "",
         "desc": "",
         "container_width": "full-width",
@@ -323,14 +324,14 @@
         "banner_nxabxG"
       ],
       "settings": {
+        "banner_custom_class": "supplements",
         "section_title": "",
         "desc": "",
         "container_width": "container",
         "reset_indent": false,
         "bg_section": "#f9f9f9",
         "inset_section": "0px 0px 45px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "banner_custom_class": "supplements"
+        "offset_section": "0px 0px 0px 0px"
       }
     },
     "index_divider_U7dyNF": {
@@ -516,6 +517,62 @@
     "index_banners_KR9Dr6": {
       "type": "index-banners",
       "blocks": {
+        "text_banner_K4WCcb": {
+          "type": "text_banner",
+          "settings": {
+            "width": "6",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "<h3>About Us - SpoilYour</h3>",
+            "color_title": "#121212",
+            "item_text": "",
+            "color_text": "#797B7E",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "custom_class": "text-caption-banner"
+          }
+        },
+        "text_banner_RnEAek": {
+          "type": "text_banner",
+          "settings": {
+            "width": "6",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/> We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.</p>",
+            "color_text": "#797B7E",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "custom_class": "text-caption-banner"
+          }
+        },
         "banner_7iiPC3": {
           "type": "banner",
           "settings": {
@@ -537,7 +594,7 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "left",
-            "item_title": "<h3>About Us - SpoilYour</h3>",
+            "item_title": "",
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
@@ -546,7 +603,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "78px 7% 6% 7%",
+            "inset_caption": "0px 7% 6% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -583,12 +640,12 @@
             "color_title": "#121212",
             "item_subtitle": "",
             "color_subtitle": "#121212",
-            "item_text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/> We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.</p>",
+            "item_text": "",
             "color_text": "#797b7e",
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "0% 7% 6% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -630,7 +687,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "0% 7% 6% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -672,7 +729,7 @@
             "custom_heading": "",
             "color_ch": "#797b7e",
             "caption_size": "medium",
-            "inset_caption": "6% 7% 6% 7%",
+            "inset_caption": "0% 7% 6% 7%",
             "item_link": "",
             "link_text": "Shop now",
             "link_type_banner": false,
@@ -686,12 +743,15 @@
         }
       },
       "block_order": [
+        "text_banner_K4WCcb",
+        "text_banner_RnEAek",
         "banner_7iiPC3",
         "banner_M4UEgj",
         "banner_VnqBj6",
         "banner_YNJpp8"
       ],
       "settings": {
+        "banner_custom_class": "",
         "section_title": "",
         "desc": "",
         "container_width": "container",
