@@ -89,6 +89,32 @@
     "index_banners_bFHanJ": {
       "type": "index-banners",
       "blocks": {
+        "text_banner_763zDT": {
+          "type": "text_banner",
+          "settings": {
+            "width": "6",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_text": "<h3>Multiple benefits with SpoilYour</h3>",
+            "color_title": "#121212",
+            "caption_size": "medium",
+            "inset_caption": "6% 7% 6% 7%",
+            "custom_class": ""
+          }
+        },
         "banner_bfHeeE": {
           "type": "banner",
           "settings": {
@@ -259,6 +285,7 @@
         }
       },
       "block_order": [
+        "text_banner_763zDT",
         "banner_bfHeeE",
         "banner_waCQCE",
         "banner_gbwbcT",
