@@ -43,6 +43,27 @@ label {
 	border-radius: 24px;
 }
 
+.banner-item .h2 {
+	margin-bottom: 20px;
+}
+
+.banner-item .h6.block-subtitle {
+	font-size: 24px;
+	color: #616161 !important;
+	text-transform: initial;
+}
+.banner-item .caption_text a {
+	text-transform: capitalize;
+	font-size: 13px;
+}
+
+.banner-item .caption-item p>span {
+	color: #ffffff;
+	background-color: #DDAAC8;
+	border-radius: 16px;
+	padding: 0 8px 0 8px;
+}
+
 .template_contact .item_form *+.form-group-btn {
 	margin-top: 0;
 }
