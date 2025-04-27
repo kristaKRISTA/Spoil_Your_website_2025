@@ -278,6 +278,303 @@
    		}
 	],
 	"blocks": [
+      {
+        "type": "text_banner",
+        "name": "Text Caption",
+        "settings": [
+
+          {
+            "type": "header",
+            "content": "Block settings"
+          },
+
+          {
+            "type": "select",
+            "id": "width",
+            "label": "Width",
+            "default": "6",
+            "options": [
+              {
+                "value": "1",
+                "label": "16.67%"
+              },
+              {
+                "value": "2",
+                "label": "20%"
+              },
+              {
+                "value": "3",
+                "label": "25%"
+              },
+              {
+                "value": "4",
+                "label": "33.33%"
+              },
+              {
+                "value": "5",
+                "label": "41.67%"
+              },
+              {
+                "value": "6",
+                "label": "50%"
+              },
+              {
+                "value": "7",
+                "label": "58.33%"
+              },
+              {
+                "value": "8",
+                "label": "66.67%"
+              },
+              {
+                "value": "9",
+                "label": "75%"
+              },
+              {
+                "value": "10",
+                "label": "83.33%"
+              },
+              {
+                "value": "11",
+                "label": "91.66%"
+              },
+              {
+                "value": "12",
+                "label": "100%"
+              }
+            ]
+          },
+
+          {
+            "type": "checkbox",
+            "id": "off_overlay_mobile",
+            "label": "Disable overlay on mobile",
+            "default": false
+          },
+
+          {
+            "type": "checkbox",
+            "id": "use_bgb",
+            "label": "Use block background",
+            "default": false
+          },
+
+          {
+            "type": "color",
+            "id": "bgb_color",
+            "label": "Color block background"
+          },
+          {
+            "type":      "range",
+            "id":        "bgb_color_opacity",
+            "min":       0,
+            "max":        1,
+            "step":       0.1,
+            "label":     "Background block opacity",
+            "default":   0.5
+          },
+
+          {
+            "type": "text",
+            "id": "inset_block",
+            "label": "Inset Block",
+            "default": "0 0 0 0",
+            "info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+          },
+
+          {
+            "type": "checkbox",
+            "id": "use_bottom_offset_mobile",
+            "label": "Use bottom offset on mobile",
+            "default": true
+          },
+
+          {
+            "type": "range",
+            "id": "margin_bottom",
+            "min": 15,
+            "max": 60,
+            "step": 1,
+            "unit": "px",
+            "label": "Bottom offset on mobile",
+            "default": 30
+          },
+
+
+          {
+            "type": "header",
+            "content": "Caption settings"
+          },
+
+          {
+            "type": "checkbox",
+            "id": "use_bgo",
+            "label": "Use background",
+            "default": false
+          },
+
+          {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Color background"
+          },
+          {
+            "type":      "range",
+            "id":        "bg_color_opacity",
+            "min":       0,
+            "max":        1,
+            "step":       0.1,
+            "label":     "Background opacity",
+            "default":   0.5
+          },
+
+
+          {
+            "type": "checkbox",
+            "id": "inverted",
+            "label": "Inverted",
+            "default": false
+          },
+
+          {
+            "type": "select",
+            "id": "h_cpos",
+            "label": "Caption horizontal position",
+            "default": "start",
+            "options": [
+              {
+                "label": "Left position",
+                "value": "start"
+              },
+              {
+                "label": "Center position",
+                "value": "center"
+              },
+              {
+                "label": "Right position",
+                "value": "end"
+              }
+
+            ]
+          },
+
+          {
+            "type": "select",
+            "id": "v_cpos",
+            "label": "Caption vertical position",
+            "default": "start",
+            "info": "Only overlay type",
+            "options": [
+              {
+                "label": "Top position",
+                "value": "start"
+              },
+              {
+                "label": "Center position",
+                "value": "center"
+              },
+              {
+                "label": "Bottom position",
+                "value": "end"
+              }
+            ]
+          },
+
+
+          {
+            "type": "select",
+            "id": "reverse_cpos",
+            "label": "Caption reverse position",
+            "default": "flex-column",
+            "info": "Only standard type",
+            "options": [
+              {
+                "value": "flex-column",
+                "label": "Normal"
+              },
+              {
+                "value": "flex-column-reverse",
+                "label": "Reverse"
+              }
+            ]
+          },
+
+          {
+            "type": "select",
+            "id": "textalign_pos",
+            "label": "Caption text align",
+            "default": "left",
+            "options": [
+              {
+                "label": "Left align",
+                "value": "left"
+              },
+              {
+                "label": "Center align",
+                "value": "center"
+              },
+              {
+                "label": "Right align",
+                "value": "right"
+              }
+            ]
+          },
+
+          {
+            "type": "textarea",
+            "id": "item_text",
+            "label": "Caption text",
+            "default": "<p>Caption text</p>"
+          },
+          {
+            "type": "color",
+            "id": "color_title",
+            "label": "Color",
+            "default": "#121212"
+          },
+
+          {
+            "type": "select",
+            "id": "caption_size",
+            "label": "Banner caption size",
+            "default": "medium",
+            "options": [
+              {
+                "label": "Exta Small",
+                "value": "xsmall"
+              },
+              {
+                "label": "Small",
+                "value": "small"
+              },
+              {
+                "label": "Medium",
+                "value": "medium"
+              },
+              {
+                "label": "Large",
+                "value": "large"
+              }
+            ]
+          },
+
+          {
+            "type": "text",
+            "id": "inset_caption",
+            "label": "Inset Caption",
+            "default": "6% 7% 6% 7%",
+            "info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
+          },
+          {
+            "type": "text",
+            "id": "custom_class",
+            "label": "Custom class"
+          }
+        ]
+      },
+
+
+
 		{ 
 			"type": "banner",
 			"name": "Banner",
@@ -755,6 +1052,9 @@
 			"name": "Banners",
 			"category": "Image",
 			"blocks": [
+                  {
+                    "type": "text_banner"
+                  },
 				{
 					"type": "banner"
 				},
