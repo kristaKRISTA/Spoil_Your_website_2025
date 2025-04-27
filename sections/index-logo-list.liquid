@@ -19,7 +19,7 @@
         <div class="logo-list-wrap">
     {% if section.settings.section_title.size > 0 %}
         <h2 class="section_heading mb-3 text-left {% if section.settings.show_carousel %} swiper-title{% endif %}">
-            <p>{{ section.settings.section_title | escape }}</p>
+            {{ section.settings.section_title }}
         </h2>
     {% endif %}
     <div class="{% if section.settings.show_carousel %}{% else %}{% if section.settings.reset_indent == 'true' %} gx-0{% endif %} row logo-listing-main logo-listing-size-{{ section.settings.logo_layout }}{% endif %}">
