@@ -32,7 +32,9 @@ endif
 
 
 <div class="product_item js-product-thumbnail {{ pc_grid_style }} {{ product_card_product_border }} product_item--{{ product_card_product.featured_media.media_type }}" id="product__{{ product_card_product.handle }}">
-
+    <h2 class=" product_n h5 text-center">
+        <a href="{{ product_card_product.url | within: collection }}">{{ product_card_product.title | truncate: 35 | escape }}</a>
+    </h2>
 	<div class="product_img_wrap">
 		<div class="product_img">
 
@@ -162,14 +164,14 @@ endif
 		</div>
 		{% endunless %}
 		<div class="product-buttons">
-		  {% if qw_modal %}
-			<a class="js_quick_view quick_view_icon icon-btn" href="{{ product_card_product.url }}" title="{{ 'layout.product.quick_view_button' | t }}">
-					  <span class="tooltip">
-						  <span class="tooltiptext tooltip-top">{{ 'layout.product.quick_view_button' | t }}</span>
-					  </span>
-			  {% render 'icon-eye' %}
-			</a>
-		  {% endif %}
+		  {% comment %}{% if qw_modal %}{% endcomment %}
+			{% comment %}<a class="js_quick_view quick_view_icon icon-btn" href="{{ product_card_product.url }}" title="{{ 'layout.product.quick_view_button' | t }}">{% endcomment %}
+					  {% comment %}<span class="tooltip">{% endcomment %}
+						  {% comment %}<span class="tooltiptext tooltip-top">{{ 'layout.product.quick_view_button' | t }}</span>{% endcomment %}
+					  {% comment %}</span>{% endcomment %}
+			  {% comment %}{% render 'icon-eye' %}{% endcomment %}
+			{% comment %}</a>{% endcomment %}
+		  {% comment %}{% endif %}{% endcomment %}
 			<form method="post" action="/cart/add" class="add_to_cart_form">
 				{% if product_card_product.available %}
 					{% if product_card_product.variants.size == 1 %}
@@ -428,10 +430,6 @@ endif
 			</p>
 		{% endif %}
 
-		<h2 class="product_name h6">
-			<a href="{{ product_card_product.url | within: collection }}">{{ product_card_product.title | truncate: 35 | escape }}</a>
-		</h2>
-
 		{% if product_card_sku %}
 			{% if current_variant.sku.size > 0 %}
 				<p class="single_product__sku">
@@ -471,9 +469,11 @@ endif
 				{% endif %}
 
 			{% else %}
+                {% if on_sale %}
+                    <div class="product-regular-price">{{ product_card_product.compare_at_price | money }}</div>
+                {% endif %}
 				<span class="product-price {% if on_sale %} product-sale-price {% endif %}">{{ product_card_product.price | money }}</span>
 				{% if on_sale %}
-					<span class="product-regular-price">{{ product_card_product.compare_at_price | money }}</span>
 					<span class="product-percent-price">  {{ product_card_product.compare_at_price | minus: product_card_product.price | times: 100.0 | divided_by: product_card_product.compare_at_price | money_without_currency | times: 100 | remove: '.0' | append: "% OFF" }}</span>
 				{% endif %}
 			{% endif %}
@@ -538,10 +538,15 @@ endif
 
 							<button class="add_to_cart_button link_add_to_cart" type="submit">
 							  <span class="svg-icon svg-icon--md mr-1">
-								{% render 'icon-cart' %}
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.50215 16L5.50014 2.00006L1.9978 2" stroke="#020000" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M10.5037 22C11.3327 22 12.0047 21.3284 12.0047 20.5C12.0047 19.6716 11.3327 19 10.5037 19C9.67471 19 9.00269 19.6716 9.00269 20.5C9.00269 21.3284 9.67471 22 10.5037 22Z" stroke="#020000" stroke-width="1.5"/>
+<path d="M17.5086 22C18.3376 22 19.0096 21.3284 19.0096 20.5C19.0096 19.6716 18.3376 19 17.5086 19C16.6796 19 16.0076 19.6716 16.0076 20.5C16.0076 21.3284 16.6796 22 17.5086 22Z" stroke="#020000" stroke-width="1.5"/>
+<path d="M6.51426 6.50781H21.9922C21.9975 6.50781 22.0019 6.51177 22.0022 6.5171C22.0022 11.1591 20.7233 16.1351 15.5263 16.0076H9.58997C8.58185 15.949 6.50952 16.5678 6.50952 18.9967H17.3136" stroke="#020000" stroke-width="1.5"/>
+</svg>
 							  </span>
 
-								<span>{{ 'layout.product.add_to_cart' | t }}</span>
+								<span>{{ 'layout.product.shop_now' | t }}</span>
 							</button>
 
 						{% else %}

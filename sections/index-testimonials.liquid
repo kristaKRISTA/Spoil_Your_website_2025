@@ -73,7 +73,7 @@
 	  <div {% if section.settings.container_width == 'full-width' %} class="container" {% endif %}>
 		<div class="testimonials_caption">
 		{% if section.settings.title.size > 0 %}
-			<h4 class="h3 section_heading">{{ section.settings.title }}</h4>
+			<h4 class="h3">{{ section.settings.title }}</h4>
 		{% endif %}
 		{% if section.settings.header_logo %}
 			<img loading="lazy" src="{{ section.settings.header_logo | img_url: '185x45', crop: 'center' }}" alt="{{ section.settings.header_logo.alt }}">

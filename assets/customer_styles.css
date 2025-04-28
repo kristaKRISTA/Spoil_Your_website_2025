@@ -358,6 +358,53 @@ body .testimonials_section .style_type_2 {
 	}
 }
 
+/*///////////////////////////Product listing///////////////////*/
+.product_listing__main>div .product_item, .product_listing__main>div .product_item .media {
+	background-color: #f9f9f9;
+	border-radius: 24px;
+}
 
+.product_listing__grid .product_item_wrap {
+	margin-bottom: 0;
+}
 
+main .product_listing__main:not(.product_listing__list) .product_item_wrap {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.product_item {
+	padding: 20px;
+}
+
+.product_listing__main .product_n > a {
+	color: black;
+}
+
+.product_listing__main .product-sale-price {
+	font-size: 24px;
+	color: black !important;
+	line-height: 1.9;
+}
+
+.product_listing__main .product_info {
+	padding-top: 0;
+}
+
+.product_listing__main .product-price-container {
+	margin-top: 0;
+}
+
+body .product_listing__main .add_to_cart_button {
+	border-radius: 24px !important;
+	border: 1px solid #ffffff !important;
+	text-transform: capitalize !important;
+	color: #000000 !important;
+	background: #ffffff !important;
+	width: 100%;
+}
+
+body .product_listing__main .add_to_cart_button:hover {
+	border: 1px solid #dadada !important;
+}
 

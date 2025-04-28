@@ -352,6 +352,15 @@
         "tablet_margin_bottom": 0
       }
     },
+    "174584384972b5ce9b": {
+      "type": "apps",
+      "settings": {
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
+    },
     "f85ca1c4-278c-4c95-a34c-eb36420814f2": {
       "type": "index-featured-products",
       "blocks": {
@@ -363,7 +372,7 @@
             "section_title": "",
             "section_text": "",
             "block_collection_title": "",
-            "block_collection": "lingerie",
+            "block_collection": "frontpage",
             "product_card_reviews": false,
             "product_card_vendor": false,
             "badge_card_toggle": false,
@@ -373,11 +382,11 @@
             "product_card_options": false,
             "current_text_product_option": "Color",
             "opt_type": "btn",
-            "image_ratio": "portrait-thumb",
+            "image_ratio": "adapt",
             "show_secondary_image": false,
             "image_padding": 0,
             "bg_wrap_img_color": "",
-            "bg_img_color": "rgba(0,0,0,0)"
+            "bg_img_color": ""
           }
         }
       },
@@ -395,10 +404,10 @@
         "offset_section": "0px 0px 0px 0px",
         "reset_indent": false,
         "use_tabs": false,
-        "pc_grid_style": "grid_style_2",
+        "pc_grid_style": "grid_style_3",
         "use_border_card": false,
-        "use_border_grid": true,
-        "all_view": true,
+        "use_border_grid": false,
+        "all_view": false,
         "products_count": "4",
         "column_item": "25%",
         "carousel_view": true,
@@ -406,7 +415,7 @@
         "off_carousel_nav": false,
         "off_carousel_pag": true,
         "carousel_control_type": "pagination",
-        "design_type": "type_1"
+        "design_type": "type_2"
       }
     },
     "1630054140e5357498": {
@@ -940,6 +949,7 @@
     "1627899736175f45d2",
     "index_banners_bFHanJ",
     "index_divider_U7dyNF",
+    "174584384972b5ce9b",
     "f85ca1c4-278c-4c95-a34c-eb36420814f2",
     "1630054140e5357498",
     "ec07dc0f-81a1-4a72-b8aa-d4b89a183c31",

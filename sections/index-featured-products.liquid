@@ -35,9 +35,9 @@
 	 
 			{% if section.settings.section_title.size > 0 %}
 			 
-				<h2 class="{% unless section.settings.design_type == 'type_3' %}section_heading {% endunless %}{% if section.settings.section_subtitle.size > 0 %} mb-0{% endif %} text-{{ section.settings.textalign_pos }}">
+				<h3 class="{% unless section.settings.design_type == 'type_3' %} {% endunless %}{% if section.settings.section_subtitle.size > 0 %} mb-0{% endif %} text-{{ section.settings.textalign_pos }}">
 				  {{ section.settings.section_title | escape }}
-				</h2>
+				</h3>
 			{% endif %}
 			{% if section.settings.section_subtitle.size > 0 %}
 				<p class="text mt-1 mb-0 text-{{ section.settings.textalign_pos }}">{{ section.settings.section_subtitle | escape }}</p>
