@@ -428,3 +428,7 @@ body .product_listing__main .add_to_cart_button:hover {
 .header__inline-menu li a .header__active-menu-item {
 	font-weight: 600;
 }
+
+.header__inline-menu {
+	min-width: 482px;
+}
