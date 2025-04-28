@@ -341,10 +341,20 @@ body .testimonials_section .style_type_2 {
 
 }
 
+.view_more {
+	font-weight: 600;
+	cursor: pointer;
+}
+
 @media (min-width: 1200px) {
 	body .index_section_testimonials .testimonial_author {
 		margin-top: 50px;
 		margin-bottom: 15px;
+	}
+}
+@media (max-width: 1200px) {
+	.testimonials_section > div > .row {
+		margin: 0
 	}
 }
 

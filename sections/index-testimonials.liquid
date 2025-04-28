@@ -144,7 +144,15 @@
 								</div>
 							{% endif %}
                             {% if block.settings.quote.size > 0 %}
-                                <p class="testimonials_item__text text-size--{{ section.settings.quote_size }}">{{ block.settings.quote }}</p>
+                                <p class="testimonials_item__text text-size--{{ section.settings.quote_size }}">
+                                    {% if block.settings.quote.size > 350 %}
+                                        <span class="short-text">{{ block.settings.quote | slice: 0, 350 }}...</span>
+                                        <span class="full-text" style="display: none;">{{ block.settings.quote }}</span>
+                                        <span class="view_more">View More</span>
+                                    {% else %}
+                                        {{ block.settings.quote }}
+                                    {% endif %}
+                                </p>
                             {% endif %}
 							
 						</blockquote>
@@ -172,6 +180,25 @@
 	  </div>
 	</div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var viewMoreButtons = document.querySelectorAll('.view_more');
+    viewMoreButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var parent = this.closest('.testimonials_item__text');
+        var shortText = parent.querySelector('.short-text');
+        var fullText = parent.querySelector('.full-text');
+
+        if (shortText && fullText) {
+          shortText.style.display = 'none';
+          fullText.style.display = 'inline';
+          this.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
 
 {% schema %}
 {
@@ -424,7 +451,7 @@
 					"type": "text",
 					"id": "star",
 					"label": "Review Stars",
-					"default": "5.0",
+					"default": "5.0"
 				},
                   {
                     "type": "textarea",
