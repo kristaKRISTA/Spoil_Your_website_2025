@@ -50,19 +50,19 @@
 		   <div class="tab_navigation row">
 			   	 {% if section.settings.section_title != blank %}
 				 	 <div class="col-lg-auto">
-				 		<h2 class="section_heading">{{ section.settings.section_title | escape }}</h2>
+				 		<h2 class="h3">{{ section.settings.section_title | escape }}</h2>
 				 	 </div>
 			   	 {% endif %}
 			   	 {%- assign block_counter = 0 | plus: 0 -%}
-			   	 <div class="col-lg-auto {% if section.settings.section_title == blank %} mx-auto{% endif %}">
-        		 	<span class="mt-lg-0 my-2 text-center d-block">
-						{% for block in section.blocks %}
-				 			{%- assign block_counter = block_counter | plus: 1 -%}
-				 			{%- assign collection_title = collections[block.settings.block_collection].title -%}
-				 			<span class="tab_nav tab_nav_{{ block_counter }} {% if block_counter == 1 %}active{% endif %}" data-tab="{{ block_counter | minus: 1 }}">{% if block.settings.block_collection_title.size > 0 %}{{ block.settings.block_collection_title }}{% else %}{{ collection_title }}{% endif %}</span>
-						{% endfor %}
-       			 	</span>
-			   	 </div>
+			   	 {% comment %}<div class="col-lg-auto {% if section.settings.section_title == blank %} mx-auto{% endif %}">{% endcomment %}
+        		 	{% comment %}<span class="mt-lg-0 my-2 text-center d-block">{% endcomment %}
+						{% comment %}{% for block in section.blocks %}{% endcomment %}
+				 			{% comment %}{%- assign block_counter = block_counter | plus: 1 -%}{% endcomment %}
+				 			{% comment %}{%- assign collection_title = collections[block.settings.block_collection].title -%}{% endcomment %}
+				 			{% comment %}<span class="tab_nav tab_nav_{{ block_counter }} {% if block_counter == 1 %}active{% endif %}" data-tab="{{ block_counter | minus: 1 }}">{% if block.settings.block_collection_title.size > 0 %}{{ block.settings.block_collection_title }}{% else %}{{ collection_title }}{% endif %}</span>{% endcomment %}
+						{% comment %}{% endfor %}{% endcomment %}
+       			 	{% comment %}</span>{% endcomment %}
+			   	 {% comment %}</div>{% endcomment %}
 		   </div>
 		
 		   <div class="tab_content">
