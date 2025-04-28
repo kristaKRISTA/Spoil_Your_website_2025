@@ -296,9 +296,57 @@ body .contact_item .content_item_wrap {
 	margin-top: 0;
 }
 
+/*////////////////////Testimonials//////////////////////*/
+.testimonials_section {
 
+}
 
+.testimonials_section .testimonials_caption {
+	text-align: left;
+}
 
+.testimonials_section >div>.row {
+	margin: 0 45px
+}
+
+.testimonials_section .star_text {
+	font-size: 16px;
+	vertical-align: top;
+	font-weight: 600;
+}
+
+.testimonials_section .testimonials_item__topic {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.testimonials_item__author {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+body .testimonials_section .style_type_2 {
+	padding: 0 5px;
+}
+
+.testimonials_section .testimonial_slide__item_wrapper {
+	background-color: #f9f9f9;
+	border-radius: 24px;
+	padding: 18px;
+}
+
+.testimonials_item .rating_section {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+@media (min-width: 1200px) {
+	body .index_section_testimonials .testimonial_author {
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+}
 
 
 
