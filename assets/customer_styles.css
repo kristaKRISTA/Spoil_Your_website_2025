@@ -408,3 +408,23 @@ body .product_listing__main .add_to_cart_button:hover {
 	border: 1px solid #dadada !important;
 }
 
+/*//////////////////////Header///////////////////////////////*/
+.header__inline-menu li a {
+	text-transform: capitalize !important;
+	border-radius: 24px !important;
+	color: #000000 !important;
+	-webkit-text-fill-color: #000000 !important;
+	background: none !important;
+	border: 1px solid #dadada !important;
+	padding: 12px 18px !important;
+	font-size: 16px !important;
+}
+
+.header__inline-menu li a:hover {
+	background-color: #f9f9f9 !important;
+	/*-webkit-text-fill-color: #dadada !important;*/
+}
+
+.header__inline-menu li a .header__active-menu-item {
+	font-weight: 600;
+}
