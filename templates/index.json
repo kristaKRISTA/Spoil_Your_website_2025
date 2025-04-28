@@ -437,10 +437,24 @@
             "inset_block": "0px 15px 0px 15px",
             "offset_block": "2rem 0px 0px 0px",
             "bg_block": "rgba(0,0,0,0)",
-            "star": "5",
-            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
-            "author": "Author's name",
-            "author_info": "Author's info",
+            "star": "5.0",
+            "author": "Apple Cider Vinegar Gummies 🍏",
+            "quote": "\"These ACV gummies are a game-changer! No more dealing with the harsh taste of liquid apple cider vinegar—just a delicious, slightly tangy chew that makes digestion and bloating so much better. I’ve noticed a real difference in my energy levels and metabolism after just a few weeks. Plus, they don’t upset my stomach like some ACV products do. Highly recommend!\"",
+            "author_info": "John Sandy",
+            "inverted": false
+          }
+        },
+        "quote_fJaFRP": {
+          "type": "quote",
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 15px 0px 15px",
+            "offset_block": "2rem 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "4.5",
+            "author": "Daily Multivitamin 💊",
+            "quote": "\"This multivitamin covers all the basics and more. I love that it includes essential vitamins and minerals without unnecessary fillers. I feel a noticeable boost in my immune system, and my skin has been glowing since I started taking these. The only reason I’m giving 4.5 stars instead of 5 is that the tablets are a little big—but totally worth it for the benefits!\"",
+            "author_info": "Jonny Jr",
             "inverted": false
           }
         },
@@ -451,32 +465,50 @@
             "inset_block": "0px 15px 0px 15px",
             "offset_block": "2rem 0px 0px 0px",
             "bg_block": "rgba(0,0,0,0)",
-            "star": "4",
-            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
-            "author": "Author's name",
-            "author_info": "Author's info",
+            "star": "5.0",
+            "author": "Clarity Mushroom Blend 🍄🧠",
+            "quote": "\"Absolutely love this blend! I take it every morning, and my focus and mental clarity have improved significantly. It helps me stay sharp without the jittery feeling of coffee. The mix of Lion’s Mane, Cordyceps, and other mushrooms is perfect for productivity. If you need a brain boost, this is it!\"",
+            "author_info": "Mary J",
             "inverted": false
           }
         },
         "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "item_width": "col-lg-4",
             "inset_block": "0px 15px 0px 15px",
             "offset_block": "2rem 0px 0px 0px",
             "bg_block": "rgba(0,0,0,0)",
-            "star": "5",
-            "quote": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam <br>sit leo. Diam, luctus vitae integer tortor.\"",
-            "author": "Author's name",
-            "author_info": "Author's info",
+            "star": "4.7",
+            "author": "Sleep Gummies 😴🌙",
+            "quote": "\"These gummies are a lifesaver for my sleep routine! The melatonin and herbal blend help me fall asleep faster and wake up feeling refreshed, not groggy. Plus, they taste amazing—like a little bedtime treat. The only downside is that I wish the bottle had more!\"",
+            "author_info": "Sally Jain",
+            "inverted": false
+          }
+        },
+        "quote_yna8rn": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "item_width": "col-lg-4",
+            "inset_block": "0px 15px 0px 15px",
+            "offset_block": "2rem 0px 0px 0px",
+            "bg_block": "rgba(0,0,0,0)",
+            "star": "5.0",
+            "author": "Mushroom Coffee ☕🍄",
+            "quote": "\"I was skeptical at first, but WOW—this coffee is incredible. It has a smooth, rich taste with no weird aftertaste, and the best part? No caffeine crashes! It keeps me energized and focused throughout the day. I’ve even replaced my regular coffee with this because it’s that good. If you want a healthier alternative to coffee, give this a try!\"",
+            "author_info": "J J",
             "inverted": false
           }
         }
       },
       "block_order": [
         "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-0",
+        "quote_fJaFRP",
         "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-1",
-        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2"
+        "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2",
+        "quote_yna8rn"
       ],
       "settings": {
         "container_width": "container",
@@ -484,7 +516,7 @@
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "rgba(0,0,0,0)",
         "use_bg_grad2": false,
-        "title": "<h3>Testimonials</h3>",
+        "title": "Testimonials",
         "style": "type_2",
         "quote_size": "small",
         "quote_color": "#616161",
