@@ -60,7 +60,9 @@
 						{% include "header-wishlist" %}
 					</div>
 				{% endif %}
-				
+                <div class="item_left_spacer" data-responsive-id="shop_now" data-responsive-layout="desktop">
+                    <a class="btn btn-primary btn-block" href="/collections/all">{{ 'layout.product.shop_now' | t }}</a>
+                </div>
 				{% if ss_item.header_cart %}
 					<div class="item_left_spacer" data-responsive-id="shopping-cart" data-responsive-layout="desktop">
 						{%- assign ajax_cart = ss_item.ajax_cart -%}

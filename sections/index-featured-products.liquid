@@ -27,7 +27,7 @@
  {%- assign column_item = 'col-xl-6' -%}
 {% endcase %}
 
-<div class="section-style-{{ section.id }} {{ section.settings.design_type }} {% if section.settings.use_border_grid %} use-border-grid {% endif %} {% if section.settings.inverted %} inverted{% endif %}">
+<div id="products" class="section-style-{{ section.id }} {{ section.settings.design_type }} {% if section.settings.use_border_grid %} use-border-grid {% endif %} {% if section.settings.inverted %} inverted{% endif %}">
    {%- include 'section-style' -%}
    <div class="{{ section.settings.container_width }}">
 	

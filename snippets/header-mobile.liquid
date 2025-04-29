@@ -16,6 +16,7 @@
 						<div class="mb-3 mobile-default-menu" data-responsive-id="default-menu" data-responsive-layout="tablet mobile"></div>
 					{% endif %}
 					<div class="menu-items header_items_wrapper mb-2">
+
 						<div class="d-flex align-items-center mt-2">
 							<div data-responsive-id="header-account" data-responsive-layout="tablet mobile"></div>
 							{% unless customer %}
@@ -30,7 +31,8 @@
 								<span class="link_text">{{ 'layout.wishlist.wishlist' | t }}</span>
 							{% endif %}
 						</div>
-						<a class="d-flex align-items-center mt-2" href="/cart">
+
+                        <a class="d-flex align-items-center mt-2" href="/cart">
 							<span class="svg-icon svg-icon--lg">
 								{% render 'icon-cart' %}
 							</span>
@@ -53,7 +55,7 @@
 					{% comment %}{% assign  toggle_search = true %}{% endcomment %}
 					{% comment %}{% include "header-search", toggle_search %}{% endcomment %}
 				{% comment %}</div>{% endcomment %}
-				<div class="ml-2 ml-md-3" data-responsive-id="shopping-cart" data-responsive-layout="tablet mobile"></div>
+                <div class="ml-2 ml-md-3" data-responsive-id="shopping-cart" data-responsive-layout="tablet mobile"></div>
                 <div id="megamenu_mobile_toggle" class="menu-toggle mr-1 mr-md-3" title="Menu">
 					<span class="svg-icon svg-icon--xl">
 						{% render 'icon-menu' %}
