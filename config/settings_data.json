@@ -488,7 +488,7 @@
         "settings": {
           "headermaxwidth": 1880,
           "htheight": 107,
-          "header_sticky": true,
+          "header_sticky": false,
           "header_type": "2",
           "header_absolute": false,
           "bg_headermain": "#ffffff",
