@@ -121,7 +121,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/smiling-strong-woman-together.jpg",
+        "image": "shopify://shop_images/Frame_1171277046.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -316,6 +316,7 @@
         "banner_YNJpp8"
       ],
       "settings": {
+        "banner_custom_class": "",
         "section_title": "<h3>A broad offer of products for your body and mind</h3>",
         "desc": "<p class=\"text-center\" style=\"color: '#616161'\"><span>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br>We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin.<br>Whether you need better sleep, enhanced focus, or a natural beauty boost, we’ve got you covered.</span></p>",
         "container_width": "container",
