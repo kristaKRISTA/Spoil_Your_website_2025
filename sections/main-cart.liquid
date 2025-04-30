@@ -1,14 +1,14 @@
 <div class="template_cart">
 	{% if cart.item_count > 0 %}
-			<h1 class="page_heading d-flex align-items-center justify-content-center flex-wrap">{{ page_title }}</h1>
+			<h3 class="page_heading d-flex text-left flex-wrap">{{ page_title }}</h3>
 			<form action="/cart" method="post" novalidate class="cart mt-4">
+                <h6 class="mobile_p_title">{{ 'pages.cart.product' | t }}</h6>
 				<div class="row">
-					<div class="col-12 cart_items_main">
+					<div class="col-12 col-md-12 col-lg cart_items_main">
 						
 						<div class="table-row table-row-head mb-0 d-none d-md-flex table-row-heading">
 							<div class="table-cell cart-product"><span>{{ 'pages.cart.product' | t }}</span></div>
-							<div class="table-cell cart-price"><span>{{ 'pages.cart.price' | t }}</span></div>
-							<div class="table-cell cart-quantity"><span>{{ 'pages.cart.product_quantity' | t }}</span></div>
+                            <div class="table-cell cart-quantity"><span>{{ 'pages.cart.product_quantity' | t }}</span></div>
 							<div class="table-cell cart-total"><span>{{ 'pages.cart.total' | t }}</span></div>
 						</div>
 						{% for item in cart.items %}
@@ -32,16 +32,16 @@
 									</div>
 								</div>
 							</div>
-							<div class="table-cell cart-price">
-								<div class="table-cell-heading d-md-none">
-									<span>{{ 'pages.cart.price' | t }}</span>
-								</div>
-								<div class="table-cell-content">
-									<div class="cart_item__price">
-										<span class="product-price money">{{ item.price | money }}</span>
-									</div>
-								</div>
-							</div>
+							{% comment %}<div class="table-cell cart-price">{% endcomment %}
+								{% comment %}<div class="table-cell-heading d-md-none">{% endcomment %}
+									{% comment %}<span>{{ 'pages.cart.price' | t }}</span>{% endcomment %}
+								{% comment %}</div>{% endcomment %}
+								{% comment %}<div class="table-cell-content">{% endcomment %}
+									{% comment %}<div class="cart_item__price">{% endcomment %}
+										{% comment %}<span class="product-price money">{{ item.price | money }}</span>{% endcomment %}
+									{% comment %}</div>{% endcomment %}
+								{% comment %}</div>{% endcomment %}
+							{% comment %}</div>{% endcomment %}
 							<div class="table-cell cart-quantity">
 								<div class="table-cell-heading d-md-none">
 									{{ 'pages.cart.product_quantity' | t }}
@@ -87,23 +87,11 @@
 						</div>
 						{% endfor %}
 					</div>
-					<div class="col-12 col-lg-8 pr-xl-4 mt-4">
-						<div class="cart_note_wrap">
-							<label for="cart_note">{{ 'pages.cart.add_note' | t }}</label>
-							<textarea name="note" id="cart_note" class="form-control">{{ cart.note }}</textarea>
-						</div>
-						<a class="link btn_return mt-3 mt-md-9" href="/collections">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M7.828 11.0007L13.192 5.63666L11.778 4.22266L4 12.0007L11.778 19.7787L13.192 18.3647L7.828 13.0007H20V11.0007H7.828Z" fill="#797B7E"/>
-							</svg>
-							<span>{{ 'pages.cart.continue_shopping' | t }}</span>
-						</a>
-					</div>
-					<div class="col-12 col-lg-4 cart_sidebar mt-4">
+					<div class="col-12 col-md-12 col-lg-5 cart_sidebar">
 						<div class="cart_footer block-footer">
 							<h5 class="mb-3">{{ 'pages.cart.cart_title' | t }}</h5>
 							<p class="cart_total cart_total_items">
-								<span>{{ 'pages.cart.product_total' | t }}</span>
+								<span>{{ 'pages.cart.quantity' | t }}</span>
 								<span>{{ cart.item_count }} {{ 'layout.header.cart_items' | t }}</span>
 							</p>
 							<p class="cart_total cart_total_weight">
@@ -111,11 +99,11 @@
 								<span>{{ cart.total_weight | weight_with_unit }}</span>
 							</p>
 							<p class="cart_total cart_total_price product-price-container product-price-sm">
-								<span class="label mr-1">{{ 'pages.cart.total_price' | t }} </span>
+								<span class="label mr-1">{{ 'pages.cart.product_total' | t }} </span>
 								<span class="product-price money">{{ cart.total_price | money }}</span></p>
 							{% if additional_checkout_buttons %}
 								{% comment %}Paypal and Google checkout buttons{% endcomment %}
-								<p class="btn btn-default">{{ content_for_additional_checkout_buttons }}</p>
+								{% comment %}<p class="btn btn-default">{{ content_for_additional_checkout_buttons }}</p>{% endcomment %}
 							{% endif %}
 							{% if cart.total_discounts > 0 %}
 								<p>
@@ -123,13 +111,28 @@
 									<span class="cart__savings-amount">{{ cart.total_discounts | money }}</span>
 								</p>
 							{% endif %}
+                            <div class="cart_info_block block-footer my-0 pb-0 raw d-flex">
+                                <div class="raw d-flex align-items-center col-md-6">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1661 2.03871C12.4391 1.65376 11.5609 1.65376 10.8338 2.03871C9.63188 2.67509 7.1696 3.82075 4.21644 4.3341C3.12696 4.52349 2.25 5.45478 2.25 6.62325V11.5511C2.25 15.0419 4.02963 17.7085 5.99213 19.5834C7.95205 21.4559 10.152 22.5975 11.1534 23.0619C11.6942 23.3127 12.3057 23.3127 12.8466 23.0619C13.848 22.5975 16.0479 21.4559 18.0078 19.5834C19.9703 17.7085 21.75 15.0419 21.75 11.5511V6.62325C21.75 5.45478 20.873 4.52349 19.7835 4.3341C16.8304 3.82075 14.3681 2.67509 13.1661 2.03871ZM16.7683 9.14021C17.1219 8.71593 17.0646 8.08537 16.6403 7.7318C16.216 7.37824 15.5854 7.43556 15.2319 7.85984L10.9329 13.0186L9.20723 11.2929C8.8167 10.9024 8.18354 10.9024 7.79301 11.2929C7.40249 11.6834 7.40249 12.3166 7.79301 12.7071L10.293 15.2071C10.4917 15.4058 10.7647 15.5117 11.0454 15.499C11.3261 15.4863 11.5885 15.356 11.7683 15.1402L16.7683 9.14021Z" fill="black"/>
+                                    </svg>
+                                    <p><b>90 day Limited Waranty</b><br> against menufacturer’s defects. <a target="_blank" href="/pages/privacy-policy">Details</a></p>
+                                </div>
+                                <div class="raw d-flex align-items-center col-md-6">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02388 3.75C6.64511 3.75 6.29884 3.964 6.12945 4.30279L3.62283 9.17381L1.83398 8.27939L4.3406 3.40836C4.84877 2.39201 5.88756 1.75 7.02388 1.75L17.9721 1.75001C19.1084 1.75001 20.1472 2.39201 20.6554 3.40836L23.1377 8.2273L21.333 9.09839L18.8665 4.30279C18.6971 3.96401 18.3509 3.75001 17.9721 3.75001L7.02388 3.75Z" fill="black"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 3.75V9.75H11.5V3.75H13.5Z" fill="black"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 7.87598C2.08579 7.87598 1.75 8.21177 1.75 8.62598V20.5C1.75 22.0188 2.98122 23.25 4.5 23.25H20.5C22.0188 23.25 23.25 22.0188 23.25 20.5V8.62598C23.25 8.21177 22.9142 7.87598 22.5 7.87598H2.5ZM10 11.626C9.44772 11.626 9 12.0737 9 12.626C9 13.1783 9.44772 13.626 10 13.626H15C15.5523 13.626 16 13.1783 16 12.626C16 12.0737 15.5523 11.626 15 11.626H10Z" fill="black"/>
+                                    </svg>
+                                    <p><b>Shipping places</b><br>find our. <a target="_blank" href="/pages/privacy-policy">Check Shipping areas</a></p>
+                                </div>
+                            </div>
 							<p class="cart-btn-wrapper">
-								<button type="submit" name="update" class="btn btn-default">{{ 'pages.cart.product_update' | t }}</button>
-								<button type="submit" name="checkout" class="btn btn-primary btn-gradient checkout_btn">{{ 'pages.cart.proceed_to_checkout' | t }}</button>
-							</p>
+								<button type="submit" name="checkout" class="btn btn-primary checkout_btn">{{ 'pages.cart.proceed_to_checkout' | t }}</button>
+                                <button type="submit" name="update" class="btn btn-default">{{ 'pages.cart.product_update' | t }}</button>
+                            </p>
 						</div>
 						{% assign shop_name = shop.name | capitalize %}
-						<p class="cart_info_block block-footer my-0">{{ 'pages.cart.currency_notification' | t: shop_name: shop_name, shop_currency: shop.currency }}</p>
 						{% if section.settings.show_policy %}
 							<div class="cart_policy">
 								{% if section.settings.delivery_page.size > 0 %}
@@ -171,6 +174,18 @@
 							</div>
 						{% endif %}
 					</div>
+                    <div class="col-12 col-lg-8 pr-xl-4 mt-4">
+                        <div class="cart_note_wrap">
+                            <label for="cart_note">{{ 'pages.cart.add_note' | t }}</label>
+                            <textarea name="note" id="cart_note" class="form-control">{{ cart.note }}</textarea>
+                        </div>
+                        <a class="link btn_return" href="/collections/all">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.828 11.0007L13.192 5.63666L11.778 4.22266L4 12.0007L11.778 19.7787L13.192 18.3647L7.828 13.0007H20V11.0007H7.828Z" fill="#797B7E"/>
+                            </svg>
+                            <span>{{ 'pages.cart.continue_shopping' | t }}</span>
+                        </a>
+                    </div>
 				</div>
 				
 			</form>
@@ -182,7 +197,7 @@
 					</svg>
 					<span class="mt-2 h4 d-block">{{ 'pages.cart.empty_cart_3' | t }}</span>
 				</p>
-				<a class="btn btn-secondary mt-2" href="/collections">{{ 'pages.cart.empty_cart_2' | t }}</a>
+				<a class="btn btn-default mt-2" href="/collections">{{ 'pages.cart.empty_cart_2' | t }}</a>
 			</div>
 		{% endif %}
 </div>
