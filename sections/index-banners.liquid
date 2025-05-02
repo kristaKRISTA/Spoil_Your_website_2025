@@ -83,7 +83,7 @@
 {% endif %}
 
 
-<div class="section-style-{{ section.id }} {{ section.settings.banner_custom_class }}">
+<div class="section-style-{{ section.id }} {{ section.settings.banner_custom_class }} mobile_carousel">
    {%- include 'section-style' -%}
 	
     <div class="{{ section.settings.container_width }}">
@@ -142,6 +142,10 @@
 			  		{%- assign title_class = 'h3' -%}
 			  		{%- assign text_class = 'text-medium' -%}
 			  {% endcase %}
+
+
+
+
               <div class="col-12 {{ item_width }} {{ block.settings.custom_class }}" {{ block.shopify_attributes }}>
                   <div class="banner-item item-{{ block.id }} style-{{ block.settings.banner_style }} d-flex flex-column {% if block.settings.reverse_cpos == 'flex-column-reverse' %} flex-md-column-reverse {% endif %}" style="padding: {{ block.settings.inset_block }}; {% if block.settings.use_bgb %}background-color: {{ block.settings.bgb_color | color_modify: 'alpha', block.settings.bgb_color_opacity }};{% endif %}">
   					  {% if block.settings.item_subtitle != blank or block.settings.item_title != blank or block.settings.item_text != blank or block.settings.link_text != blank %}
@@ -175,33 +179,72 @@
                                </div>
                           </div>
                       {% endif %}
-					  {% if block.settings.image != blank %}
-                  		  {%- if block.settings.item_link != blank -%}
-							  <a class="image-item-container link_hover" href="{{ block.settings.item_link }}">
-							  {% else %}
-								  <div class="image-item-container">
-						  {%- endif -%}
-						 	<div class="image-item-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
-								  {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-								  <img loading="lazy" class="image-content__image lazyload"
-									   src="{{ block.settings.image | img_url: '300x300' }}"
-									   data-src="{{ img_url }}"
-									   data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
-									   data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-									   data-sizes="auto"
-									   alt="{{ block.settings.image.alt | escape }}">
-						 	</div>
-								  {%- if block.settings.item_link != blank -%}</a>   {% else %} </div> {%- endif -%}
-                         {% else %}
-					 	<div class="image-item-container">
-                     	    <div class="img_placeholder__wrap" style="padding-top: 52.6%;">
-                     	        {{ 'image' | placeholder_svg_tag: 'img_placeholder' }}
-                     	    </div>
-                     	</div>
-                      {% endif %}
+                {% comment %}Start banners{% endcomment %}
+                          {% if block.settings.image != blank %}
+                              {%- if block.settings.item_link != blank -%}
+                                  <a class="image-item-container link_hover" href="{{ block.settings.item_link }}">
+                                  {% else %}
+                                      <div class="image-item-container all_banners_sections toggle-mobile">
+                              {%- endif -%}
+                                <div class="image-item-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
+                                      {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                                      <img loading="lazy" class="image-content__image lazyload"
+                                           src="{{ block.settings.image | img_url: '300x300' }}"
+                                           data-src="{{ img_url }}"
+                                           data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
+                                           data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                                           data-sizes="auto"
+                                           alt="{{ block.settings.image.alt | escape }}">
+                                </div>
+                              {%- if block.settings.item_link != blank -%}</a>   {% else %} </div> {%- endif -%}
+                             {% else %}
+                            <div class="image-item-container">
+                                <div class="img_placeholder__wrap" style="padding-top: 52.6%;">
+                                    {{ 'image' | placeholder_svg_tag: 'img_placeholder' }}
+                                </div>
+                            </div>
+                          {% endif %}
+                {% comment %}End banners{% endcomment %}
                   </div>
               </div>
           {% endfor %}
+      {% comment %}Start banners caroucel{% endcomment %}
+        {% if section.settings.show_carousel_on_mobile %}
+            <div class="all_banners row toggle-mobile">
+                <div id="zmz-carousel-{{ section.id }}" class="swiper-container zmz-swiper-container  mt-3"
+                     data-options='{
+						"observer": true,
+						"observeParents": true,
+						{% comment %}"pagination": {"el": "#pagination_{{ block.id }}", "clickable": true},{% endcomment %}
+						"navigation": {"nextEl": "#next_{{ section.id }}", "prevEl": "#prev_{{ section.id }}"},
+						"spaceBetween":  0,
+						"slidesPerView": 2,
+						"slidesPerGroup": 1,
+						"breakpoints": {
+							"400": { "slidesPerView": 1{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 1 {% endif %} },
+							"640": { "slidesPerView": 1{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 1 {% endif %} },
+							"992": {"slidesPerView": 1{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 1 {% endif %}, "freeMode": "false" }
+						}
+					}'>
+                        <div class="swiper-wrapper product_listing__main product_listing__grid mx-0">
+                            {% for block in section.blocks %}
+                                {% if block.settings.image != blank %}
+                                    <!-- Render blocks with images -->
+                                    <div class="swiper-slide">
+                                        <img class="rounded-sm w-100" src="{{ block.settings.image | image_url }}"
+                                             alt="{{ block.settings.image.alt | escape }}" />
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                </div>
+            </div>
+            <div class="swiper-nav-wrapper">
+                <div id="prev_{{ section.id }}" class="swiper-button-prev"></div>
+                <div id="next_{{ section.id }}" class="swiper-button-next"></div>
+            </div>
+        {% endif %}
+      {% comment %}End banners caroucel{% endcomment %}
       </div>
     </div>
 </div>
@@ -280,7 +323,13 @@
             "label": "Offset Section",
             "default": "0px 0px 0px 0px",
             "info": "offset: Top Right Bottom Left"
-   		}
+   		},
+          {
+            "type": "checkbox",
+            "id": "show_carousel_on_mobile",
+            "label": "Show Carousel on Mobile",
+            "default":   false
+          }
 	],
 	"blocks": [
       {
@@ -1061,7 +1110,8 @@
 				{
 					"type": "text",
 					"id": "custom_class",
-					"label": "Custom class"
+					"label": "Custom class",
+                    "default": "image_banner"
 				}
 			]
 		}

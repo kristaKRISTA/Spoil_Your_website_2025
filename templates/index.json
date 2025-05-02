@@ -185,7 +185,7 @@
             "margin_title": 15,
             "margin_text": 15,
             "margin_btn": 15,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         },
         "banner_waCQCE": {
@@ -227,7 +227,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         },
         "banner_gbwbcT": {
@@ -269,7 +269,7 @@
             "margin_title": 15,
             "margin_text": 15,
             "margin_btn": 15,
-            "custom_class": "rounded"
+            "custom_class": "image_banner"
           }
         },
         "banner_nxabxG": {
@@ -311,7 +311,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         }
       },
@@ -331,7 +331,8 @@
         "reset_indent": false,
         "bg_section": "#f9f9f9",
         "inset_section": "0px 0px 45px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 0px 0px 0px",
+        "show_carousel_on_mobile": true
       }
     },
     "index_divider_U7dyNF": {
@@ -534,7 +535,8 @@
         "offset_quote_img": "0px 0px 0px 0px",
         "off_carousel_nav": false,
         "off_carousel_pag": true,
-        "pag_align": "center"
+        "pag_align": "center",
+        "show_carousel_on_mobile": true
       }
     },
     "16278999588811e107": {
@@ -653,7 +655,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         },
         "banner_M4UEgj": {
@@ -695,7 +697,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         },
         "banner_VnqBj6": {
@@ -737,7 +739,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         },
         "banner_YNJpp8": {
@@ -779,7 +781,7 @@
             "margin_title": 22,
             "margin_text": 15,
             "margin_btn": 35,
-            "custom_class": ""
+            "custom_class": "image_banner"
           }
         }
       },
@@ -799,7 +801,8 @@
         "reset_indent": false,
         "bg_section": "#ffffff",
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 0px 0px 0px",
+        "show_carousel_on_mobile": true
       }
     },
     "3999251e-7bed-429e-8800-7e7418e3987e": {

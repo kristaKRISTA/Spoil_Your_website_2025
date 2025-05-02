@@ -323,7 +323,8 @@
         "reset_indent": false,
         "bg_section": "#ffffff",
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 0px 0px 0px",
+        "show_carousel_on_mobile": true
       }
     }
   },
