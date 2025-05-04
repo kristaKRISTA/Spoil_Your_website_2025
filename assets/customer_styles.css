@@ -304,7 +304,7 @@ body .contact_item .content_item_wrap {
 }
 
 @media (min-width: 992px) {
-	.template_contact .item_form {
+	.template_contact .item_form.item_form {
 		padding: 20px;
 		margin: 40px 0;
 	}
