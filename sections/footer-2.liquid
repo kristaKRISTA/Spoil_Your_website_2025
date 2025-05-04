@@ -155,7 +155,7 @@
 						</div>
                         <div class="col-md-6 col-12">
                             {% comment %}<div class="mt-3 px-2">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</div>{% endcomment %}
-                            <div class="mt-3 px-2">{{ section.settings.policy_record | escape }}</div>
+                            <div class="mt-3 px-2 statement_rights">{{ section.settings.policy_record | escape }}</div>
                         </div>
 						{% if section.settings.payment_icons_toggle %}
 							<div class="col-12 text-center mt-2 mt-md-3">
