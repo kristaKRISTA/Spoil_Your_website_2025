@@ -532,8 +532,8 @@
         "caption_text": "",
         "text_align": "left",
         "offset_quote_img": "0px 0px 0px 0px",
-        "off_carousel_nav": true,
-        "off_carousel_pag": false,
+        "off_carousel_nav": false,
+        "off_carousel_pag": true,
         "pag_align": "center"
       }
     },
