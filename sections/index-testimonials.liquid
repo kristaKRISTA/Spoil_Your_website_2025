@@ -72,36 +72,42 @@
 	<div class="{{ section.settings.container_width }} testimonials_section">
 	  <div {% if section.settings.container_width == 'full-width' %} class="container" {% endif %}>
 		<div class="testimonials_caption">
-		{% if section.settings.title.size > 0 %}
-			<h4 class="h3">{{ section.settings.title }}</h4>
-		{% endif %}
-		{% if section.settings.header_logo %}
-			<img loading="lazy" src="{{ section.settings.header_logo | img_url: '185x45', crop: 'center' }}" alt="{{ section.settings.header_logo.alt }}">
-		{% endif %}
-		{% if section.settings.caption_text.size > 0 %}
-			<p class="testimonials_caption__text text">{{ section.settings.caption_text }}</p>
-		{% endif %}
-	</div>
-	  {% unless section.settings.style == 'type_2' %}
-	  <div class="testimonials_slider swiper-container zmz-swiper-container swiper-nav-wrapper" id="zmz-carousel-{{ section.id }}"
+            {% if section.settings.title.size > 0 %}
+                <h4 class="h3">{{ section.settings.title }}</h4>
+            {% endif %}
+            {% if section.settings.header_logo %}
+                <img loading="lazy" src="{{ section.settings.header_logo | img_url: '185x45', crop: 'center' }}" alt="{{ section.settings.header_logo.alt }}">
+            {% endif %}
+            {% if section.settings.caption_text.size > 0 %}
+                <p class="testimonials_caption__text text">{{ section.settings.caption_text }}</p>
+            {% endif %}
+	    </div>
+	  {% comment %}{% unless section.settings.style == 'type_2' %}{% endcomment %}
+	  <div class="testimonials_slider swiper-container zmz-swiper-container" id="zmz-carousel-{{ section.id }}"
 		   data-options='{
 			  "observer": true,
 			  "observeParents": true,
 			   "pagination": {"el": "#pagination_{{ section.id }}", "clickable": true },
 			   "navigation": {"nextEl": "#next_{{ section.id }}", "prevEl": "#prev_{{ section.id }}"},
 			  "spaceBetween": 0,
-			  "slidesPerView": 1
+			  "slidesPerView": 1,
+                "slidesPerGroup": 1,
+                "breakpoints": {
+                    "400": { "slidesPerView": 1{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 1 {% endif %} },
+                    "640": { "slidesPerView": 1{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 1 {% endif %} },
+                    "992": {"slidesPerView": 3{% if section.settings.carousel_control_type == 'fraction' %},"slidesPerGroup": 3 {% endif %}, "freeMode": "false" }
+                }
 			}'>
 		  <div class="swiper-wrapper">
-			  {% endunless %}
-		{% unless section.settings.style == 'type_1' %}
-			<div class="row">
-			{% endunless %}
+			  {% comment %}{% endunless %}{% endcomment %}
+		{% comment %}{% unless section.settings.style == 'type_1' %}{% endcomment %}
+			{% comment %}<div class="row">{% endcomment %}
+			{% comment %}{% endunless %}{% endcomment %}
 			{% for block in section.blocks %}
-				{% unless section.settings.style == 'type_2' %}
+				{% comment %}{% unless section.settings.style == 'type_2' %}{% endcomment %}
 				<div class="swiper-slide">
-					{% endunless %}
-					<div class="testimonial_slide__item item-{{ block.id }} style_{{ section.settings.style }} {% unless section.settings.style == 'type_1' %} col-12 {{ block.settings.item_width }}{% endunless %}">
+					{% comment %}{% endunless %}{% endcomment %}
+					<div class="testimonial_slide__item item-{{ block.id }} style_{{ section.settings.style }}">
 						<div class="testimonial_slide__item_wrapper text-{{ section.settings.text_align }} {% if block.settings.inverted %} inverted{% endif %}">
 						
 
@@ -158,25 +164,28 @@
 						</blockquote>
 						</div>
 					</div>
-					{% unless section.settings.style == 'type_2' %}
+					{% comment %}{% unless section.settings.style == 'type_2' %}{% endcomment %}
 				</div>
-				{% endunless %}
+				{% comment %}{% endunless %}{% endcomment %}
 			{% endfor %}
 				{% unless section.settings.style == 'type_1' %}
 				</div>
 			{% endunless %}
-			{% unless section.settings.style == 'type_2' %}
+			{% comment %}{% unless section.settings.style == 'type_2' %}{% endcomment %}
 		</div>
 		
 		{% unless section.settings.off_carousel_pag %}
 			<div id="pagination_{{ section.id }}" class="swiper-pagination pag-align--{{ section.settings.pag_align }}"></div>
 		{% endunless %}
-		{% unless section.settings.off_carousel_nav %}
-			<div id="prev_{{ section.id }}" class="swiper-button-prev"></div>
-			<div id="next_{{ section.id }}" class="swiper-button-next"></div>
-		{% endunless %}
+		{% comment %}{% unless section.settings.off_carousel_nav %}{% endcomment %}
+          <div class="swiper-nav-wrapper">
+              <div id="prev_{{ section.id }}" class="swiper-button-prev"></div>
+              <div id="next_{{ section.id }}" class="swiper-button-next"></div>
+          </div>
+
+		{% comment %}{% endunless %}{% endcomment %}
 	</div>
-	{% endunless %}
+	{% comment %}{% endunless %}{% endcomment %}
 	  </div>
 	</div>
 </div>

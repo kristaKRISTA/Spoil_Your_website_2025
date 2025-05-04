@@ -366,6 +366,14 @@ body .testimonials_section .style_type_2 {
 
 }
 
+.testimonials_section .swiper-nav-wrapper {
+	width: 73px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .view_more {
 	font-weight: 600;
 	cursor: pointer;
