@@ -485,7 +485,6 @@
         },
         "template--14582219472960__ec07dc0f-81a1-4a72-b8aa-d4b89a183c31-167644804082acf40e-2": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "item_width": "col-lg-4",
             "inset_block": "0px 15px 0px 15px",
@@ -500,7 +499,6 @@
         },
         "quote_yna8rn": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "item_width": "col-lg-4",
             "inset_block": "0px 15px 0px 15px",
@@ -534,8 +532,8 @@
         "caption_text": "",
         "text_align": "left",
         "offset_quote_img": "0px 0px 0px 0px",
-        "off_carousel_nav": false,
-        "off_carousel_pag": true,
+        "off_carousel_nav": true,
+        "off_carousel_pag": false,
         "pag_align": "center"
       }
     },
