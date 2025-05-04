@@ -15,7 +15,7 @@
         "banner_ptzkN9": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/Frame_2087328985.png",
+            "image": "shopify://shop_images/Main.png",
             "width": "12",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -66,7 +66,8 @@
         "reset_indent": true,
         "bg_section": "#ffffff",
         "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px"
+        "offset_section": "0px 0px 0px 0px",
+        "show_carousel_on_mobile": false
       }
     },
     "1627899736175f45d2": {
@@ -535,8 +536,7 @@
         "offset_quote_img": "0px 0px 0px 0px",
         "off_carousel_nav": false,
         "off_carousel_pag": true,
-        "pag_align": "center",
-        "show_carousel_on_mobile": true
+        "pag_align": "center"
       }
     },
     "16278999588811e107": {
