@@ -68,9 +68,16 @@
                           endif
 
                       %}
-                      <div class="rating product_reviews" role="img" aria-label="{{ 'layout.accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: rating_scalemax }}">
-                          <span aria-hidden="true" class="rating-star color-accent-1" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ rating_scalemax }}; --rating-decimal: {{ rating_decimal }};"></span>
-                          <span class="spr-badge-count">{% if product.metafields.reviews.rating_count == blank %}0{% else %}{{ product.metafields.reviews.rating_count }}{% endif %} {{ product.reviews_count | pluralize: 'review', 'reviews' }}</span>
+                      <div class="rating product_reviews" role="img" aria-label="{{ 'layout.accessibility.star_reviews_info' | t: rating_value: pb_set.l_reviews, rating_max: rating_scalemax }}">
+                          <div class="item__stars">
+                            <span class="star_item">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.187 7.2L9 0L6.813 7.2H0L5.562 11.169L3.447 18L9 13.779L14.562 18L12.447 11.169L18 7.2H11.187Z" fill="#E89C3E"></path>
+                                </svg>
+                            </span>
+                              <span class="star_text">{{ pb_set.l_reviews }}</span>
+                          </div>
+                           <span class="star_reviews pl-1">({% if pb_set.n_reviews == blank %}0{% else %}{{ pb_set.n_reviews }}{% endif %} {{ pb_set.n_reviews | pluralize: 'review', 'reviews' }})</span>
                       </div>
                   {% endif %}
               </div>

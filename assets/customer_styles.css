@@ -779,7 +779,38 @@ body .header_items_wrapper .header_cart .cart_link.item-absolute .header_cart_it
 	.single_product__price .product-sale-price {
 		display: none;
 	}
+
+	.product_reviews .star_text {
+		font-weight: 600;
+		color: #000000;
+	}
+	.product_reviews .star_reviews {
+		margin-top: 5px;
+		font-size: 16px;
+	}
 }
+
+@media (max-width: 991.98px) {
+	.section_product .single_product__details {
+		max-width: 100%;
+	}
+}
+
+.single-product-wrapper {
+	.single_product__img img {
+		border-radius: 24px;
+	}
+
+	.swiper-counter {
+		display: none;
+	}
+
+	.product__img_zoom {
+		color: #ffffff;
+	}
+}
+
+
 
 /*//////////////////////////Product specials footer//////////////////////////////*/
 .product_specials_footer .section_heading {
