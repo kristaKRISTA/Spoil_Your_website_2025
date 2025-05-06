@@ -16,59 +16,65 @@
 			{{ pb_set.text }}
 		  </p>
 		
-		{% when 'pr_avalreview' %}
-		  <div class="flex-wrapper pr--block">
-			{% if pb_set.product_available %}
-			  <p class="single_product__availability">
-				<span id="single_product__availability-{{ section.id }}"></span>
-			  </p>
-			{% endif %}
-			
-			{% if pb_set.product_reviews %}
-			  {% liquid
-				
-				assign rating_decimal = 0
-				assign rating_scalemax = 0
-				assign rating_exist = product.metafields.reviews.rating.value.rating
-				assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-				
-				if decimal >= 0.3 and decimal <= 0.7
-					assign rating_decimal = 0.5
-				elsif decimal > 0.7
-					assign rating_decimal = 1
-				endif
-			 
-				if rating_exist == nil
-					assign rating_scalemax = 1
-				else
-				    assign rating_scalemax = product.metafields.reviews.rating.value.scale_max
-				endif
-				
-			  %}
-			  <div class="rating product_reviews" role="img" aria-label="{{ 'layout.accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: rating_scalemax }}">
-				<span aria-hidden="true" class="rating-star color-accent-1" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ rating_scalemax }}; --rating-decimal: {{ rating_decimal }};"></span>
-				<span class="spr-badge-count">{% if product.metafields.reviews.rating_count == blank %}0{% else %}{{ product.metafields.reviews.rating_count }}{% endif %} {{ product.reviews_count | pluralize: 'review', 'reviews' }}</span>
-			  </div>
-			{% endif %}
-		  </div>
-		
-		
 		{% when 'pr_available' %}
 		  <div class="pr--block">
 			<p class="single_product__availability">
 			  <span id="single_product__availability-{{ section.id }}"></span>
 			</p>
 		  </div>
+        {% when 'pr_tags' %}
+          {% if pb_set.show_tags %}
+            {% comment %}<p class="single_product__tags">{% endcomment %}
+              <div class="product_header_tags">
+                {% for tag in product.tags %}<a class="btn btn-default btn-md">{{ tag }}</a>{% endfor %}
+              </div>
+            {% comment %}</p>{% endcomment %}
+          {% endif %}
 		 
 		{% when 'pr_title' %}
 		  <h2 itemprop="name" class="single_product__title pr--block h4" {{ block.shopify_attributes }}>{{ product.title }}</h2>
-		  
+		<div>
 		{% when 'pr_price' %}
-		  <div class="pr--block">
+		  <div class="flex-wrapper">
 			<div id="single_product__price-{{ section.id }}" class="single_product__price" {{ block.shopify_attributes }}>
 			  <span class="product-price money">{{ product.price | money }}</span>
 			</div>
-		  </div>
+        {% when 'pr_avalreview' %}
+              <div class="flex-wrapper">
+                  {% if pb_set.product_available %}
+                      <p class="single_product__availability">
+                          <span id="single_product__availability-{{ section.id }}"></span>
+                      </p>
+                  {% endif %}
+
+                  {% if pb_set.product_reviews %}
+                      {% liquid
+
+                          assign rating_decimal = 0
+                          assign rating_scalemax = 0
+                          assign rating_exist = product.metafields.reviews.rating.value.rating
+                          assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+
+                          if decimal >= 0.3 and decimal <= 0.7
+                              assign rating_decimal = 0.5
+                          elsif decimal > 0.7
+                              assign rating_decimal = 1
+                          endif
+
+                          if rating_exist == nil
+                              assign rating_scalemax = 1
+                          else
+                              assign rating_scalemax = product.metafields.reviews.rating.value.scale_max
+                          endif
+
+                      %}
+                      <div class="rating product_reviews" role="img" aria-label="{{ 'layout.accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: rating_scalemax }}">
+                          <span aria-hidden="true" class="rating-star color-accent-1" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ rating_scalemax }}; --rating-decimal: {{ rating_decimal }};"></span>
+                          <span class="spr-badge-count">{% if product.metafields.reviews.rating_count == blank %}0{% else %}{{ product.metafields.reviews.rating_count }}{% endif %} {{ product.reviews_count | pluralize: 'review', 'reviews' }}</span>
+                      </div>
+                  {% endif %}
+              </div>
+          </div>
 		
 		
 		{% when 'pr_variant_picker' %}
@@ -217,9 +223,9 @@
 		  {% endif %}
 		
 		{% when 'pr_short_descriprtion' %}
-		  <p class="single_product__short_desc pr--block">
-			{{ product.description | strip_html | truncate: 180 }}
-		  </p>
+		  <div class="single_product__short_desc pr--block">
+			{{ product.description }}
+		  </div>
 		  
 		{% when 'pr_quantity_and_btn' %}
 		  <div class="pr--block">
@@ -286,16 +292,20 @@
 		{% when 'pr_add_to_cart' %}
 		  <div class="single_product__cartbutton pr--block">
 			<div class="product-add-to-cart-wrapper">
-			  <button type="submit" name="add" class="btn btn-primary btn-gradient btn-lg icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">
-				{% comment %}
-				  <span class="svg-icon svg-icon--md">
-					 {% render 'icon-cart' %}
-				  </span>
-				{% endcomment %}
+			  <button type="submit" name="add" class="btn btn-primary btn-md icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">
 				<span>
-              	 	{{ 'layout.product.add_to_cart' | t }}
+              	 	{{ 'layout.product.purchase_now' | t }}
               	  </span>
 			  </button>
+                <button type="submit" name="add" class="btn btn-primary btn-md icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">
+
+                      <span class="svg-icon svg-icon--md">
+                         {% render 'icon-cart' %}
+                      </span>
+                    <span>
+              	 	{{ 'layout.product.add_to_cart' | t }}
+              	  </span>
+                </button>
 			  
 			  {% if pb_set.show_bit_button %}
 				<div class="buyoneclick w-100 mt-2">
@@ -371,7 +381,7 @@
 				{% endif %}
 			  </p>
 			{% endif %}
-			
+
 			{% if pb_set.show_collections %}
 			  <p class="single_product__collections">
 				<b>{{ 'layout.product.collections' | t }}:</b>

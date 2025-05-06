@@ -630,6 +630,18 @@
 			"label": "Show Product Reviews",
 			"info": "To use, you need to install the application"
 		  },
+          {
+            "type": "text",
+            "id": "n_reviews",
+            "label": "# of Reviews",
+            "default": "1"
+          },
+          {
+            "type": "text",
+            "id": "l_reviews",
+            "label": "Reviews stars",
+            "default": "5.0"
+          },
 			{
 			"type": "checkbox",
 			"id": "product_available",
@@ -896,6 +908,20 @@
 		  }
 		]
 	  },
+
+      {
+        "type": "pr_tags",
+        "name": "Header Tags",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "show_tags",
+            "label": "Show tags",
+            "default": true
+          }
+        ]
+      },
 	  
 	  {
 		"type": "pr_share",
