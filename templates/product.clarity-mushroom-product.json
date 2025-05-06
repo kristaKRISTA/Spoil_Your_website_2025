@@ -20,14 +20,6 @@
           "type": "pr_short_descriprtion",
           "settings": {}
         },
-        "product_tab_VxytHV": {
-          "type": "product_tab",
-          "settings": {
-            "title": "Tab title",
-            "custom_product": "collagen-gummies-adult",
-            "content": "<h3>I'm a boss!</h3>"
-          }
-        },
         "25940a2a-5fec-4824-82fa-cc251168fbc8": {
           "type": "pr_price",
           "settings": {}
@@ -44,6 +36,8 @@
           "type": "pr_avalreview",
           "settings": {
             "product_reviews": true,
+            "n_reviews": "8083",
+            "l_reviews": "4.9",
             "product_available": false
           }
         },
@@ -51,6 +45,38 @@
           "type": "pr_add_to_cart",
           "settings": {
             "show_bit_button": false
+          }
+        },
+        "product_tab_VxytHV": {
+          "type": "product_tab",
+          "settings": {
+            "title": "Ingredients",
+            "custom_product": "collagen-gummies-adult",
+            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
+          }
+        },
+        "product_tab_6hqgdX": {
+          "type": "product_tab",
+          "settings": {
+            "title": "Technical Details",
+            "custom_product": "collagen-gummies-adult",
+            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
+          }
+        },
+        "product_tab_miVUBV": {
+          "type": "product_tab",
+          "settings": {
+            "title": "Directions",
+            "custom_product": "collagen-gummies-adult",
+            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
+          }
+        },
+        "product_tab_H6Wy9B": {
+          "type": "product_tab",
+          "settings": {
+            "title": "Warnings",
+            "custom_product": "collagen-gummies-adult",
+            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
           }
         },
         "8e485c64-e42e-4450-93df-6268035aec6e": {
@@ -113,41 +139,26 @@
             "max_bought": 7,
             "text_bought": "sold in recently"
           }
-        },
-        "1570618849665": {
-          "type": "reviews",
-          "disabled": true,
-          "settings": {
-            "title": "Reviews"
-          }
-        },
-        "66a177fb-db72-4eaa-8569-d9c669955756": {
-          "type": "all_tab",
-          "disabled": true,
-          "settings": {
-            "title": "Product details",
-            "content": "",
-            "page": "product-details"
-          }
         }
       },
       "block_order": [
         "e485b1c7-2a7b-4623-9353-349e7aaa9572",
         "c8222f8f-0f33-4183-802d-0a30ec77fe7b",
-        "product_tab_VxytHV",
         "25940a2a-5fec-4824-82fa-cc251168fbc8",
         "dd595c6c-50d9-4a27-ae72-1377441fa922",
         "b07b8816-c948-4fec-9bb2-6e1d72fb6e3d",
         "4e0319fa-0bfb-4227-bde5-df6747003c41",
+        "product_tab_VxytHV",
+        "product_tab_6hqgdX",
+        "product_tab_miVUBV",
+        "product_tab_H6Wy9B",
         "8e485c64-e42e-4450-93df-6268035aec6e",
         "5cd29698-e2dd-407a-a5ca-625b640e9c42",
         "a7985521-618a-43a1-bc6a-53a9d1564eb9",
         "29c1ccc3-2de2-407a-9929-ea04fcf0e23d",
         "7ba00be8-fa86-422b-9ae3-7ac2c5d1ca49",
         "4379c5a0-a21d-42d1-9c57-54b89f7a9923",
-        "0fda8fca-a299-41c1-93b2-166b935f888c",
-        "1570618849665",
-        "66a177fb-db72-4eaa-8569-d9c669955756"
+        "0fda8fca-a299-41c1-93b2-166b935f888c"
       ],
       "settings": {
         "container_width": "container",
