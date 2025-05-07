@@ -912,7 +912,28 @@ body .section_product .product-details-wrapper.tab_content_wrapper {
 		text-align: center;
 	}
 
-	.info_row {
+	.tab_item {
+		hr {
+			border: 1px solid #dadada;
+			border-top: 0;
+		}
+
+		b {
+			line-height: 2;
+			color: black;
+		}
+
+		p {
+			color: black;
+		}
+
+		p>b {
+			line-height: 1.4;
+			color: black;
+		}
+	}
+
+	.raw_info {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;

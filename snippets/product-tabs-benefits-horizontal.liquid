@@ -48,28 +48,17 @@
                 {% if pb_set.content.size > 0 %}
                     <div class="all_content toggle_it" {% if pb_set.short_content.size > 0 %} style="display: none;"{% endif %}>
                         {{ pb_set.content }}
-                        {% comment %}<b>Active Ingredients per serving (2 gummies):</b><br><br>{% endcomment %}
-                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200</p><hr>{% endcomment %}
-                        {% comment %}<p>Folic Acid - 300 µg</p><hr>{% endcomment %}
-                        {% comment %}<p>Vitamin B12 - 1.5 µg</p><hr>{% endcomment %}
-                        {% comment %}<p>Beetroot Powder - 50 mg</p><hr>{% endcomment %}
-                        {% comment %}<p>Pomegranate Powder - 100 mg</p><hr>{% endcomment %}
-                        {% comment %}<p>Vitamin B6 - 3 mg</p><hr>{% endcomment %}
-                        {% comment %}<p>Iodine - 50 µg</p><hr><br>{% endcomment %}
-                        {% comment %}<b>Other Ingredients:</b><br>{% endcomment %}
-                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid), Folic Acid, Vitamin B12, Beetroot Powder, Pomegranate Powder, Vitamin B6, Iodine, Maltrose Syrup, White Granulated Sugar, Maltodextrin, Pectin, Citric Acid, Sodium Citrate, Red Beet, Natural Orange Flavour</p>{% endcomment %}
-                        <button class="btn-primary w-100 view_less">{{ 'layout.product.view_less' | t }}</button>
+                        {% if pb_set.short_content.size > 0 %}
+                            <button class="btn-primary w-100 view_less">{{ 'layout.product.view_less' | t }}</button>
+                        {% endif %}
                     </div>
                 {% endif %}
                 {% if pb_set.short_content.size > 0 %}
                     <div class="short_content toggle_it">
                         {{ pb_set.short_content }}
-                        {% comment %}<b>Active Ingredients per serving (2 gummies):</b><br><br>{% endcomment %}
-                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200</p><hr>{% endcomment %}
-                        {% comment %}<p>Folic Acid - 300 µg</p><hr>{% endcomment %}
-                        {% comment %}<p>Vitamin B12 - 1.5 µg</p><hr>{% endcomment %}
-                        {% comment %}<p>Beetroot Powder - 50 mg</p><hr>{% endcomment %}
-                        <button class="btn-primary w-100 view_more">{{ 'layout.product.view_more' | t }}</button>
+                        {% if pb_set.content.size > 0 %}
+                            <button class="btn-primary w-100 view_more">{{ 'layout.product.view_more' | t }}</button>
+                        {% endif %}
                     </div>
 
                 {% endif %}

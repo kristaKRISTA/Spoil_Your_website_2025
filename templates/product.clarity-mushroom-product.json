@@ -70,8 +70,8 @@
           "settings": {
             "title": "Technical Details",
             "custom_product": "collagen-gummies-adult",
-            "short_content": "<div class=\"raw_info\">\n<p><b>Shelf life</b></p>\n<p>2 Years / 24 Months</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Grade</b></p>\n<p>Health Food Grade</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Units:</b></p>\n<p>‎60 count</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b></b></p>\n<p></p>\n</div>\n<br>\n<p>*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>",
-            "content": "<div class=\"raw_info\">\n<p><b>Shelf life</b></p>\n<p>2 Years / 24 Months</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Grade</b></p>\n<p>Health Food Grade</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Units:</b></p>\n<p>‎60 count</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b></b></p>\n<p></p>\n</div>\n<br>\n<p>*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
+            "short_content": "<div class=\"raw_info\">\n<b>Shelf life:</b><span>2 Years / 24 Months</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade:</b><span>Health Food Grade</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<br>",
+            "content": "<div class=\"raw_info\">\n<b>Shelf life:</b><span>2 Years / 24 Months</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade:</b><span>Health Food Grade</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade</b><span>Health</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Not Applicable People:</b><span>Pregnant Women, Newborn</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>Gummies</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Package information:</b><span>Bottle</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p>*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
           }
         },
         "product_tab_miVUBV": {
@@ -79,8 +79,8 @@
           "settings": {
             "title": "Directions",
             "custom_product": "collagen-gummies-adult",
-            "short_content": "",
-            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
+            "short_content": "Take 2 gummies daily or as directed by a healthcare professional.",
+            "content": "Take 2 gummies daily or as directed by a healthcare professional."
           }
         },
         "product_tab_H6Wy9B": {
@@ -88,8 +88,8 @@
           "settings": {
             "title": "Warnings",
             "custom_product": "collagen-gummies-adult",
-            "short_content": "",
-            "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
+            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<p><b>Caution:</b>\n<br>\n</p><p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
+            "content": ""
           }
         },
         "8e485c64-e42e-4450-93df-6268035aec6e": {
