@@ -25,20 +25,20 @@ label {
 }
 
 .text_grey {
-	color: #616161;
+	color: #616161 !important;
 }
 
 .text_grey_bold {
-	color: #616161;
+	color: #616161 !important;
 	font-weight: 600;
 }
 
 .text_black {
-	color: #111111;
+	color: #111111 !important;
 }
 
 .text_black_bold {
-	color: #111111;
+	color: #111111 !important;
 	font-weight: 600;
 }
 
@@ -886,6 +886,7 @@ body .section_product .product-details-wrapper.tab_content_wrapper {
 	.tab_navigation {
 		margin-bottom: 26px;
 		justify-content: initial;
+		align-items: normal;
 	}
 
 	.tab_navigation:before {
@@ -937,6 +938,10 @@ body .section_product .product-details-wrapper.tab_content_wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		span {
+			color: black;
+		}
 	}
 }
 
