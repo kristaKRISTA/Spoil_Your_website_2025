@@ -12,6 +12,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "pr_info_benefits": {
+          "type": "pr_info_benefits",
+          "settings": {
+            "title": "Benefits",
+            "custom_product": "collagen-gummies-adult",
+            "short_content": "<b>Brain Health & Cognitive Support</b><hr>\n<b>Immune System Boost</b><hr>\n<b>Increased Energy & Stamina</b><hr>\n<b>Stress & Mood Support</b><hr>\n<b>Antioxidant & Anti-Aging Properties</b>",
+            "content": "<b>Brain Health & Cognitive Support</b><hr>\n<b>Immune System Boost</b><hr>\n<b>Increased Energy & Stamina</b><hr>\n<b>Stress & Mood Support</b><hr>\n<b>Antioxidant & Anti-Aging Properties</b>"
+          }
+        },
         "e485b1c7-2a7b-4623-9353-349e7aaa9572": {
           "type": "pr_title",
           "settings": {}
@@ -47,22 +56,13 @@
             "show_bit_button": false
           }
         },
-        "pr_info_benefits": {
-          "type": "pr_info_benefits",
-          "settings": {
-            "title": "Benefits",
-            "custom_product": "collagen-gummies-adult",
-            "content": "<h3 class=\"btn-default btn-md\">Benefits I'm a boss! #1</h3>",
-            "short_content": "Benefits something short #1"
-          }
-        },
         "product_tab_VxytHV": {
           "type": "product_tab",
           "settings": {
             "title": "Ingredients",
             "custom_product": "collagen-gummies-adult",
-            "content": "<h3 class=\"btn-default btn-md\">I'm a boss! #1</h3>",
-            "short_content": "something short #1"
+            "short_content": "<p>Mushroom Extract Blend: <b>250 mg</b></p>\n<p>Serving Size: <b>2 Gummies</b></p>\n<p>Servings Per Container: <b>30</b></p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>",
+            "content": "<p>Mushroom Extract Blend: <b>250 mg</b></p>\n<p>Serving Size: <b>2 Gummies</b></p>\n<p>Servings Per Container: <b>30</b></p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>\n<p><b>Active Ingredients per Serving:</b></p><hr>\n<p>Maitake Fruiting Body 10:1 Extract</p><hr>\n<p>Shiitake Fruiting Body 10:1 Extract</p><hr>\n<p>Cordyceps Fruiting Body 10:1 Extract</p><hr>\n<p>Chaga Fruiting Body 10:1 Extract</p><hr>\n<p>Turkey Tail Fruiting Body 10:1 Extract</p><hr>\n<p>Reishi Fruiting Body 10:1 Extract</p><hr>\n<p>White Button (Agaricus Bisporus)</p><hr>\n<p>Black Fungus (Auricularia Auricula-Judae)</p><hr>\n<p>Royal Sun Mushroom Fruiting Body (Agaricus Subrufescens)</p><br>\n<p><b>Other Ingredients:</b></p>\n<p>Glucose syrup, sugar, dextrose, water, pectin, natural raspberry flavor, sodium citrate, citric acid, fruit and vegetable juice (for color), black carrot juice concentrate, and natural flavors. Contains carnauba wax.</p><br>\n<p>*Percent Daily Values (DV) are based on a 2,000 calorie diet.</p>\n<p>** Daily Value (DV) not established. (*% Daily Value tells you how much a nutrient in a serving of food contributes to a daily diet. 2000 calories a day is used for general nutrition advice.) </p><br>"
           }
         },
         "product_tab_6hqgdX": {
@@ -70,8 +70,8 @@
           "settings": {
             "title": "Technical Details",
             "custom_product": "collagen-gummies-adult",
-            "content": "<h3 class=\"btn-default btn-md\">I'm a boss! #2</h3>",
-            "short_content": "something short #2"
+            "short_content": "<div class=\"raw_info\">\n<p><b>Shelf life</b></p>\n<p>2 Years / 24 Months</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Grade</b></p>\n<p>Health Food Grade</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Units:</b></p>\n<p>‎60 count</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b></b></p>\n<p></p>\n</div>\n<br>\n<p>*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>",
+            "content": "<div class=\"raw_info\">\n<p><b>Shelf life</b></p>\n<p>2 Years / 24 Months</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Grade</b></p>\n<p>Health Food Grade</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b>Units:</b></p>\n<p>‎60 count</p>\n</div>\n<hr>\n<div class=\"raw_info\">\n<p><b></b></p>\n<p></p>\n</div>\n<br>\n<p>*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
           }
         },
         "product_tab_miVUBV": {
@@ -79,6 +79,7 @@
           "settings": {
             "title": "Directions",
             "custom_product": "collagen-gummies-adult",
+            "short_content": "",
             "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
           }
         },
@@ -87,6 +88,7 @@
           "settings": {
             "title": "Warnings",
             "custom_product": "collagen-gummies-adult",
+            "short_content": "",
             "content": "<h3 class=\"btn-default btn-md\">I'm a boss!</h3>"
           }
         },
@@ -558,9 +560,9 @@
             "item_subtitle": "<div>\n<a class=\"btn btn-default btn-md\">Maitake</a>\n<a class=\"btn btn-default btn-md\">Shiitake</a>\n<a class=\"btn btn-default btn-md\">Lions Mane</a>\n<a class=\"btn btn-default btn-md\">Reishi</a>\n<a class=\"btn btn-default btn-md\">Cordyceps</a>\n<a class=\"btn btn-default btn-md\">Chaga</a>\n<a class=\"btn btn-default btn-md\">Turkey Tail</a>\n<a class=\"btn btn-default btn-md\">White Button</a>\n<a class=\"btn btn-default btn-md\">Black Fungus</a>\n<a class=\"btn btn-default btn-md\">Royal Sun Extract.</a>\n</div>",
             "color_subtitle": "#121212",
             "item_text": "",
-            "color_text": "#797B7E",
+            "color_text": "#797b7e",
             "custom_heading": "",
-            "color_ch": "#797B7E",
+            "color_ch": "#797b7e",
             "caption_size": "medium",
             "inset_caption": "0% 0% 3% 0%",
             "item_link": "",
