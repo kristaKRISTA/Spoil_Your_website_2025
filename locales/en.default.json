@@ -99,6 +99,8 @@
       "barcode": "Barcode",
       "collections": "Collections",
       "product_type": "Product type",
+      "view_more": "View More",
+      "view_less": "View Less",
       "vendor": "Vendor",
       "tags": "Tags",
       "availability": "Availability",

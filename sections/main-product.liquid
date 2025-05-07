@@ -115,7 +115,7 @@
 		<div class="single-product-wrapper">
 			<div class="row{% if p_item.product_view_type == 'carousel-vertical' %} align-items-start{% endif %}">
 	
-					<div class="{{ product_gallery_class }}">
+					<div class="single_product__media {{ product_gallery_class }}">
 						{% render 'product-gallery-layout',
 							pr_image_ratio: p_item.pr_image_ratio,
 							product_view_type: p_item.product_view_type,
@@ -136,11 +136,18 @@
 							use_more_pr_image: p_item.use_more_image,
 							use_filter_thumbs: p_item.use_filter_color_thumbs
 						%}
+                        <div class="benefits_togggle">
+                            {% render 'product-tabs-benefits-horizontal', pr_description_as: p_item.pr_description_as %}
+                        </div>
+
 					</div>
 	
 					<div class="single_product__info col-12 {{ product_info_class }}">
 						{% render 'product-descr' %}
-	
+                        <div class="benefits_togggle">
+                            {% render 'product-tabs-benefits-horizontal', pr_description_as: p_item.pr_description_as %}
+                        </div>
+                        {% render 'product-tabs-horizontal', pr_description_as: p_item.pr_description_as %}
 						{% case p_item.product_description_type %}
 						{% when 'dropdown-content'  %}
 							{% render 'product-tabs-vertical', pr_description_as: p_item.pr_description_as, open_descr_collapse: p_item.open_descr_collapse %}
@@ -156,8 +163,8 @@
 			</div>
 		  {% endunless %}
 		  {% case p_item.product_description_type %}
-		  {% when 'tab-content'  %}
-		  {% render 'product-tabs-horizontal', pr_description_as: p_item.pr_description_as %}
+		  {% comment %}{% when 'tab-content'  %}{% endcomment %}
+		  {% comment %}{% render 'product-tabs-horizontal', pr_description_as: p_item.pr_description_as %}{% endcomment %}
 		  {% endcase %}
 		</div>
 	  </div>
@@ -665,25 +672,6 @@
 		"name": "Product title",
 		"limit": 1
 	  },
-
-      {
-        "type": "pr_info_tab",
-        "name": "Product info tab",
-        "settings" : [
-          {
-            "type": "text",
-            "id": "tab_title",
-            "label": "Tab Title",
-            "default": "Ingrediends"
-          },
-          {
-            "type": "textarea",
-            "id": "tab_info",
-            "label": "Tab Info",
-            "default": "Tab Info"
-          }
-        ]
-      },
 	  
 	  {
 		"type": "pr_price",
@@ -1036,6 +1024,35 @@
 			]
 		},
 
+          {
+            "type": "pr_info_benefits",
+            "name": "Product benefits tab",
+            "settings": [
+              {
+                "type": "text",
+                "id": "title",
+                "label": "Tab title",
+                "default": "Tab title"
+              },
+              {
+                "type": "product",
+                "id": "custom_product",
+                "label": "Product",
+                "info": "Content will only be shown on this product."
+              },
+              {
+                "type": "textarea",
+                "id": "short_content",
+                "label": "Short Version of content/HTML",
+                "info": "If short version is defined, toggling of short and all content will be disabled also"
+              },
+              {
+                "type": "textarea",
+                "id": "content",
+                "label": "Some Content/HTML"
+              }
+            ]
+          },
 		
 		{
 			"type": "product_tab",
@@ -1053,6 +1070,12 @@
 					"label": "Product",
 					"info": "Content will only be shown on this product."
 				},
+                  {
+                    "type": "textarea",
+                    "id": "short_content",
+                    "label": "Short Version of content/HTML",
+                    "info": "If short version is defined, toggling of short and all content will be disabled also"
+                  },
 			  	{
 					"type": "textarea",
 					"id": "content",

@@ -1,0 +1,115 @@
+{% comment %}{% if section.blocks.size > 0 %}{% endcomment %}
+  <div class="product-details-wrapper tab_content_wrapper">
+    <div class="tab_content_bg">
+      <div class="tab_navigation">
+
+        {% for block in section.blocks %}
+
+            {% unless pr_description_as == 'content_tab_collapse' %}
+            {% assign first_block = false %}
+              {% if forloop.first == true %}
+                {% assign first_block = true %}
+              {% endif %}
+            {% endunless %}
+            {%- assign pb_set = block.settings -%}
+            {% case block.type %}
+
+            {% when 'pr_info_benefits'  %}
+                {% if pb_set.custom_product == product.handle %}
+                {%- assign block_counter = block_counter | plus: 1 -%}
+                <span class="tab_nav tab_nav_{{ block_counter }}{% if block_counter == 1 %} active{% endif %}" data-tab="{{ block_counter | minus: 1 }}">{{ pb_set.title }}<svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg"><path d="M9 1.5L7.5 0L4.5 3L1.5 0L0 1.5L4.5 6L9 1.5Z" /></svg></span>
+                {% endif %}
+
+          {% endcase %}
+        {% endfor %}
+      </div>
+
+      <div class="tab_content">
+
+        
+        {% for block in section.blocks %}
+          
+          {% unless pr_description_as == 'content_tab_collapse' %}
+            {% assign first_block = false %}
+              {% if forloop.first == true %}
+                {% assign first_block = true %}
+              {% endif %}
+          {% endunless %}
+          
+          {%- assign pb_set = block.settings -%}
+          {% case block.type %}
+
+          {% when 'pr_info_benefits'  %}
+          {% if pb_set.custom_product == product.handle %}
+            {%- assign block_counter = block_counter | plus: 1 -%}
+            <div class="rte tab_item tab_item_{{ block_counter }}
+                {% if pb_set.title == 'Benefits' %} active
+                {% endif %}">
+                {% if pb_set.content.size > 0 %}
+                    <div class="all_content toggle_it" {% if pb_set.short_content.size > 0 %} style="display: none;"{% endif %}>
+                        {{ pb_set.content }}
+                        {% comment %}<b>Active Ingredients per serving (2 gummies):</b><br><br>{% endcomment %}
+                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200</p><hr>{% endcomment %}
+                        {% comment %}<p>Folic Acid - 300 µg</p><hr>{% endcomment %}
+                        {% comment %}<p>Vitamin B12 - 1.5 µg</p><hr>{% endcomment %}
+                        {% comment %}<p>Beetroot Powder - 50 mg</p><hr>{% endcomment %}
+                        {% comment %}<p>Pomegranate Powder - 100 mg</p><hr>{% endcomment %}
+                        {% comment %}<p>Vitamin B6 - 3 mg</p><hr>{% endcomment %}
+                        {% comment %}<p>Iodine - 50 µg</p><hr><br>{% endcomment %}
+                        {% comment %}<b>Other Ingredients:</b><br>{% endcomment %}
+                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid), Folic Acid, Vitamin B12, Beetroot Powder, Pomegranate Powder, Vitamin B6, Iodine, Maltrose Syrup, White Granulated Sugar, Maltodextrin, Pectin, Citric Acid, Sodium Citrate, Red Beet, Natural Orange Flavour</p>{% endcomment %}
+                        <button class="btn-primary w-100 view_less">{{ 'layout.product.view_less' | t }}</button>
+                    </div>
+                {% endif %}
+                {% if pb_set.short_content.size > 0 %}
+                    <div class="short_content toggle_it">
+                        {{ pb_set.short_content }}
+                        {% comment %}<b>Active Ingredients per serving (2 gummies):</b><br><br>{% endcomment %}
+                        {% comment %}<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200</p><hr>{% endcomment %}
+                        {% comment %}<p>Folic Acid - 300 µg</p><hr>{% endcomment %}
+                        {% comment %}<p>Vitamin B12 - 1.5 µg</p><hr>{% endcomment %}
+                        {% comment %}<p>Beetroot Powder - 50 mg</p><hr>{% endcomment %}
+                        <button class="btn-primary w-100 view_more">{{ 'layout.product.view_more' | t }}</button>
+                    </div>
+
+                {% endif %}
+
+            </div>
+          {% endif %}
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var viewMoreButtons = document.querySelectorAll('.view_more');
+    viewMoreButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var parent = this.closest('.tab_item');
+        var shortText = parent.querySelector('.short_content');
+        var fullText = parent.querySelector('.all_content');
+
+        if (shortText && fullText) {
+          shortText.style.display = 'none';
+          fullText.style.display = 'inline';
+        }
+      });
+    });
+    var viewLessButtons = document.querySelectorAll('.view_less');
+    viewLessButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var parent = this.closest('.tab_item');
+        var shortText = parent.querySelector('.short_content');
+        var fullText = parent.querySelector('.all_content');
+
+        if (shortText && fullText) {
+          fullText.style.display = 'none';
+          shortText.style.display = 'inline';
+        }
+      });
+    });
+  });
+</script>
+
