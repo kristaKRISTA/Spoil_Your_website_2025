@@ -12,19 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "pr_tags_Vn8aVc": {
+          "type": "pr_tags",
+          "settings": {
+            "show_tags": true
+          }
+        },
         "pr_info_benefits": {
           "type": "pr_info_benefits",
           "settings": {
             "title": "Benefits",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<b>Brain Health & Cognitive Support</b><hr>\n<b>Immune System Boost</b><hr>\n<b>Increased Energy & Stamina</b><hr>\n<b>Stress & Mood Support</b><hr>\n<b>Antioxidant & Anti-Aging Properties</b>",
+            "custom_product": "apple-cider-vinegar-gummies",
+            "short_content": "<b>Help support digestion</b><hr>\n<b>Boosts energy levels</b><hr>\n<b>Supports normal hair, skin & nails, and the reduction of tiredness & fatigue</b><hr>\n<b>Supports gut health</b><hr>\n<b>Supports heart health</b>",
             "content": ""
-          }
-        },
-        "pr_tags_LyMxMy": {
-          "type": "pr_tags",
-          "settings": {
-            "show_tags": true
           }
         },
         "e485b1c7-2a7b-4623-9353-349e7aaa9572": {
@@ -51,7 +51,7 @@
           "type": "pr_avalreview",
           "settings": {
             "product_reviews": true,
-            "n_reviews": "8083",
+            "n_reviews": "7671",
             "l_reviews": "4.9",
             "product_available": false
           }
@@ -66,35 +66,35 @@
           "type": "product_tab",
           "settings": {
             "title": "Ingredients",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Mushroom Extract Blend: 250 mg</p>\n<p>Serving Size: 2 Gummies</p>\n<p>Servings Per Container: 30</p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>",
-            "content": "<p>Mushroom Extract Blend: <b>250 mg</b></p>\n<p>Serving Size: <b>2 Gummies</b></p>\n<p>Servings Per Container: <b>30</b></p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>\n<p><b>Active Ingredients per Serving:</b></p><hr>\n<p>Maitake Fruiting Body 10:1 Extract</p><hr>\n<p>Shiitake Fruiting Body 10:1 Extract</p><hr>\n<p>Cordyceps Fruiting Body 10:1 Extract</p><hr>\n<p>Chaga Fruiting Body 10:1 Extract</p><hr>\n<p>Turkey Tail Fruiting Body 10:1 Extract</p><hr>\n<p>Reishi Fruiting Body 10:1 Extract</p><hr>\n<p>White Button (Agaricus Bisporus)</p><hr>\n<p>Black Fungus (Auricularia Auricula-Judae)</p><hr>\n<p>Royal Sun Mushroom Fruiting Body (Agaricus Subrufescens)</p><br>\n<p><b>Other Ingredients:</b></p>\n<p>Glucose syrup, sugar, dextrose, water, pectin, natural raspberry flavor, sodium citrate, citric acid, fruit and vegetable juice (for color), black carrot juice concentrate, and natural flavors. Contains carnauba wax.</p><br>\n<p class=\"text_grey\">*Percent Daily Values (DV) are based on a 2,000 calorie diet.</p>\n<p class=\"text_grey\">** Daily Value (DV) not established. (*% Daily Value tells you how much a nutrient in a serving of food contributes to a daily diet. 2000 calories a day is used for general nutrition advice.) </p><br>"
+            "custom_product": "apple-cider-vinegar-gummies",
+            "short_content": "<p><b>Active Ingredients per serving (2 gummies):</b></p><br>\n<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200 mg</p><hr>\n<p>Folic Acid - 300 µg</p><hr>\n<p>Vitamin B12 - 1.5 µg</p><hr>\n<p>Beetroot Powder - 50 mg</p>\n<br>\n<br>",
+            "content": "<p><b>Active Ingredients per serving (2 gummies):</b></p><br>\n<p>Apple Cider Vinegar (17%) (Acetic Acid) - 200 mg</p><hr>\n<p>Folic Acid - 300 µg</p><hr>\n<p>Vitamin B12 - 1.5 µg</p><hr>\n<p>Beetroot Powder - 50 mg</p><hr>\n<p>Pomegranate Powder - 100 mg</p><hr>\n<p>Vitamin B6 - 3 mg</p><hr>\n<p>Iodine - 50 µg</p><hr>\n<p><b>Other Ingredients:</b></p>\n<p>Apple Cider Vinegar (17%) (Acetic Acid), Folic Acid, Vitamin B12, Beetroot Powder, Pomegranate Powder, Vitamin B6, Iodine, Maltrose Syrup, White Granulated Sugar, Maltodextrin, Pectin, Citric Acid, Sodium Citrate, Red Beet, Natural Orange Flavour</p>\n<br>\n<br>"
           }
         },
         "product_tab_6hqgdX": {
           "type": "product_tab",
           "settings": {
             "title": "Technical Details",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<br>",
-            "content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade</b><span>Health</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Not Applicable People:</b><span>Pregnant Women, Newborn</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>Gummies</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p class=\"text_grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
+            "custom_product": "apple-cider-vinegar-gummies",
+            "short_content": "<div class=\"raw_info\">\n<b>Weight:</b><span>200 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Solid Net Weight:</b><span>180 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children.</span>\n</div>\n<br>",
+            "content": "<div class=\"raw_info\">\n<b>Weight:</b><span>200 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Solid Net Weight:</b><span>180 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children.</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Serving Recommendation:</b><span>‎2 Gummies Per Day</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>‎‎Gummy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p class=\"text_grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>\n<br>"
           }
         },
         "product_tab_miVUBV": {
           "type": "product_tab",
           "settings": {
             "title": "Directions",
-            "custom_product": "collagen-gummies-adult",
+            "custom_product": "apple-cider-vinegar-gummies",
             "short_content": "",
-            "content": "Take 2 gummies daily or as directed by a healthcare professional."
+            "content": "Simply chew 2 gummies daily. For optimal results, it is recommended that you take the gummies at approximately the same time every day."
           }
         },
         "product_tab_H6Wy9B": {
           "type": "product_tab",
           "settings": {
             "title": "Warnings",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<p><b>Caution:</b> This product may settle during shipment. This product may darken over time. Natural colors will darken over time. This does not alter the potency of the product. This product is manufactured and packaged in a facility that may also process milk, soy, wheat, egg, peanuts, tree nuts, fish, and crustacean shellfish.</p>\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
+            "custom_product": "apple-cider-vinegar-gummies",
+            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use.</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
             "content": ""
           }
         },
@@ -161,8 +161,8 @@
         }
       },
       "block_order": [
+        "pr_tags_Vn8aVc",
         "pr_info_benefits",
-        "pr_tags_LyMxMy",
         "e485b1c7-2a7b-4623-9353-349e7aaa9572",
         "c8222f8f-0f33-4183-802d-0a30ec77fe7b",
         "25940a2a-5fec-4824-82fa-cc251168fbc8",
@@ -254,7 +254,7 @@
         "heading_h3_Rjkz37": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>1 - Premium Mushroom Gummy</h4>",
+            "heading_h3": "<h4>Pure & Powerful</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -267,7 +267,7 @@
         "text_brXfR7": {
           "type": "text",
           "settings": {
-            "text": "<p>Hate swallowing big capsules? Our delicious mushroom gummies make it easy! Each servingdelivers a powerful 250mg blend. With 60 gummies per bottle, you’re getting unbeatable value!</p>",
+            "text": "<p>Each SpoilYour ACV gummy is packed with 500mg of raw, unfiltered apple cider vinegar—equivalent to 2 teaspoons (10ml). Perfect for Vegans and Vegetarians, enjoy 2 tasty, gluten-free gummies daily!</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -290,7 +290,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611.png",
+        "image": "shopify://shop_images/Rectangle_8611_15.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -312,7 +312,7 @@
         "heading_h3_yrd9XG": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Powerful Benefits</h4>",
+            "heading_h3": "<h4>Boosted Benefits</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -325,7 +325,7 @@
         "text_NJHr8M": {
           "type": "text",
           "settings": {
-            "text": "<p>Our advanced Mushroom Complex is designed to support brain function, immune health, energy, focus, memory, mood, and heart health—all in one convenient gummy.</p>",
+            "text": "<p>SpoilYour’s apple cider vinegar is enriched with Vitamin B12, B6, Folic Acid, Pomegranate Powder, and Beetroot Powder. These essential nutrients support immune function, promote healthy hair, skin, and nails, and help combat fatigue.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -348,7 +348,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_1.png",
+        "image": "shopify://shop_images/Rectangle_8611_16.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -370,7 +370,7 @@
         "heading_h3_xyDkMh": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>10-Mushroom Super Blend</h4>",
+            "heading_h3": "<h4>Delicious Flavor</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -383,7 +383,7 @@
         "text_W9GTpz": {
           "type": "text",
           "settings": {
-            "text": "<p>Packed with 10 powerhouse mushrooms: Maitake, Shiitake, Lion’s Mane, Reishi, Cordyceps, Chaga, Turkey Tail, White Button, Black Fungus, and Royal Sun Extract.</p>",
+            "text": "<p>Experience all the advantages of ACV without the harsh, acidic taste! Designed to resemble a sweet treat, SpoilYour gummies are flavorful and enjoyable. Just 2 gummies a day provide the same benefits as drinking 2 teaspoons of liquid ACV.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -406,65 +406,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_2.png",
-        "image_column": "6",
-        "use_bgimg": false,
-        "image_bg_color": "",
-        "image_bg_color_opacity": 0.5,
-        "inset_image": "0px 0px 0px 0px",
-        "caption_column": "6",
-        "caption_align_v": "center",
-        "text_align": "left",
-        "inverted": false,
-        "use_caption_bg": false,
-        "caption_bg_color": "",
-        "caption_bg_color_opacity": 0.5,
-        "inset_caption": "0% 0% 0% 0%"
-      }
-    },
-    "index_image_with_text_column_FaQxQ7": {
-      "type": "index-image-with-text-column",
-      "blocks": {
-        "heading_h3_bQz9kB": {
-          "type": "heading_h3",
-          "settings": {
-            "heading_h3": "<h4>Delicious & Natural</h4>",
-            "color": "#121212",
-            "indent_block": "0",
-            "inset_block": "0 0 0 0",
-            "offset_block": "5% 0 0 0",
-            "use_bgi": false,
-            "caption_bg_color": "",
-            "caption_bg_color_opacity": 0.5
-          }
-        },
-        "text_yrjjKf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve crafted a health supplement that’s as tasty as it is effective! Naturally flavored withraspberry and free from artificial colors or flavors—because wellness should taste good too!.</p>",
-            "text_size": "medium",
-            "color": "#616161",
-            "inset_block": "0 0 0 0",
-            "offset_block": "5% 0 0 0",
-            "use_bgi": false,
-            "caption_bg_color": "",
-            "caption_bg_color_opacity": 0.5
-          }
-        }
-      },
-      "block_order": [
-        "heading_h3_bQz9kB",
-        "text_yrjjKf"
-      ],
-      "name": "Image with text column",
-      "settings": {
-        "container_width": "container",
-        "reset_indent": false,
-        "column_dir": "row",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "70px 0px 0px 0px",
-        "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_3.png",
+        "image": "shopify://shop_images/Rectangle_8611_17.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -486,7 +428,7 @@
         "heading_h3_APeTaX": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Quality You Can Trust</h4>",
+            "heading_h3": "<h4>Premium Quality</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -499,7 +441,7 @@
         "text_YbhRh6": {
           "type": "text",
           "settings": {
-            "text": "<p>At Effective Nutra, we set the bar high. Our gummies are <strong>Vegan, Gluten-Free, Non-GMO, Third-Party Tested, GMP Certified.</strong></p>",
+            "text": "<p>Crafted with natural ingredients and free from gluten, soy, gelatin, artificial sweeteners, colors, and preservatives. SpoilYour gummies are designed for optimal absorption, ensuring you get the full benefits of high-strength apple cider vinegar.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -518,11 +460,11 @@
       "settings": {
         "container_width": "container",
         "reset_indent": false,
-        "column_dir": "row-reverse",
+        "column_dir": "row",
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8612.png",
+        "image": "shopify://shop_images/Rectangle_8611_19.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -536,6 +478,83 @@
         "caption_bg_color": "",
         "caption_bg_color_opacity": 0.5,
         "inset_caption": "0% 0% 0% 0%"
+      }
+    },
+    "index_image_with_text_column_k4BYQb": {
+      "type": "index-image-with-text-column",
+      "blocks": {
+        "heading_h3_HaFwba": {
+          "type": "heading_h3",
+          "settings": {
+            "heading_h3": "<h4>Extremely Formulated</h4>",
+            "color": "#121212",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        },
+        "text_xpX7g9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Developed by a top nutritionist and manufactured to world-class quality standards, SpoilYour supplements use only the finest ingredients to create advanced nutritional products that support customers worldwide.</p>",
+            "text_size": "medium",
+            "color": "#616161",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "caption_bg_color": "",
+            "caption_bg_color_opacity": 0.5
+          }
+        }
+      },
+      "block_order": [
+        "heading_h3_HaFwba",
+        "text_xpX7g9"
+      ],
+      "name": "Image with text column",
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "column_dir": "row-reverse",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "70px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "image": "shopify://shop_images/Rectangle_8611_18.png",
+        "image_column": "6",
+        "use_bgimg": false,
+        "image_bg_color": "",
+        "image_bg_color_opacity": 0.5,
+        "inset_image": "0px 0px 0px 0px",
+        "caption_column": "6",
+        "caption_align_v": "center",
+        "text_align": "left",
+        "inverted": false,
+        "use_caption_bg": false,
+        "caption_bg_color": "",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "0% 0% 0% 0%"
+      }
+    },
+    "index_divider_GXMnWT": {
+      "type": "index-divider",
+      "name": "Divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
       }
     },
     "index_banners_eVakz9": {
@@ -587,6 +606,7 @@
       "block_order": [
         "banner_hBGQYP"
       ],
+      "disabled": true,
       "name": "Banners",
       "settings": {
         "banner_custom_class": "product_specials_footer",
@@ -599,6 +619,109 @@
         "offset_section": "80px 0px 0px 0px",
         "show_carousel_on_mobile": false
       }
+    },
+    "index_divider_JDYi6z": {
+      "type": "index-divider",
+      "name": "Divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "section_accordion_Nxw3HH": {
+      "type": "section-accordion",
+      "blocks": {
+        "tab_block_9TTMtj": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>What sets these Apple Cider Vinegar Gummies apart?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_zLNVkT": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>What is \"The Mother\" in Apple Cider Vinegar?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_Lfp9q4": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Do the ACV Gummies Taste Like Vinegar?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        },
+        "tab_block_hVeAVf": {
+          "type": "tab-block",
+          "settings": {
+            "width": "12",
+            "offset_top_item": "0px",
+            "max_height_content": "auto",
+            "widget_open_toggle": false,
+            "overlay_content": false,
+            "element_header": "<p>Are the ACV Gummies Gluten-Free?</p>",
+            "color_header": "",
+            "bg_header": "#ffffff",
+            "element_text": "",
+            "color_text": "",
+            "bg_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "tab_block_9TTMtj",
+        "tab_block_zLNVkT",
+        "tab_block_Lfp9q4",
+        "tab_block_hVeAVf"
+      ],
+      "settings": {
+        "section_title": "<h3>Frequently Asked Questions</h3>",
+        "desc": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px"
+      }
     }
   },
   "order": [
@@ -608,8 +731,11 @@
     "index_image_with_text_column_ThFHUt",
     "index_image_with_text_column_UWqmVB",
     "index_image_with_text_column_dyNKg4",
-    "index_image_with_text_column_FaQxQ7",
     "index_image_with_text_column_LhdBE8",
-    "index_banners_eVakz9"
+    "index_image_with_text_column_k4BYQb",
+    "index_divider_GXMnWT",
+    "index_banners_eVakz9",
+    "index_divider_JDYi6z",
+    "section_accordion_Nxw3HH"
   ]
 }

@@ -16,8 +16,8 @@
           "type": "pr_info_benefits",
           "settings": {
             "title": "Benefits",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<b>Brain Health & Cognitive Support</b><hr>\n<b>Immune System Boost</b><hr>\n<b>Increased Energy & Stamina</b><hr>\n<b>Stress & Mood Support</b><hr>\n<b>Antioxidant & Anti-Aging Properties</b>",
+            "custom_product": "digestive-enzymes",
+            "short_content": "<b>Aid in food breakdown</b><hr>\n<b>Enhance nutrient absorption</b><hr>\n<b>Encourage smooth digestion</b><hr>\n<b>Reduce bloating</b>",
             "content": ""
           }
         },
@@ -51,8 +51,8 @@
           "type": "pr_avalreview",
           "settings": {
             "product_reviews": true,
-            "n_reviews": "8083",
-            "l_reviews": "4.9",
+            "n_reviews": "4008",
+            "l_reviews": "4.8",
             "product_available": false
           }
         },
@@ -66,35 +66,35 @@
           "type": "product_tab",
           "settings": {
             "title": "Ingredients",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Mushroom Extract Blend: 250 mg</p>\n<p>Serving Size: 2 Gummies</p>\n<p>Servings Per Container: 30</p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>",
-            "content": "<p>Mushroom Extract Blend: <b>250 mg</b></p>\n<p>Serving Size: <b>2 Gummies</b></p>\n<p>Servings Per Container: <b>30</b></p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>\n<p><b>Active Ingredients per Serving:</b></p><hr>\n<p>Maitake Fruiting Body 10:1 Extract</p><hr>\n<p>Shiitake Fruiting Body 10:1 Extract</p><hr>\n<p>Cordyceps Fruiting Body 10:1 Extract</p><hr>\n<p>Chaga Fruiting Body 10:1 Extract</p><hr>\n<p>Turkey Tail Fruiting Body 10:1 Extract</p><hr>\n<p>Reishi Fruiting Body 10:1 Extract</p><hr>\n<p>White Button (Agaricus Bisporus)</p><hr>\n<p>Black Fungus (Auricularia Auricula-Judae)</p><hr>\n<p>Royal Sun Mushroom Fruiting Body (Agaricus Subrufescens)</p><br>\n<p><b>Other Ingredients:</b></p>\n<p>Glucose syrup, sugar, dextrose, water, pectin, natural raspberry flavor, sodium citrate, citric acid, fruit and vegetable juice (for color), black carrot juice concentrate, and natural flavors. Contains carnauba wax.</p><br>\n<p class=\"text_grey\">*Percent Daily Values (DV) are based on a 2,000 calorie diet.</p>\n<p class=\"text_grey\">** Daily Value (DV) not established. (*% Daily Value tells you how much a nutrient in a serving of food contributes to a daily diet. 2000 calories a day is used for general nutrition advice.) </p><br>"
+            "custom_product": "digestive-enzymes",
+            "short_content": "<p>Serving Size: 1 Capsule</p>\n<p>Servings Per Container: 60</p><hr>\n<p><b>Prebiotic and Probiotic Blend – 150mg:<b></b></b></p>\n<p>Organic Inulin (from Jerusalem Artichoke)</p>\n<p>Organic Acacia Fiber</p>\n<p>Bacillus subtilis BS50™</p>\n<p>Bacillus coagulans</p><br>",
+            "content": "<p>Serving Size: 1 Capsule</p>\n<p>Servings Per Container: 60</p><hr>\n<p><b>Prebiotic and Probiotic Blend – 150mg:<b></b></b></p>\n<p>Organic Inulin (from Jerusalem Artichoke)</p>\n<p>Organic Acacia Fiber</p>\n<p>Bacillus subtilis BS50™</p>\n<p>Bacillus coagulans</p><hr>\n<p><b>Herbal Blend – 150mg:<b></b></b></p>\n<p>Organic Peppermint Leaf</p>\n<p>Organic Ginger Root</p>\n<p>Bacillus coagulans</p><hr>\n<p><b>Digestive Enzyme Blend – 150mg:<b></b></b></p>\n<p>Bromelain</p>\n<p>Amylase</p>\n<p>Protease 4.5</p>\n<p>Protease 6.0</p>\n<p>Protease 3.0</p>\n<p>Lactase</p>\n<p>Lipase</p>\n<p>Peptidase</p>\n<p>Cellulase Beta-Glucanase</p>\n<p>Alpha-Galactosidase</p>\n<p>Xylanase Hemicellulase</p>\n<p>Invertase</p><hr>\n<p><b>Other Ingredients:<b></b></b></p>\n<p>Vegetable capsule (hypromellose), rice flour, rice hull concentrate, organic sunflower oil.</p>\n<p class=\"text_grey\">*BS50™ is a trademark of BIO-CAT, Inc.</p>"
           }
         },
         "product_tab_6hqgdX": {
           "type": "product_tab",
           "settings": {
             "title": "Technical Details",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<br>",
-            "content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade</b><span>Health</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Not Applicable People:</b><span>Pregnant Women, Newborn</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>Gummies</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p class=\"text_grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
+            "custom_product": "digestive-enzymes",
+            "short_content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Solid Net Weight:</b><span>‎80 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Diet Type:</b><span>Vegan</span>\n</div><br>",
+            "content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Solid Net Weight:</b><span>‎80 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Diet Type:</b><span>Vegan</span>\n</div><hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>Capsule</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description::</b><span>Adult</span>\n</div>\n<br><br>\n<p class=\"text-grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p><br>"
           }
         },
         "product_tab_miVUBV": {
           "type": "product_tab",
           "settings": {
             "title": "Directions",
-            "custom_product": "collagen-gummies-adult",
+            "custom_product": "digestive-enzymes",
             "short_content": "",
-            "content": "Take 2 gummies daily or as directed by a healthcare professional."
+            "content": "Take 1 capsule of Digestive Enzymes at mealtime."
           }
         },
         "product_tab_H6Wy9B": {
           "type": "product_tab",
           "settings": {
             "title": "Warnings",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<p><b>Caution:</b> This product may settle during shipment. This product may darken over time. Natural colors will darken over time. This does not alter the potency of the product. This product is manufactured and packaged in a facility that may also process milk, soy, wheat, egg, peanuts, tree nuts, fish, and crustacean shellfish.</p>\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
+            "custom_product": "digestive-enzymes",
+            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
             "content": ""
           }
         },
@@ -254,7 +254,7 @@
         "heading_h3_Rjkz37": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>1 - Premium Mushroom Gummy</h4>",
+            "heading_h3": "<h4>Say Goodbye to Bloating & Digestive Discomfort</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -267,7 +267,7 @@
         "text_brXfR7": {
           "type": "text",
           "settings": {
-            "text": "<p>Hate swallowing big capsules? Our delicious mushroom gummies make it easy! Each servingdelivers a powerful 250mg blend. With 60 gummies per bottle, you’re getting unbeatable value!</p>",
+            "text": "<p>Featuring 16 powerful enzymes that help break down proteins, carbs, fruits, vegetables, beans, dairy, and fats—supporting all types of diets. Enhanced with SBO probiotics and prebiotics for optimal digestion—your new mealtime essential!</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -290,7 +290,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611.png",
+        "image": "shopify://shop_images/Rectangle_8611_9.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -312,7 +312,7 @@
         "heading_h3_yrd9XG": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Powerful Benefits</h4>",
+            "heading_h3": "<h4>Dual-Action Digestive Support </h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -325,7 +325,7 @@
         "text_NJHr8M": {
           "type": "text",
           "settings": {
-            "text": "<p>Our advanced Mushroom Complex is designed to support brain function, immune health, energy, focus, memory, mood, and heart health—all in one convenient gummy.</p>",
+            "text": "<p>Our potent digestive enzymes aid in food breakdown, while probiotics and prebiotics work together to support gut health. This synergistic formula helps reduce bloating and discomfort after meals.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -348,7 +348,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_1.png",
+        "image": "shopify://shop_images/Rectangle_8611_10.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -370,7 +370,7 @@
         "heading_h3_xyDkMh": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>10-Mushroom Super Blend</h4>",
+            "heading_h3": "<h4>Probiotics That Thrive in the Gut </h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -383,7 +383,7 @@
         "text_W9GTpz": {
           "type": "text",
           "settings": {
-            "text": "<p>Packed with 10 powerhouse mushrooms: Maitake, Shiitake, Lion’s Mane, Reishi, Cordyceps, Chaga, Turkey Tail, White Button, Black Fungus, and Royal Sun Extract.</p>",
+            "text": "<p>Formulated with three soil-based probiotic strains, carefully selected for their ability to survive harsh digestive conditions. Combined with organic prebiotics to nourish healthy gut bacteria.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -406,7 +406,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_2.png",
+        "image": "shopify://shop_images/Rectangle_8611_11.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -428,7 +428,7 @@
         "heading_h3_bQz9kB": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Delicious & Natural</h4>",
+            "heading_h3": "<h4>Backed by Science </h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -441,7 +441,7 @@
         "text_yrjjKf": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve crafted a health supplement that’s as tasty as it is effective! Naturally flavored withraspberry and free from artificial colors or flavors—because wellness should taste good too!.</p>",
+            "text": "<p>Developed using the latest scientific research and reviewed by expert physicians. We prioritize transparency and education, helping you make informed health choices</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -464,7 +464,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_3.png",
+        "image": "shopify://shop_images/Rectangle_8611_12.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -486,7 +486,7 @@
         "heading_h3_APeTaX": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Quality You Can Trust</h4>",
+            "heading_h3": "<h4>Premium Quality & Safety Assured </h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -499,7 +499,7 @@
         "text_YbhRh6": {
           "type": "text",
           "settings": {
-            "text": "<p>At Effective Nutra, we set the bar high. Our gummies are <strong>Vegan, Gluten-Free, Non-GMO, Third-Party Tested, GMP Certified.</strong></p>",
+            "text": "<p>Third-party tested for purity and potency. No refrigeration required.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -522,7 +522,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8612.png",
+        "image": "shopify://shop_images/Rectangle_8611_13.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -544,7 +544,7 @@
         "banner_hBGQYP": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_8611_4.png",
+            "image": "shopify://shop_images/Rectangle_8611_14.png",
             "width": "12",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -562,9 +562,9 @@
             "v_cpos": "start",
             "reverse_cpos": "flex-column",
             "textalign_pos": "center",
-            "item_title": "<h4>Brain Health & Cognitive Support\n</h4>",
+            "item_title": "<h4>Enjoy Digestion Without Worry\n</h4>",
             "color_title": "#121212",
-            "item_subtitle": "<div>\n<a class=\"btn btn-default btn-md\">Maitake</a>\n<a class=\"btn btn-default btn-md\">Shiitake</a>\n<a class=\"btn btn-default btn-md\">Lions Mane</a>\n<a class=\"btn btn-default btn-md\">Reishi</a>\n<a class=\"btn btn-default btn-md\">Cordyceps</a>\n<a class=\"btn btn-default btn-md\">Chaga</a>\n<a class=\"btn btn-default btn-md\">Turkey Tail</a>\n<a class=\"btn btn-default btn-md\">White Button</a>\n<a class=\"btn btn-default btn-md\">Black Fungus</a>\n<a class=\"btn btn-default btn-md\">Royal Sun Extract.</a>\n</div>",
+            "item_subtitle": "<div>\n<a class=\"btn btn-default btn-md\">Proteins</a>\n<a class=\"btn btn-default btn-md\">Carbs</a>\n<a class=\"btn btn-default btn-md\">Dairy</a>\n<a class=\"btn btn-default btn-md\">Veggies</a>\n<a class=\"btn btn-default btn-md\">Legumes</a>\n<a class=\"btn btn-default btn-md\">Fats</a>\n</div>",
             "color_subtitle": "#121212",
             "item_text": "",
             "color_text": "#797b7e",
@@ -590,7 +590,7 @@
       "name": "Banners",
       "settings": {
         "banner_custom_class": "product_specials_footer",
-        "section_title": "<h5>10 Different Mushrooms</h5>",
+        "section_title": "<h5>16 Powerful Digestive Enzymes</h5>",
         "desc": "",
         "container_width": "container",
         "reset_indent": false,
@@ -598,6 +598,274 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "80px 0px 0px 0px",
         "show_carousel_on_mobile": false
+      }
+    },
+    "index_divider_MX3JqW": {
+      "type": "index-divider",
+      "name": "Divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 45,
+        "padding_bottom": 25,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "index_banners_NJnb9A": {
+      "type": "index-banners",
+      "blocks": {
+        "text_banner_t69RBx": {
+          "type": "text_banner",
+          "settings": {
+            "width": "12",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 15,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "<h4>Enjoy Digestion with Ease</h4>",
+            "color_title": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0% 7% 0% 0%",
+            "custom_class": "text-caption-banner"
+          }
+        },
+        "text_banner_xgeEcr": {
+          "type": "text_banner",
+          "disabled": true,
+          "settings": {
+            "width": "6",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 15,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0% 0% 0% 0%",
+            "custom_class": "text-caption-banner"
+          }
+        },
+        "banner_ePLnEL": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1171276958_2.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 15,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0px 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": "image_banner"
+          }
+        },
+        "banner_9DKpML": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1171276963_2.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": true,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": "image_banner"
+          }
+        },
+        "banner_VF4RWc": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1171276958_3.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": "image_banner"
+          }
+        },
+        "banner_xhDkWD": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1171276963_3.png",
+            "width": "6",
+            "banner_style": "standard",
+            "off_overlay_mobile": false,
+            "use_bgb": false,
+            "bgb_color": "",
+            "bgb_color_opacity": 0.5,
+            "inset_block": "0 0 0 0",
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 30,
+            "use_bgo": false,
+            "bg_color": "",
+            "bg_color_opacity": 0.5,
+            "inverted": false,
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "reverse_cpos": "flex-column",
+            "textalign_pos": "left",
+            "item_title": "",
+            "color_title": "#121212",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "custom_heading": "",
+            "color_ch": "#797b7e",
+            "caption_size": "medium",
+            "inset_caption": "0% 7% 6% 7%",
+            "item_link": "",
+            "link_text": "Shop now",
+            "link_type_banner": false,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "margin_title": 22,
+            "margin_text": 15,
+            "margin_btn": 35,
+            "custom_class": "image_banner"
+          }
+        }
+      },
+      "block_order": [
+        "text_banner_t69RBx",
+        "text_banner_xgeEcr",
+        "banner_ePLnEL",
+        "banner_9DKpML",
+        "banner_VF4RWc",
+        "banner_xhDkWD"
+      ],
+      "settings": {
+        "banner_custom_class": "",
+        "section_title": "",
+        "desc": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "show_carousel_on_mobile": true
       }
     }
   },
@@ -610,6 +878,8 @@
     "index_image_with_text_column_dyNKg4",
     "index_image_with_text_column_FaQxQ7",
     "index_image_with_text_column_LhdBE8",
-    "index_banners_eVakz9"
+    "index_banners_eVakz9",
+    "index_divider_MX3JqW",
+    "index_banners_NJnb9A"
   ]
 }

@@ -12,19 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "pr_tags_Vn8aVc": {
+          "type": "pr_tags",
+          "settings": {
+            "show_tags": true
+          }
+        },
         "pr_info_benefits": {
           "type": "pr_info_benefits",
           "settings": {
             "title": "Benefits",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<b>Brain Health & Cognitive Support</b><hr>\n<b>Immune System Boost</b><hr>\n<b>Increased Energy & Stamina</b><hr>\n<b>Stress & Mood Support</b><hr>\n<b>Antioxidant & Anti-Aging Properties</b>",
+            "custom_product": "valerian-infused-sleep-gummies",
+            "short_content": "<b>Helps Regulate Sleep Patterns</b><hr>\n<b>Relaxation & Stress Relief</b><hr>\n<b>Natural & Gentle Formula</b><hr>\n<b>Melatonin Free Formula</b><hr>\n<b>Features Proven Ingredients Like Valerian Root, L-Theanine, Magnesium and more</b>",
             "content": ""
-          }
-        },
-        "pr_tags_LyMxMy": {
-          "type": "pr_tags",
-          "settings": {
-            "show_tags": true
           }
         },
         "e485b1c7-2a7b-4623-9353-349e7aaa9572": {
@@ -51,7 +51,7 @@
           "type": "pr_avalreview",
           "settings": {
             "product_reviews": true,
-            "n_reviews": "8083",
+            "n_reviews": "6144",
             "l_reviews": "4.9",
             "product_available": false
           }
@@ -66,35 +66,35 @@
           "type": "product_tab",
           "settings": {
             "title": "Ingredients",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Mushroom Extract Blend: 250 mg</p>\n<p>Serving Size: 2 Gummies</p>\n<p>Servings Per Container: 30</p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>",
-            "content": "<p>Mushroom Extract Blend: <b>250 mg</b></p>\n<p>Serving Size: <b>2 Gummies</b></p>\n<p>Servings Per Container: <b>30</b></p><br>\n<p>Calories: 20</p><hr>\n<p>Total Carbohydrate: 5g</p><hr>\n<p>Total Sugars: 5g</p><hr>\n<p>Sodium: 5mg</p>\n<br>\n<p><b>Active Ingredients per Serving:</b></p><hr>\n<p>Maitake Fruiting Body 10:1 Extract</p><hr>\n<p>Shiitake Fruiting Body 10:1 Extract</p><hr>\n<p>Cordyceps Fruiting Body 10:1 Extract</p><hr>\n<p>Chaga Fruiting Body 10:1 Extract</p><hr>\n<p>Turkey Tail Fruiting Body 10:1 Extract</p><hr>\n<p>Reishi Fruiting Body 10:1 Extract</p><hr>\n<p>White Button (Agaricus Bisporus)</p><hr>\n<p>Black Fungus (Auricularia Auricula-Judae)</p><hr>\n<p>Royal Sun Mushroom Fruiting Body (Agaricus Subrufescens)</p><br>\n<p><b>Other Ingredients:</b></p>\n<p>Glucose syrup, sugar, dextrose, water, pectin, natural raspberry flavor, sodium citrate, citric acid, fruit and vegetable juice (for color), black carrot juice concentrate, and natural flavors. Contains carnauba wax.</p><br>\n<p class=\"text_grey\">*Percent Daily Values (DV) are based on a 2,000 calorie diet.</p>\n<p class=\"text_grey\">** Daily Value (DV) not established. (*% Daily Value tells you how much a nutrient in a serving of food contributes to a daily diet. 2000 calories a day is used for general nutrition advice.) </p><br>"
+            "custom_product": "valerian-infused-sleep-gummies",
+            "short_content": "<p><b>Active Ingredients per serving (2 gummies):</b></p><br>\n<p>Valerian Root Extract (300mg)</p><hr>\n<p> L-Theanine (150mg)</p><hr>\n<p>Magnesium (as Magnesium Glycinate) (300mg)</p><hr>\n<p>5-HTP (100mg)</p><br>",
+            "content": "<p><b>Active Ingredients per serving (2 gummies):</b></p><br>\n<p>Valerian Root Extract (300mg)</p><hr>\n<p> L-Theanine (150mg)</p><hr>\n<p>Magnesium (as Magnesium Glycinate) (300mg)</p><hr>\n<p>5-HTP (100mg)</p><hr>\n<p>Passionflower Extract (300mg)</p><hr>\n<p><b>Other Ingredients:</b></p>\n<p>Maltitol, Vegan Pectin, Sodium Citrate, Xylitol, Citric Acid, Natural Strawberry Flavor, Purple Carrot Juice Concentrate, Carnauba Wax, Corn Starch.</p>\n<br>\n<br>"
           }
         },
         "product_tab_6hqgdX": {
           "type": "product_tab",
           "settings": {
             "title": "Technical Details",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<br>",
-            "content": "<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Product Benefits:</b><span>Providing Energy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children. </span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Grade</b><span>Health</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Not Applicable People:</b><span>Pregnant Women, Newborn</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>Gummies</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p class=\"text_grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>"
+            "custom_product": "valerian-infused-sleep-gummies",
+            "short_content": "<div class=\"raw_info\">\n<b>Weight:</b><span>200 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Solid Net Weight:</b><span>140 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children.</span>\n</div>\n<br>",
+            "content": "<div class=\"raw_info\">\n<b>Weight:</b><span>250 g</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Units:</b><span>‎60 count</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Storage Instructions:</b><span>Store in a cool dry place out of direct sunlight. Keep out of reach of children.</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Serving Recommendation:</b><span>‎2 Gummies Per Day</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Brand:</b><span>‎SpoilYour</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Format:</b><span>‎‎Gummy</span>\n</div>\n<hr>\n<div class=\"raw_info\">\n<b>Age Range Description:</b><span>‎‎Adult</span>\n</div>\n<br>\n<p class=\"text_grey\">*The product image shown may differ from the product received due to packaging updates or supplier changes.</p>\n<br>\n<br>"
           }
         },
         "product_tab_miVUBV": {
           "type": "product_tab",
           "settings": {
             "title": "Directions",
-            "custom_product": "collagen-gummies-adult",
+            "custom_product": "valerian-infused-sleep-gummies",
             "short_content": "",
-            "content": "Take 2 gummies daily or as directed by a healthcare professional."
+            "content": "<p>Take 2 (two) gummies 15-30 minutes prior to bedtime.</p>\n<p>Product Amount: 60 gummies | One Month Supply (30 Servings)</p>"
           }
         },
         "product_tab_H6Wy9B": {
           "type": "product_tab",
           "settings": {
             "title": "Warnings",
-            "custom_product": "collagen-gummies-adult",
-            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<p><b>Caution:</b> This product may settle during shipment. This product may darken over time. Natural colors will darken over time. This does not alter the potency of the product. This product is manufactured and packaged in a facility that may also process milk, soy, wheat, egg, peanuts, tree nuts, fish, and crustacean shellfish.</p>\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
+            "custom_product": "valerian-infused-sleep-gummies",
+            "short_content": "<p>Pregnant or nursing mothers and children under the age of 18 should consult a health professional before use. Always read the label. Follow the directions for use. If symptoms persist, talk to your health professional. Vitamin and/or mineral supplements may only be of assistance if dietary intake is inadequate and should not replace a balanced diet. If you have any pre-existing conditions, or are on any medications always talk to your health professional before use.</p>\n<p><b>Warning:</b> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p>\n<br>\n<p class=\"text_grey_bold\">The statements on this website have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
             "content": ""
           }
         },
@@ -161,8 +161,8 @@
         }
       },
       "block_order": [
+        "pr_tags_Vn8aVc",
         "pr_info_benefits",
-        "pr_tags_LyMxMy",
         "e485b1c7-2a7b-4623-9353-349e7aaa9572",
         "c8222f8f-0f33-4183-802d-0a30ec77fe7b",
         "25940a2a-5fec-4824-82fa-cc251168fbc8",
@@ -254,7 +254,7 @@
         "heading_h3_Rjkz37": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>1 - Premium Mushroom Gummy</h4>",
+            "heading_h3": "<h4>Relaxing nighttime gummies</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -267,7 +267,7 @@
         "text_brXfR7": {
           "type": "text",
           "settings": {
-            "text": "<p>Hate swallowing big capsules? Our delicious mushroom gummies make it easy! Each servingdelivers a powerful 250mg blend. With 60 gummies per bottle, you’re getting unbeatable value!</p>",
+            "text": "<p>SpoilYour Gummies are carefully crafted to provide a soothing and restful experience without any unnecessary additives. Say goodbye to traditional sleep aids and enhance your nighttime routine with our delicious, easy-to-enjoy strawberry-flavored gummies.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -290,7 +290,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611.png",
+        "image": "shopify://shop_images/Rectangle_8611_5.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -312,7 +312,7 @@
         "heading_h3_yrd9XG": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Powerful Benefits</h4>",
+            "heading_h3": "<h4>High-Quality Natural Ingridients</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -325,7 +325,7 @@
         "text_NJHr8M": {
           "type": "text",
           "settings": {
-            "text": "<p>Our advanced Mushroom Complex is designed to support brain function, immune health, energy, focus, memory, mood, and heart health—all in one convenient gummy.</p>",
+            "text": "<p>Every serving contains a thoughtfully selected blend of natural ingredients known for their sleep-supporting properties. Infused with the power of Valerian and other carefully chosen botanicals, these gummies are designed to promote relaxation and help you unwind before bed.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -348,7 +348,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_1.png",
+        "image": "shopify://shop_images/Rectangle_8611_6.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -370,7 +370,7 @@
         "heading_h3_xyDkMh": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>10-Mushroom Super Blend</h4>",
+            "heading_h3": "<h4>Support for better sleep</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -383,7 +383,7 @@
         "text_W9GTpz": {
           "type": "text",
           "settings": {
-            "text": "<p>Packed with 10 powerhouse mushrooms: Maitake, Shiitake, Lion’s Mane, Reishi, Cordyceps, Chaga, Turkey Tail, White Button, Black Fungus, and Royal Sun Extract.</p>",
+            "text": "<p>Whether you struggle with restless nights or simply want to improve your sleep quality, our gummies are a great addition to your evening routine. Designed to suit a variety of needs, they provide gentle sleep support while contributing to overall wellness.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -406,7 +406,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_2.png",
+        "image": "shopify://shop_images/Rectangle_8611_7.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -428,7 +428,7 @@
         "heading_h3_bQz9kB": {
           "type": "heading_h3",
           "settings": {
-            "heading_h3": "<h4>Delicious & Natural</h4>",
+            "heading_h3": "<h4>Plant-Based & Clean Formula</h4>",
             "color": "#121212",
             "indent_block": "0",
             "inset_block": "0 0 0 0",
@@ -441,7 +441,7 @@
         "text_yrjjKf": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve crafted a health supplement that’s as tasty as it is effective! Naturally flavored withraspberry and free from artificial colors or flavors—because wellness should taste good too!.</p>",
+            "text": "<p>At SpoilYour, we prioritize your values. Our gummies are Halal, Non-GMO, and Vegan-friendly. Made without artificial colors or flavors, they are also sugar-free and gluten-free, ensuring they fit seamlessly into your lifestyle.</p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
@@ -464,7 +464,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Rectangle_8611_3.png",
+        "image": "shopify://shop_images/Rectangle_8611_8.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -514,6 +514,7 @@
         "heading_h3_APeTaX",
         "text_YbhRh6"
       ],
+      "disabled": true,
       "name": "Image with text column",
       "settings": {
         "container_width": "container",
@@ -587,6 +588,7 @@
       "block_order": [
         "banner_hBGQYP"
       ],
+      "disabled": true,
       "name": "Banners",
       "settings": {
         "banner_custom_class": "product_specials_footer",
