@@ -430,6 +430,7 @@ main .product_listing__main:not(.product_listing__list) .product_item_wrap {
 
 .product_listing__main .product_n > a {
 	color: black;
+	min-height: 62px;
 }
 
 .product_listing__main .product-sale-price {
@@ -443,7 +444,7 @@ main .product_listing__main:not(.product_listing__list) .product_item_wrap {
 }
 
 .product_listing__main .product-price-container {
-	margin-top: 0;
+	margin-top: 20px;
 }
 
 body .product_listing__main .add_to_cart_button {
@@ -762,6 +763,7 @@ body .header_items_wrapper .header_cart .cart_link.item-absolute .header_cart_it
 		border: 1px solid #dadada;
 		font-weight: 600;
 		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 
 	a:hover {
@@ -941,6 +943,7 @@ body .section_product .product-details-wrapper.tab_content_wrapper {
 
 		span {
 			color: black;
+			max-width: 50%;
 		}
 	}
 }
