@@ -159,6 +159,7 @@
     "contacts_phone_text": "Call Us:",
     "contacts_email": "contacts@spoilyour.com",
     "contacts_email_text": "Send us an email",
+    "just_bought_toggle": false,
     "checkout_header_image": "shopify://shop_images/list-col-img.jpg",
     "checkout_logo_image": "shopify://shop_images/Slice_16.png",
     "checkout_logo_position": "center",
