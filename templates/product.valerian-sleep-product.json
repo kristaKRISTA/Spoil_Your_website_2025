@@ -56,6 +56,12 @@
             "product_available": false
           }
         },
+        "seal_subscriptions_subscription_widget_GVKamB": {
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "4e0319fa-0bfb-4227-bde5-df6747003c41": {
           "type": "pr_add_to_cart",
           "settings": {
@@ -168,6 +174,7 @@
         "25940a2a-5fec-4824-82fa-cc251168fbc8",
         "dd595c6c-50d9-4a27-ae72-1377441fa922",
         "b07b8816-c948-4fec-9bb2-6e1d72fb6e3d",
+        "seal_subscriptions_subscription_widget_GVKamB",
         "4e0319fa-0bfb-4227-bde5-df6747003c41",
         "product_tab_VxytHV",
         "product_tab_6hqgdX",

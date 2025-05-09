@@ -56,6 +56,12 @@
             "product_available": false
           }
         },
+        "seal_subscriptions_subscription_widget_P6BGak": {
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "4e0319fa-0bfb-4227-bde5-df6747003c41": {
           "type": "pr_add_to_cart",
           "settings": {
@@ -168,6 +174,7 @@
         "25940a2a-5fec-4824-82fa-cc251168fbc8",
         "dd595c6c-50d9-4a27-ae72-1377441fa922",
         "b07b8816-c948-4fec-9bb2-6e1d72fb6e3d",
+        "seal_subscriptions_subscription_widget_P6BGak",
         "4e0319fa-0bfb-4227-bde5-df6747003c41",
         "product_tab_VxytHV",
         "product_tab_6hqgdX",
@@ -653,7 +660,7 @@
             "element_header": "<p>What sets these Apple Cider Vinegar Gummies apart?</p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "",
+            "element_text": "<p>In addition to their high potency, our Apple Cider Vinegar Gummies are enriched with powerful superfoods and essential vitamins for added benefits. They contain beetroot powder for fiber, pomegranate for antioxidant support, Vitamins B6 and B12 to boost immunity and energy, folic acid to promote normal cognitive function, citrus for a natural source of Vitamin C, and pectin to support digestion.</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }
@@ -669,7 +676,7 @@
             "element_header": "<p>What is \"The Mother\" in Apple Cider Vinegar?</p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "",
+            "element_text": "<p>\"The Mother\" is a beneficial cloud of natural bacteria found in unfiltered apple cider vinegar. It forms during the fermentation process and supports both digestive and immune health. For optimal benefits, it's best to choose ACV that contains \"The Mother.\" Our Apple Cider Vinegar Gummies are made with \"The Mother\" to ensure you get the most out of every serving.</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }
@@ -685,7 +692,7 @@
             "element_header": "<p>Do the ACV Gummies Taste Like Vinegar?</p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "",
+            "element_text": "<p>No, not at all! Our ACV gummies are deliciously crafted to give you all the benefits of Apple Cider Vinegar without the strong, tangy taste. Enjoy the goodness of ACV in a flavorful and enjoyable way!</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }
@@ -701,7 +708,7 @@
             "element_header": "<p>Are the ACV Gummies Gluten-Free?</p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "",
+            "element_text": "<p>Yes! Our ACV gummies are made with natural ingredients and are completely free from gluten, making them a great choice for those with dietary restrictions.</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }

@@ -299,18 +299,18 @@
 		{% when 'pr_add_to_cart' %}
 		  <div class="single_product__cartbutton pr--block">
 			<div class="product-add-to-cart-wrapper">
-			  <button type="submit" name="add" class="btn btn-primary btn-md icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">
-				<span>
-              	 	{{ 'layout.product.purchase_now' | t }}
-              	  </span>
-			  </button>
+			  {% comment %}<button type="submit" name="add" class="btn btn-primary btn-md icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">{% endcomment %}
+				{% comment %}<span>{% endcomment %}
+              	 	{% comment %}{{ 'layout.product.purchase_now' | t }}{% endcomment %}
+              	  {% comment %}</span>{% endcomment %}
+			  {% comment %}</button>{% endcomment %}
                 <button type="submit" name="add" class="btn btn-primary btn-md icon-svg mr-1 btn-add-to-cart w-100" id="single_product__addtocart-{{ section.id }}">
 
-                      <span class="svg-icon svg-icon--md">
-                         {% render 'icon-cart' %}
-                      </span>
+                      {% comment %}<span class="svg-icon svg-icon--md">{% endcomment %}
+                         {% comment %}{% render 'icon-cart' %}{% endcomment %}
+                      {% comment %}</span>{% endcomment %}
                     <span>
-              	 	{{ 'layout.product.add_to_cart' | t }}
+              	 	{{ 'layout.product.purchase_now' | t }}
               	  </span>
                 </button>
 			  

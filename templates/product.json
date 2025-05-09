@@ -36,6 +36,8 @@
           "type": "pr_avalreview",
           "settings": {
             "product_reviews": true,
+            "n_reviews": "1",
+            "l_reviews": "5.0",
             "product_available": false
           }
         },
