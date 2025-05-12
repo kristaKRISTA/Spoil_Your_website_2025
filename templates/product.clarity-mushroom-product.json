@@ -529,7 +529,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "70px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/SCience_3_0f26c664-f2b3-47c7-8a2e-9873b3d7efa9.webp",
+        "image": "shopify://shop_images/allison-saeng-Y3_ZdP66RdU-unsplash.webp",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
@@ -551,7 +551,7 @@
         "banner_hBGQYP": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/Background_1.webp",
+            "image": "shopify://shop_images/Rectangle_8611_22.webp",
             "width": "12",
             "banner_style": "standard",
             "off_overlay_mobile": false,
@@ -559,8 +559,8 @@
             "bgb_color": "",
             "bgb_color_opacity": 0.5,
             "inset_block": "0 0 0 0",
-            "use_bottom_offset_mobile": true,
-            "margin_bottom": 30,
+            "use_bottom_offset_mobile": false,
+            "margin_bottom": 15,
             "use_bgo": false,
             "bg_color": "",
             "bg_color_opacity": 0.5,
