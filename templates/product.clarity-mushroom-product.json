@@ -551,7 +551,7 @@
         "banner_hBGQYP": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/Background_1_cf19df1f-7997-48e9-b894-2a97fb2e3107.webp",
+            "image": "shopify://shop_images/Background_1.webp",
             "width": "12",
             "banner_style": "standard",
             "off_overlay_mobile": false,

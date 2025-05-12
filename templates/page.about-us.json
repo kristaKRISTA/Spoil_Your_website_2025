@@ -51,11 +51,11 @@
         "16299093947381adb3-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/>We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin. Whether you need better sleep, enhanced focus, or a natural beauty boost, we’ve got you covered.<br/></p>",
+            "text": "<p>Welcome to SpoilYour, where your health, beauty, and well-being come first!<br/>We believe that feeling your best starts from within. That’s why we provide a premium selection of supplements designed to support your mind, body, and skin. Whether you need better sleep, enhanced focus, or a natural beauty boost, we’ve got you covered.</p><p></p>",
             "text_size": "medium",
             "color": "#616161",
             "inset_block": "0 0 0 0",
-            "offset_block": "5% 0 0 0",
+            "offset_block": "5% 0 5% 0",
             "use_bgi": false,
             "caption_bg_color": "",
             "caption_bg_color_opacity": 0.5
@@ -69,7 +69,7 @@
             "use_button": true,
             "btn_style": "btn-default",
             "btn_size": "btn-md",
-            "offset_block": ""
+            "offset_block": "0%"
           }
         },
         "button_3Ue6cz": {
@@ -121,7 +121,7 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify://shop_images/Frame_1171277046.png",
+        "image": "shopify://shop_images/diana-light-OdGRe-bgsbo-unsplash_1.webp",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "",
