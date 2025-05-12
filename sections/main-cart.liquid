@@ -94,10 +94,10 @@
 								<span>{{ 'pages.cart.quantity' | t }}</span>
 								<span>{{ cart.item_count }} {{ 'layout.header.cart_items' | t }}</span>
 							</p>
-							<p class="cart_total cart_total_weight">
-								<span>{{ 'pages.cart.total_weight' | t }} </span>
-								<span>{{ cart.total_weight | weight_with_unit }}</span>
-							</p>
+							{% comment %}<p class="cart_total cart_total_weight">{% endcomment %}
+							{% comment %}	<span>{{ 'pages.cart.total_weight' | t }} </span>{% endcomment %}
+							{% comment %}	<span>{{ cart.total_weight | weight_with_unit }}</span>{% endcomment %}
+							{% comment %}</p>{% endcomment %}
 							<p class="cart_total cart_total_price product-price-container product-price-sm">
 								<span class="label mr-1">{{ 'pages.cart.product_total' | t }} </span>
 								<span class="product-price money">{{ cart.total_price | money }}</span></p>
