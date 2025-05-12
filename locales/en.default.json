@@ -125,7 +125,8 @@
       "size_chart": "Size Guide",
       "tab_description": "Information",
       "add_compare_button": "Add compare",
-      "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
+      "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+      "tax_included": "Tax included"
     },
     "map": {
       "get_directions": "Get directions"

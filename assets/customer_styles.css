@@ -804,7 +804,7 @@ body .header_items_wrapper .header_cart .cart_link.item-absolute .header_cart_it
 		font-weight: 600;
 		color: #000000;
 	}
-	.product_reviews .star_reviews {
+	.product_reviews .star_reviews, .tax_included {
 		margin-top: 5px;
 		font-size: 16px;
 	}
