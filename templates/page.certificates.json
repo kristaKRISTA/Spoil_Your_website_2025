@@ -1,0 +1,236 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "index_custom_content_8qMdBF": {
+      "type": "index-custom-content",
+      "blocks": {
+        "image_M4UAae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_FDA.webp",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "image_M4UAae"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "custom_class": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "use_bg_grad2": false,
+        "title": "",
+        "inverted": false
+      }
+    },
+    "index_divider_myBbpc": {
+      "type": "index-divider",
+      "name": "Divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "index_custom_content_bVcdBb": {
+      "type": "index-custom-content",
+      "blocks": {
+        "text_TfQJbt": {
+          "type": "text",
+          "settings": {
+            "custom_class": "",
+            "caption_size": "medium",
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "item_title": "<p>GMP Certificate</p>",
+            "color_title": "#616161",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "url_text": "Shop now",
+            "item_link": "",
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "width": "50%",
+            "align_text": "left"
+          }
+        },
+        "image_4RiHpj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c800c6e4-7e24-490e-bdd1-94ed65653e6a-0001.webp",
+            "width": "100%"
+          }
+        },
+        "image_Hahm3V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c800c6e4-7e24-490e-bdd1-94ed65653e6a-0000.webp",
+            "width": "100%"
+          }
+        },
+        "image_hett7T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c800c6e4-7e24-490e-bdd1-94ed65653e6a-0003.webp",
+            "width": "100%"
+          }
+        },
+        "image_BaJDe7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c800c6e4-7e24-490e-bdd1-94ed65653e6a-0002.webp",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "text_TfQJbt",
+        "image_4RiHpj",
+        "image_Hahm3V",
+        "image_hett7T",
+        "image_BaJDe7"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "custom_class": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "use_bg_grad2": false,
+        "title": "",
+        "inverted": false
+      }
+    },
+    "index_divider_Nh3FDq": {
+      "type": "index-divider",
+      "name": "Divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "px",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_vw": 1.5,
+        "padding_bottom_vw": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
+    "index_custom_content_K9azcw": {
+      "type": "index-custom-content",
+      "blocks": {
+        "text_bxXChC": {
+          "type": "text",
+          "settings": {
+            "custom_class": "",
+            "caption_size": "medium",
+            "h_cpos": "start",
+            "v_cpos": "start",
+            "item_title": "<p>ISO 22000</p>",
+            "color_title": "#616161",
+            "item_subtitle": "",
+            "color_subtitle": "#121212",
+            "item_text": "",
+            "color_text": "#797b7e",
+            "url_text": "Shop now",
+            "item_link": "",
+            "btn_style": "btn-primary",
+            "btn_size": "btn-md",
+            "width": "50%",
+            "align_text": "left"
+          }
+        },
+        "image_yPCzKP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/110d7568-04b0-4647-ad6d-fb700a8fe9dc-0001.webp",
+            "width": "100%"
+          }
+        },
+        "image_wzXzLb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/110d7568-04b0-4647-ad6d-fb700a8fe9dc-0000.webp",
+            "width": "100%"
+          }
+        },
+        "image_8JDnbY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/110d7568-04b0-4647-ad6d-fb700a8fe9dc-0003.webp",
+            "width": "100%"
+          }
+        },
+        "image_MApKwF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/110d7568-04b0-4647-ad6d-fb700a8fe9dc-0002.webp",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "text_bxXChC",
+        "image_yPCzKP",
+        "image_wzXzLb",
+        "image_8JDnbY",
+        "image_MApKwF"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "custom_class": "",
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "use_bg_grad2": false,
+        "title": "",
+        "inverted": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "index_custom_content_8qMdBF",
+    "index_divider_myBbpc",
+    "index_custom_content_bVcdBb",
+    "index_divider_Nh3FDq",
+    "index_custom_content_K9azcw"
+  ]
+}
