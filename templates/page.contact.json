@@ -48,7 +48,7 @@
             "phone_text": "",
             "phone_text_info": "<p>Call Us: </p>",
             "email_title": "Email Us",
-            "email_text": "contacts@spoilyour.com",
+            "email_text": "info@spoilyour.com",
             "location_title": "Location",
             "location_text": "",
             "time_title": "Opening Hours",
@@ -176,7 +176,7 @@
             "element_header": "<p><strong>Other questions?</strong></p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "<p>You can contact us at <a href=\"mailto:contact@spoilyour.com\" target=\"_blank\" title=\"contact@spoilyour.com\">contact@spoilyour.com</a> , we will be happy to assist you.</p>",
+            "element_text": "<p>You can contact us at info@spoilyour.com, we will be happy to assist you.</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }

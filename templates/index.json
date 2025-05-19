@@ -900,10 +900,10 @@
             "max_height_content": "auto",
             "widget_open_toggle": false,
             "overlay_content": false,
-            "element_header": "<p><strong>Other questions?</strong></p>",
+            "element_header": "<p>Other questions?</p>",
             "color_header": "",
             "bg_header": "#ffffff",
-            "element_text": "<p>You can contact us at <a href=\"mailto:contact@spoilyour.com\" target=\"_blank\" title=\"contact@spoilyour.com\">contact@spoilyour.com, </a>we will be happy to assist you.</p>",
+            "element_text": "<p>You can contact us at info@spoilyour.com we will be happy to assist you.</p>",
             "color_text": "",
             "bg_text": "#ffffff"
           }
